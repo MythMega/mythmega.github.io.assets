@@ -1,0 +1,138 @@
+2026-06-18 10:02:51,109 - INFO - === Début du traitement Satisfactory ===
+2026-06-18 10:02:51,109 - INFO - Fichiers: EN=en-Stable.json FR=fr-Stable.json Output=output
+2026-06-18 10:02:51,110 - INFO - Chargement du fichier JSON : en-Stable.json
+2026-06-18 10:02:51,117 - DEBUG - Fichier en-Stable.json chargé, clés racine: ['branch', 'buildingsData', 'buildingsCategories', 'itemsData', 'itemsCategories', 'toolsData', 'toolsCategories', 'faunaData', 'faunaCategories', 'recipesData']
+2026-06-18 10:02:51,117 - INFO - Chargement du fichier JSON : fr-Stable.json
+2026-06-18 10:02:51,123 - DEBUG - Fichier fr-Stable.json chargé, clés racine: ['branch', 'buildingsData', 'buildingsCategories', 'itemsData', 'itemsCategories', 'toolsData', 'toolsCategories', 'faunaData', 'faunaCategories', 'recipesData']
+2026-06-18 10:02:51,123 - INFO - Traitement de la section itemsData (178 entrées trouvées dans EN)
+2026-06-18 10:02:51,123 - INFO - Traitement de la section faunaData (23 entrées trouvées dans EN)
+2026-06-18 10:02:51,124 - INFO - Extraction terminée : 201 entrées extraites (avant filtrage)
+2026-06-18 10:02:51,124 - INFO - Ecriture du CSV brut : filtered_items.csv
+2026-06-18 10:02:51,126 - INFO - CSV brut écrit.
+2026-06-18 10:02:51,126 - INFO - Démarrage de la sanitization des entrées.
+2026-06-18 10:02:51,126 - INFO - Sanitization terminée : 201 conservés, 0 doublons supprimés, 0 entrées incomplètes supprimées (sur 201).
+2026-06-18 10:02:51,126 - INFO - Ecriture du CSV nettoyé: filtered_items.csv
+2026-06-18 10:02:51,126 - INFO - Ecriture du CSV brut : filtered_items.csv
+2026-06-18 10:02:51,128 - INFO - CSV brut écrit.
+2026-06-18 10:02:51,128 - INFO - Catégories réelles trouvées: ['ore', 'ingot', 'mineral', 'animal', 'liquid', 'gas', 'standard', 'industrial', 'electronic', 'communication', 'quantum', 'container', 'fuel', 'consumed', 'ammo', 'nuclear', 'waste', 'special', 'statue', 'ficsmas', 'wildlife', 'enemy']
+2026-06-18 10:02:51,130 - INFO - JSON écrit : output\satis-ore-1.1.json (10 items)
+2026-06-18 10:02:51,130 - INFO - JSON écrit : output\satis-ingot-1.1.json (6 items)
+2026-06-18 10:02:51,131 - INFO - JSON écrit : output\satis-mineral-1.1.json (7 items)
+2026-06-18 10:02:51,131 - INFO - JSON écrit : output\satis-animal-1.1.json (2 items)
+2026-06-18 10:02:51,132 - INFO - JSON écrit : output\satis-liquid-1.1.json (10 items)
+2026-06-18 10:02:51,132 - INFO - JSON écrit : output\satis-gas-1.1.json (5 items)
+2026-06-18 10:02:51,133 - INFO - JSON écrit : output\satis-standard-1.1.json (17 items)
+2026-06-18 10:02:51,134 - INFO - JSON écrit : output\satis-industrial-1.1.json (7 items)
+2026-06-18 10:02:51,135 - INFO - JSON écrit : output\satis-electronic-1.1.json (8 items)
+2026-06-18 10:02:51,135 - INFO - JSON écrit : output\satis-communication-1.1.json (5 items)
+2026-06-18 10:02:51,135 - INFO - JSON écrit : output\satis-quantum-1.1.json (6 items)
+2026-06-18 10:02:51,137 - INFO - JSON écrit : output\satis-container-1.1.json (8 items)
+2026-06-18 10:02:51,137 - INFO - JSON écrit : output\satis-fuel-1.1.json (16 items)
+2026-06-18 10:02:51,138 - INFO - JSON écrit : output\satis-consumed-1.1.json (6 items)
+2026-06-18 10:02:51,139 - INFO - JSON écrit : output\satis-ammo-1.1.json (12 items)
+2026-06-18 10:02:51,139 - INFO - JSON écrit : output\satis-nuclear-1.1.json (7 items)
+2026-06-18 10:02:51,139 - INFO - JSON écrit : output\satis-waste-1.1.json (2 items)
+2026-06-18 10:02:51,140 - INFO - JSON écrit : output\satis-special-1.1.json (17 items)
+2026-06-18 10:02:51,140 - INFO - JSON écrit : output\satis-statue-1.1.json (7 items)
+2026-06-18 10:02:51,141 - INFO - JSON écrit : output\satis-ficsmas-1.1.json (20 items)
+2026-06-18 10:02:51,141 - INFO - JSON écrit : output\satis-wildlife-1.1.json (3 items)
+2026-06-18 10:02:51,142 - INFO - JSON écrit : output\satis-enemy-1.1.json (20 items)
+2026-06-18 10:02:51,142 - INFO - Construction de la catégorie virtuelle 'all creatures' à partir de ['wildlife', 'enemy', 'animal']
+2026-06-18 10:02:51,143 - INFO - JSON écrit : output\satis-all_creatures-1.1.json (25 items)
+2026-06-18 10:02:51,143 - INFO - Construction de la catégorie virtuelle 'all items' à partir de ['ore', 'ingot', 'mineral', 'liquid', 'gas', 'standard', 'industrial', 'electronic', 'communication', 'quantum', 'container', 'fuel', 'consumed', 'ammo', 'nuclear', 'waste', 'special']
+2026-06-18 10:02:51,144 - INFO - JSON écrit : output\satis-all_items-1.1.json (149 items)
+2026-06-18 10:02:51,145 - INFO - === Traitement terminé ===
+2026-06-18 10:02:51,145 - INFO - CSV final: filtered_items.csv
+2026-06-18 10:02:51,145 - INFO - JSONs écrits dans: output
+2026-06-18 10:10:26,656 - INFO - === Début du traitement Satisfactory ===
+2026-06-18 10:10:26,656 - INFO - Fichiers: EN=en-Stable.json FR=fr-Stable.json Output=output
+2026-06-18 10:10:26,656 - INFO - Chargement du fichier JSON : en-Stable.json
+2026-06-18 10:10:26,663 - DEBUG - Fichier en-Stable.json chargé, clés racine: ['branch', 'buildingsData', 'buildingsCategories', 'itemsData', 'itemsCategories', 'toolsData', 'toolsCategories', 'faunaData', 'faunaCategories', 'recipesData']
+2026-06-18 10:10:26,663 - INFO - Chargement du fichier JSON : fr-Stable.json
+2026-06-18 10:10:26,669 - DEBUG - Fichier fr-Stable.json chargé, clés racine: ['branch', 'buildingsData', 'buildingsCategories', 'itemsData', 'itemsCategories', 'toolsData', 'toolsCategories', 'faunaData', 'faunaCategories', 'recipesData']
+2026-06-18 10:10:26,669 - INFO - Traitement de la section itemsData (178 entrées trouvées dans EN)
+2026-06-18 10:10:26,669 - INFO - Traitement de la section faunaData (23 entrées trouvées dans EN)
+2026-06-18 10:10:26,670 - INFO - Extraction terminée : 201 entrées extraites (avant filtrage)
+2026-06-18 10:10:26,670 - INFO - Ecriture du CSV brut : filtered_items.csv
+2026-06-18 10:10:26,672 - INFO - CSV brut écrit.
+2026-06-18 10:10:26,672 - INFO - Démarrage de la sanitization des entrées.
+2026-06-18 10:10:26,672 - INFO - Sanitization terminée : 201 conservés, 0 doublons supprimés, 0 entrées incomplètes supprimées (sur 201).
+2026-06-18 10:10:26,672 - INFO - Ecriture du CSV nettoyé: filtered_items.csv
+2026-06-18 10:10:26,672 - INFO - Ecriture du CSV brut : filtered_items.csv
+2026-06-18 10:10:26,674 - INFO - CSV brut écrit.
+2026-06-18 10:10:26,674 - INFO - Catégories réelles trouvées: ['ore', 'ingot', 'mineral', 'animal', 'liquid', 'gas', 'standard', 'industrial', 'electronic', 'communication', 'quantum', 'container', 'fuel', 'consumed', 'ammo', 'nuclear', 'waste', 'special', 'statue', 'ficsmas', 'wildlife', 'enemy']
+2026-06-18 10:10:26,674 - INFO - JSON écrit : output\satis-ore-1.1.json (10 items)
+2026-06-18 10:10:26,676 - INFO - JSON écrit : output\satis-ingot-1.1.json (6 items)
+2026-06-18 10:10:26,676 - INFO - JSON écrit : output\satis-mineral-1.1.json (7 items)
+2026-06-18 10:10:26,677 - INFO - JSON écrit : output\satis-animal-1.1.json (2 items)
+2026-06-18 10:10:26,677 - INFO - JSON écrit : output\satis-liquid-1.1.json (10 items)
+2026-06-18 10:10:26,678 - INFO - JSON écrit : output\satis-gas-1.1.json (5 items)
+2026-06-18 10:10:26,678 - INFO - JSON écrit : output\satis-standard-1.1.json (17 items)
+2026-06-18 10:10:26,679 - INFO - JSON écrit : output\satis-industrial-1.1.json (7 items)
+2026-06-18 10:10:26,680 - INFO - JSON écrit : output\satis-electronic-1.1.json (8 items)
+2026-06-18 10:10:26,680 - INFO - JSON écrit : output\satis-communication-1.1.json (5 items)
+2026-06-18 10:10:26,681 - INFO - JSON écrit : output\satis-quantum-1.1.json (6 items)
+2026-06-18 10:10:26,681 - INFO - JSON écrit : output\satis-container-1.1.json (8 items)
+2026-06-18 10:10:26,682 - INFO - JSON écrit : output\satis-fuel-1.1.json (16 items)
+2026-06-18 10:10:26,683 - INFO - JSON écrit : output\satis-consumed-1.1.json (6 items)
+2026-06-18 10:10:26,683 - INFO - JSON écrit : output\satis-ammo-1.1.json (12 items)
+2026-06-18 10:10:26,684 - INFO - JSON écrit : output\satis-nuclear-1.1.json (7 items)
+2026-06-18 10:10:26,684 - INFO - JSON écrit : output\satis-waste-1.1.json (2 items)
+2026-06-18 10:10:26,684 - INFO - JSON écrit : output\satis-special-1.1.json (17 items)
+2026-06-18 10:10:26,686 - INFO - JSON écrit : output\satis-statue-1.1.json (7 items)
+2026-06-18 10:10:26,687 - INFO - JSON écrit : output\satis-ficsmas-1.1.json (20 items)
+2026-06-18 10:10:26,687 - INFO - JSON écrit : output\satis-wildlife-1.1.json (3 items)
+2026-06-18 10:10:26,688 - INFO - JSON écrit : output\satis-enemy-1.1.json (20 items)
+2026-06-18 10:10:26,688 - INFO - Construction de la catégorie virtuelle 'all creatures' à partir de ['wildlife', 'enemy', 'animal']
+2026-06-18 10:10:26,689 - INFO - JSON écrit : output\satis-all_creatures-1.1.json (25 items)
+2026-06-18 10:10:26,689 - INFO - Construction de la catégorie virtuelle 'all items' à partir de ['ore', 'ingot', 'mineral', 'liquid', 'gas', 'standard', 'industrial', 'electronic', 'communication', 'quantum', 'container', 'fuel', 'consumed', 'ammo', 'nuclear', 'waste', 'special']
+2026-06-18 10:10:26,690 - INFO - JSON écrit : output\satis-all_items-1.1.json (149 items)
+2026-06-18 10:10:26,690 - INFO - === Traitement terminé ===
+2026-06-18 10:10:26,690 - INFO - CSV final: filtered_items.csv
+2026-06-18 10:10:26,690 - INFO - JSONs écrits dans: output
+2026-06-18 10:40:36,441 - INFO - === Début du traitement Satisfactory ===
+2026-06-18 10:40:36,442 - INFO - Fichiers: EN=en-Stable.json FR=fr-Stable.json Output=output
+2026-06-18 10:40:36,442 - INFO - Chargement du fichier JSON : en-Stable.json
+2026-06-18 10:40:36,449 - DEBUG - Fichier en-Stable.json chargé, clés racine: ['branch', 'buildingsData', 'buildingsCategories', 'itemsData', 'itemsCategories', 'toolsData', 'toolsCategories', 'faunaData', 'faunaCategories', 'recipesData']
+2026-06-18 10:40:36,449 - INFO - Chargement du fichier JSON : fr-Stable.json
+2026-06-18 10:40:36,456 - DEBUG - Fichier fr-Stable.json chargé, clés racine: ['branch', 'buildingsData', 'buildingsCategories', 'itemsData', 'itemsCategories', 'toolsData', 'toolsCategories', 'faunaData', 'faunaCategories', 'recipesData']
+2026-06-18 10:40:36,456 - INFO - Traitement de la section itemsData (178 entrées trouvées dans EN)
+2026-06-18 10:40:36,456 - INFO - Traitement de la section faunaData (23 entrées trouvées dans EN)
+2026-06-18 10:40:36,457 - INFO - Extraction terminée : 201 entrées extraites (avant filtrage)
+2026-06-18 10:40:36,457 - INFO - Ecriture du CSV brut : filtered_items.csv
+2026-06-18 10:40:36,458 - INFO - CSV brut écrit.
+2026-06-18 10:40:36,458 - INFO - Démarrage de la sanitization des entrées.
+2026-06-18 10:40:36,458 - INFO - Sanitization terminée : 201 conservés, 0 doublons supprimés, 0 entrées incomplètes supprimées (sur 201).
+2026-06-18 10:40:36,458 - INFO - Ecriture du CSV nettoyé: filtered_items.csv
+2026-06-18 10:40:36,458 - INFO - Ecriture du CSV brut : filtered_items.csv
+2026-06-18 10:40:36,460 - INFO - CSV brut écrit.
+2026-06-18 10:40:36,460 - INFO - Catégories réelles trouvées: ['ore', 'ingot', 'mineral', 'animal', 'liquid', 'gas', 'standard', 'industrial', 'electronic', 'communication', 'quantum', 'container', 'fuel', 'consumed', 'ammo', 'nuclear', 'waste', 'special', 'statue', 'ficsmas', 'wildlife', 'enemy']
+2026-06-18 10:40:36,461 - INFO - JSON écrit : output\satis-ore-1.1.json (10 items)
+2026-06-18 10:40:36,462 - INFO - JSON écrit : output\satis-ingot-1.1.json (6 items)
+2026-06-18 10:40:36,463 - INFO - JSON écrit : output\satis-mineral-1.1.json (7 items)
+2026-06-18 10:40:36,464 - INFO - JSON écrit : output\satis-animal-1.1.json (2 items)
+2026-06-18 10:40:36,464 - INFO - JSON écrit : output\satis-liquid-1.1.json (10 items)
+2026-06-18 10:40:36,465 - INFO - JSON écrit : output\satis-gas-1.1.json (5 items)
+2026-06-18 10:40:36,465 - INFO - JSON écrit : output\satis-standard-1.1.json (17 items)
+2026-06-18 10:40:36,466 - INFO - JSON écrit : output\satis-industrial-1.1.json (7 items)
+2026-06-18 10:40:36,466 - INFO - JSON écrit : output\satis-electronic-1.1.json (8 items)
+2026-06-18 10:40:36,467 - INFO - JSON écrit : output\satis-communication-1.1.json (5 items)
+2026-06-18 10:40:36,467 - INFO - JSON écrit : output\satis-quantum-1.1.json (6 items)
+2026-06-18 10:40:36,468 - INFO - JSON écrit : output\satis-container-1.1.json (8 items)
+2026-06-18 10:40:36,468 - INFO - JSON écrit : output\satis-fuel-1.1.json (16 items)
+2026-06-18 10:40:36,468 - INFO - JSON écrit : output\satis-consumed-1.1.json (6 items)
+2026-06-18 10:40:36,469 - INFO - JSON écrit : output\satis-ammo-1.1.json (12 items)
+2026-06-18 10:40:36,470 - INFO - JSON écrit : output\satis-nuclear-1.1.json (7 items)
+2026-06-18 10:40:36,470 - INFO - JSON écrit : output\satis-waste-1.1.json (2 items)
+2026-06-18 10:40:36,470 - INFO - JSON écrit : output\satis-special-1.1.json (17 items)
+2026-06-18 10:40:36,472 - INFO - JSON écrit : output\satis-statue-1.1.json (7 items)
+2026-06-18 10:40:36,472 - INFO - JSON écrit : output\satis-ficsmas-1.1.json (20 items)
+2026-06-18 10:40:36,473 - INFO - JSON écrit : output\satis-wildlife-1.1.json (3 items)
+2026-06-18 10:40:36,473 - INFO - JSON écrit : output\satis-enemy-1.1.json (20 items)
+2026-06-18 10:40:36,474 - INFO - Construction de la catégorie virtuelle 'all creatures' à partir de ['wildlife', 'enemy', 'animal']
+2026-06-18 10:40:36,474 - INFO - JSON écrit : output\satis-all_creatures-1.1.json (25 items)
+2026-06-18 10:40:36,474 - INFO - Construction de la catégorie virtuelle 'all items' à partir de ['ore', 'ingot', 'mineral', 'liquid', 'gas', 'standard', 'industrial', 'electronic', 'communication', 'quantum', 'container', 'fuel', 'consumed', 'ammo', 'nuclear', 'waste', 'special']
+2026-06-18 10:40:36,475 - INFO - JSON écrit : output\satis-all_items-1.1.json (149 items)
+2026-06-18 10:40:36,475 - INFO - === Traitement terminé ===
+2026-06-18 10:40:36,475 - INFO - CSV final: filtered_items.csv
+2026-06-18 10:40:36,475 - INFO - JSONs écrits dans: output

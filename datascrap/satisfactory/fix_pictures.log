@@ -1,0 +1,1159 @@
+2026-06-18 10:38:58,910 - INFO - === Début fix_pictures ===
+2026-06-18 10:38:58,910 - INFO - CSV: filtered_items.csv  Output dir: output
+2026-06-18 10:38:58,913 - INFO - 201 lignes lues depuis le CSV
+2026-06-18 10:38:58,913 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/Stone_256.png?v=1725286506 -> output\satis\items\limestone.png
+2026-06-18 10:38:59,028 - INFO - Téléchargée: output\satis\items\limestone.png
+2026-06-18 10:38:59,028 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_iron_new_256.png?v=1725286507 -> output\satis\items\iron_ore.png
+2026-06-18 10:38:59,115 - INFO - Téléchargée: output\satis\items\iron_ore.png
+2026-06-18 10:38:59,115 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_copper_new_256.png?v=1725286507 -> output\satis\items\copper_ore.png
+2026-06-18 10:38:59,207 - INFO - Téléchargée: output\satis\items\copper_ore.png
+2026-06-18 10:38:59,208 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CateriumOre_256.png?v=1725286507 -> output\satis\items\caterium_ore.png
+2026-06-18 10:38:59,304 - INFO - Téléchargée: output\satis\items\caterium_ore.png
+2026-06-18 10:38:59,304 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CoalOre_256.png?v=1725286506 -> output\satis\items\coal.png
+2026-06-18 10:38:59,388 - INFO - Téléchargée: output\satis\items\coal.png
+2026-06-18 10:38:59,389 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_QuartzCrystal_256.png?v=1725286510 -> output\satis\items\raw_quartz.png
+2026-06-18 10:38:59,479 - INFO - Téléchargée: output\satis\items\raw_quartz.png
+2026-06-18 10:38:59,480 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/Sulfur_256.png?v=1725286506 -> output\satis\items\sulfur.png
+2026-06-18 10:38:59,575 - INFO - Téléchargée: output\satis\items\sulfur.png
+2026-06-18 10:38:59,576 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Bauxite_256.png?v=1725286507 -> output\satis\items\bauxite.png
+2026-06-18 10:38:59,664 - INFO - Téléchargée: output\satis\items\bauxite.png
+2026-06-18 10:38:59,664 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SameOre_256.png?v=1725286506 -> output\satis\items\sam.png
+2026-06-18 10:38:59,751 - INFO - Téléchargée: output\satis\items\sam.png
+2026-06-18 10:38:59,751 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_UraniumOre_256.png?v=1725286506 -> output\satis\items\uranium.png
+2026-06-18 10:38:59,840 - INFO - Téléchargée: output\satis\items\uranium.png
+2026-06-18 10:38:59,841 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_IronIngot_256.png?v=1725286517 -> output\satis\items\iron_ingot.png
+2026-06-18 10:38:59,916 - INFO - Téléchargée: output\satis\items\iron_ingot.png
+2026-06-18 10:38:59,916 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CopperIngot_256.png?v=1725286515 -> output\satis\items\copper_ingot.png
+2026-06-18 10:38:59,982 - INFO - Téléchargée: output\satis\items\copper_ingot.png
+2026-06-18 10:38:59,982 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CateriumIngot_256.png?v=1725286512 -> output\satis\items\caterium_ingot.png
+2026-06-18 10:39:00,063 - INFO - Téléchargée: output\satis\items\caterium_ingot.png
+2026-06-18 10:39:00,064 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SteelIngot_256.png?v=1725286509 -> output\satis\items\steel_ingot.png
+2026-06-18 10:39:00,144 - INFO - Téléchargée: output\satis\items\steel_ingot.png
+2026-06-18 10:39:00,145 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AluminiumIngot_256.png?v=1725286515 -> output\satis\items\aluminum_ingot.png
+2026-06-18 10:39:00,226 - INFO - Téléchargée: output\satis\items\aluminum_ingot.png
+2026-06-18 10:39:00,226 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_FicsiteIngot_256.png?v=1725286507 -> output\satis\items\ficsite_ingot.png
+2026-06-18 10:39:00,320 - INFO - Téléchargée: output\satis\items\ficsite_ingot.png
+2026-06-18 10:39:00,322 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Concrete_256.png?v=1725286514 -> output\satis\items\concrete.png
+2026-06-18 10:39:00,408 - INFO - Téléchargée: output\satis\items\concrete.png
+2026-06-18 10:39:00,408 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_QuartzResource_256.png?v=1725286510 -> output\satis\items\quartz_crystal.png
+2026-06-18 10:39:00,498 - INFO - Téléchargée: output\satis\items\quartz_crystal.png
+2026-06-18 10:39:00,498 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Silica_256.png?v=1725286517 -> output\satis\items\silica.png
+2026-06-18 10:39:00,577 - INFO - Téléchargée: output\satis\items\silica.png
+2026-06-18 10:39:00,577 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CopperDust_256.png?v=1725286512 -> output\satis\items\copper_powder.png
+2026-06-18 10:39:00,658 - INFO - Téléchargée: output\satis\items\copper_powder.png
+2026-06-18 10:39:00,658 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PolymerResin_256.png?v=1725286508 -> output\satis\items\polymer_resin.png
+2026-06-18 10:39:00,750 - INFO - Téléchargée: output\satis\items\polymer_resin.png
+2026-06-18 10:39:00,750 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PetroleumCoke_256.png?v=1725286511 -> output\satis\items\petroleum_coke.png
+2026-06-18 10:39:00,849 - INFO - Téléchargée: output\satis\items\petroleum_coke.png
+2026-06-18 10:39:00,849 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AluminiumScrap_256.png?v=1725286511 -> output\satis\items\aluminum_scrap.png
+2026-06-18 10:39:00,948 - INFO - Téléchargée: output\satis\items\aluminum_scrap.png
+2026-06-18 10:39:00,949 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AlienProtein_256.png?v=1725286516 -> output\satis\creatures\alien_protein.png
+2026-06-18 10:39:01,024 - INFO - Téléchargée: output\satis\creatures\alien_protein.png
+2026-06-18 10:39:01,024 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AlienDNA_256.png?v=1725286510 -> output\satis\creatures\alien_dna_capsule.png
+2026-06-18 10:39:01,101 - INFO - Téléchargée: output\satis\creatures\alien_dna_capsule.png
+2026-06-18 10:39:01,101 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/LiquidWater_Pipe_256.png?v=1725286506 -> output\satis\items\water.png
+2026-06-18 10:39:01,182 - INFO - Téléchargée: output\satis\items\water.png
+2026-06-18 10:39:01,182 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/LiquidOil_Pipe_256.png?v=1725286506 -> output\satis\items\crude_oil.png
+2026-06-18 10:39:01,256 - INFO - Téléchargée: output\satis\items\crude_oil.png
+2026-06-18 10:39:01,256 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_LiquidHeavyOilResidue_Pipe_256.png?v=1725286510 -> output\satis\items\heavy_oil_residue.png
+2026-06-18 10:39:01,334 - INFO - Téléchargée: output\satis\items\heavy_oil_residue.png
+2026-06-18 10:39:01,335 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_LiquidFuel_Pipe_256.png?v=1725286517 -> output\satis\items\fuel.png
+2026-06-18 10:39:01,424 - INFO - Téléchargée: output\satis\items\fuel.png
+2026-06-18 10:39:01,424 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_LiquidBiofuel_Pipe_256.png?v=1725286511 -> output\satis\items\liquid_biofuel.png
+2026-06-18 10:39:01,496 - INFO - Téléchargée: output\satis\items\liquid_biofuel.png
+2026-06-18 10:39:01,497 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_LiquidTurboFuel_Pipe_256.png?v=1725286516 -> output\satis\items\turbofuel.png
+2026-06-18 10:39:01,571 - INFO - Téléchargée: output\satis\items\turbofuel.png
+2026-06-18 10:39:01,572 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/LiquidAlumina_Pipe_256.png?v=1725286517 -> output\satis\items\alumina_solution.png
+2026-06-18 10:39:01,653 - INFO - Téléchargée: output\satis\items\alumina_solution.png
+2026-06-18 10:39:01,653 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_LiquidSulfuricAcid_Pipe_256.png?v=1725286508 -> output\satis\items\sulfuric_acid.png
+2026-06-18 10:39:01,735 - INFO - Téléchargée: output\satis\items\sulfuric_acid.png
+2026-06-18 10:39:01,735 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NitricAcid_256.png?v=1725286509 -> output\satis\items\nitric_acid.png
+2026-06-18 10:39:01,811 - INFO - Téléchargée: output\satis\items\nitric_acid.png
+2026-06-18 10:39:01,812 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_DissolvedSilica_256.png?v=1725286507 -> output\satis\items\dissolved_silica.png
+2026-06-18 10:39:01,898 - INFO - Téléchargée: output\satis\items\dissolved_silica.png
+2026-06-18 10:39:01,899 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NitricAcid_256.png?v=1725286509 -> output\satis\items\nitrogen_gas.png
+2026-06-18 10:39:01,972 - INFO - Téléchargée: output\satis\items\nitrogen_gas.png
+2026-06-18 10:39:01,974 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_RocketFuelPipe_256.png?v=1725286515 -> output\satis\items\rocket_fuel.png
+2026-06-18 10:39:02,060 - INFO - Téléchargée: output\satis\items\rocket_fuel.png
+2026-06-18 10:39:02,060 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_IonizedFuel_256.png?v=1725286511 -> output\satis\items\ionized_fuel.png
+2026-06-18 10:39:02,150 - INFO - Téléchargée: output\satis\items\ionized_fuel.png
+2026-06-18 10:39:02,150 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_DarkEnergy_256.png?v=1725286507 -> output\satis\items\dark_matter_residue.png
+2026-06-18 10:39:02,243 - INFO - Téléchargée: output\satis\items\dark_matter_residue.png
+2026-06-18 10:39:02,243 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_QuantumEnergy_256.png?v=1725286507 -> output\satis\items\excited_photonic_matter.png
+2026-06-18 10:39:02,331 - INFO - Téléchargée: output\satis\items\excited_photonic_matter.png
+2026-06-18 10:39:02,331 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_IronRods_256.png?v=1725286516 -> output\satis\items\iron_rod.png
+2026-06-18 10:39:02,411 - INFO - Téléchargée: output\satis\items\iron_rod.png
+2026-06-18 10:39:02,412 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_IronScrews_256.png?v=1725286512 -> output\satis\items\screws.png
+2026-06-18 10:39:02,510 - INFO - Téléchargée: output\satis\items\screws.png
+2026-06-18 10:39:02,510 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_IronPlates_256.png?v=1725286507 -> output\satis\items\iron_plate.png
+2026-06-18 10:39:02,582 - INFO - Téléchargée: output\satis\items\iron_plate.png
+2026-06-18 10:39:02,582 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ReinforcedIronPlates_256.png?v=1725286515 -> output\satis\items\reinforced_iron_plate.png
+2026-06-18 10:39:02,664 - INFO - Téléchargée: output\satis\items\reinforced_iron_plate.png
+2026-06-18 10:39:02,664 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CopperSheet_256.png?v=1725286511 -> output\satis\items\copper_sheet.png
+2026-06-18 10:39:02,740 - INFO - Téléchargée: output\satis\items\copper_sheet.png
+2026-06-18 10:39:02,740 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AluminiumSheet_256.png?v=1725286508 -> output\satis\items\alclad_aluminum_sheet.png
+2026-06-18 10:39:02,816 - INFO - Téléchargée: output\satis\items\alclad_aluminum_sheet.png
+2026-06-18 10:39:02,817 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AluminiumCasing_256.png?v=1725286511 -> output\satis\items\aluminum_casing.png
+2026-06-18 10:39:02,896 - INFO - Téléchargée: output\satis\items\aluminum_casing.png
+2026-06-18 10:39:02,896 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SteelPipe_256.png?v=1725286515 -> output\satis\items\steel_pipe.png
+2026-06-18 10:39:02,968 - INFO - Téléchargée: output\satis\items\steel_pipe.png
+2026-06-18 10:39:02,969 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SteelBeam_256.png?v=1725286508 -> output\satis\items\steel_beam.png
+2026-06-18 10:39:03,041 - INFO - Téléchargée: output\satis\items\steel_beam.png
+2026-06-18 10:39:03,041 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_EncasedSteelBeam_256.png?v=1725286508 -> output\satis\items\encased_industrial_beam.png
+2026-06-18 10:39:03,114 - INFO - Téléchargée: output\satis\items\encased_industrial_beam.png
+2026-06-18 10:39:03,114 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ModularFrame_256.png?v=1725286508 -> output\satis\items\modular_frame.png
+2026-06-18 10:39:03,200 - INFO - Téléchargée: output\satis\items\modular_frame.png
+2026-06-18 10:39:03,201 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ModularFrameHeavy_256.png?v=1725286509 -> output\satis\items\heavy_modular_frame.png
+2026-06-18 10:39:03,280 - INFO - Téléchargée: output\satis\items\heavy_modular_frame.png
+2026-06-18 10:39:03,280 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_FusedModularFrame_256.png?v=1725286512 -> output\satis\items\fused_modular_frame.png
+2026-06-18 10:39:03,368 - INFO - Téléchargée: output\satis\items\fused_modular_frame.png
+2026-06-18 10:39:03,369 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_FicsiteMesh_256.png?v=1725286508 -> output\satis\items\ficsite_trigon.png
+2026-06-18 10:39:03,456 - INFO - Téléchargée: output\satis\items\ficsite_trigon.png
+2026-06-18 10:39:03,456 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Fabric_256.png?v=1725286514 -> output\satis\items\fabric.png
+2026-06-18 10:39:03,537 - INFO - Téléchargée: output\satis\items\fabric.png
+2026-06-18 10:39:03,537 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Plastic_256.png?v=1725286507 -> output\satis\items\plastic.png
+2026-06-18 10:39:03,617 - INFO - Téléchargée: output\satis\items\plastic.png
+2026-06-18 10:39:03,618 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Rubber_256.png?v=1725286512 -> output\satis\items\rubber.png
+2026-06-18 10:39:03,683 - INFO - Téléchargée: output\satis\items\rubber.png
+2026-06-18 10:39:03,684 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Rotor_256.png?v=1725286512 -> output\satis\items\rotor.png
+2026-06-18 10:39:03,773 - INFO - Téléchargée: output\satis\items\rotor.png
+2026-06-18 10:39:03,773 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Stator_256.png?v=1725286508 -> output\satis\items\stator.png
+2026-06-18 10:39:03,872 - INFO - Téléchargée: output\satis\items\stator.png
+2026-06-18 10:39:03,872 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Battery_256.png?v=1725286512 -> output\satis\items\battery.png
+2026-06-18 10:39:03,958 - INFO - Téléchargée: output\satis\items\battery.png
+2026-06-18 10:39:03,958 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Engine_256.png?v=1725286512 -> output\satis\items\motor.png
+2026-06-18 10:39:04,050 - INFO - Téléchargée: output\satis\items\motor.png
+2026-06-18 10:39:04,051 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Heatsink_256.png?v=1725286512 -> output\satis\items\heat_sink.png
+2026-06-18 10:39:04,125 - INFO - Téléchargée: output\satis\items\heat_sink.png
+2026-06-18 10:39:04,125 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CoolingSystem_256.png?v=1725286510 -> output\satis\items\cooling_system.png
+2026-06-18 10:39:04,216 - INFO - Téléchargée: output\satis\items\cooling_system.png
+2026-06-18 10:39:04,217 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_TurboMotor_256.png?v=1725286510 -> output\satis\items\turbo_motor.png
+2026-06-18 10:39:04,298 - INFO - Téléchargée: output\satis\items\turbo_motor.png
+2026-06-18 10:39:04,299 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Wire_256.png?v=1725286514 -> output\satis\items\wire.png
+2026-06-18 10:39:04,386 - INFO - Téléchargée: output\satis\items\wire.png
+2026-06-18 10:39:04,387 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Cables_256.png?v=1725286507 -> output\satis\items\cable.png
+2026-06-18 10:39:04,466 - INFO - Téléchargée: output\satis\items\cable.png
+2026-06-18 10:39:04,466 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Quickwire_256.png?v=1725286509 -> output\satis\items\quickwire.png
+2026-06-18 10:39:04,560 - INFO - Téléchargée: output\satis\items\quickwire.png
+2026-06-18 10:39:04,561 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CircuitBoard_256.png?v=1725286511 -> output\satis\items\circuit_board.png
+2026-06-18 10:39:04,654 - INFO - Téléchargée: output\satis\items\circuit_board.png
+2026-06-18 10:39:04,654 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AILimiter_256.png?v=1725286513 -> output\satis\items\ai_limiter.png
+2026-06-18 10:39:04,728 - INFO - Téléchargée: output\satis\items\ai_limiter.png
+2026-06-18 10:39:04,728 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_HighSpeedConnector_256.png?v=1725286509 -> output\satis\items\high_speed_connector.png
+2026-06-18 10:39:04,795 - INFO - Téléchargée: output\satis\items\high_speed_connector.png
+2026-06-18 10:39:04,796 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ReanimatedSam_256.png?v=1725286515 -> output\satis\items\reanimated_sam.png
+2026-06-18 10:39:04,896 - INFO - Téléchargée: output\satis\items\reanimated_sam.png
+2026-06-18 10:39:04,897 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SamFluctuator_256.png?v=1725286511 -> output\satis\items\sam_fluctuator.png
+2026-06-18 10:39:04,990 - INFO - Téléchargée: output\satis\items\sam_fluctuator.png
+2026-06-18 10:39:04,991 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Computer_256.png?v=1725286512 -> output\satis\items\computer.png
+2026-06-18 10:39:05,073 - INFO - Téléchargée: output\satis\items\computer.png
+2026-06-18 10:39:05,073 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_QuantumComputer_256.png?v=1725286508 -> output\satis\items\supercomputer.png
+2026-06-18 10:39:05,169 - INFO - Téléchargée: output\satis\items\supercomputer.png
+2026-06-18 10:39:05,171 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_RadioControlUnit_256.png?v=1725286515 -> output\satis\items\radio_control_unit.png
+2026-06-18 10:39:05,257 - INFO - Téléchargée: output\satis\items\radio_control_unit.png
+2026-06-18 10:39:05,257 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CrystalOscillator_256.png?v=1725286515 -> output\satis\items\crystal_oscillator.png
+2026-06-18 10:39:05,346 - INFO - Téléchargée: output\satis\items\crystal_oscillator.png
+2026-06-18 10:39:05,346 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SuperPositionOscillator_256.png?v=1725286509 -> output\satis\items\superposition_oscillator.png
+2026-06-18 10:39:05,424 - INFO - Téléchargée: output\satis\items\superposition_oscillator.png
+2026-06-18 10:39:05,424 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Diamonds_256.png?v=1725286509 -> output\satis\items\diamonds.png
+2026-06-18 10:39:05,501 - INFO - Téléchargée: output\satis\items\diamonds.png
+2026-06-18 10:39:05,502 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ExoticMatter_256.png?v=1725286513 -> output\satis\items\time_crystal.png
+2026-06-18 10:39:05,589 - INFO - Téléchargée: output\satis\items\time_crystal.png
+2026-06-18 10:39:05,589 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_TimeCrystal_256.png?v=1725286509 -> output\satis\items\dark_matter_crystal.png
+2026-06-18 10:39:05,678 - INFO - Téléchargée: output\satis\items\dark_matter_crystal.png
+2026-06-18 10:39:05,678 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SingularityCell_256.png?v=1725286516 -> output\satis\items\singularity_cell.png
+2026-06-18 10:39:05,765 - INFO - Téléchargée: output\satis\items\singularity_cell.png
+2026-06-18 10:39:05,765 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_TemporalProcessor_256.png?v=1725286516 -> output\satis\items\neural_quantum_processor.png
+2026-06-18 10:39:05,854 - INFO - Téléchargée: output\satis\items\neural_quantum_processor.png
+2026-06-18 10:39:05,854 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AlienPowerMatrix_256.png?v=1725286515 -> output\satis\items\alien_power_matrix.png
+2026-06-18 10:39:05,945 - INFO - Téléchargée: output\satis\items\alien_power_matrix.png
+2026-06-18 10:39:05,945 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_EmptyCannister_256.png?v=1725286509 -> output\satis\items\empty_canister.png
+2026-06-18 10:39:06,037 - INFO - Téléchargée: output\satis\items\empty_canister.png
+2026-06-18 10:39:06,038 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PressureTank_256.png?v=1725286513 -> output\satis\items\empty_fluid_tank.png
+2026-06-18 10:39:06,110 - INFO - Téléchargée: output\satis\items\empty_fluid_tank.png
+2026-06-18 10:39:06,111 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ConversionCube_256.png?v=1725286509 -> output\satis\items\pressure_conversion_cube.png
+2026-06-18 10:39:06,211 - INFO - Téléchargée: output\satis\items\pressure_conversion_cube.png
+2026-06-18 10:39:06,212 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PackagedWater_256.png?v=1725286515 -> output\satis\items\packaged_water.png
+2026-06-18 10:39:06,280 - INFO - Téléchargée: output\satis\items\packaged_water.png
+2026-06-18 10:39:06,281 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PackagedAluminaSolution_256.png?v=1725286517 -> output\satis\items\packaged_alumina_solution.png
+2026-06-18 10:39:06,353 - INFO - Téléchargée: output\satis\items\packaged_alumina_solution.png
+2026-06-18 10:39:06,354 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PckagedSulphuricAcid_256.png?v=1725286508 -> output\satis\items\packaged_sulfuric_acid.png
+2026-06-18 10:39:06,418 - INFO - Téléchargée: output\satis\items\packaged_sulfuric_acid.png
+2026-06-18 10:39:06,418 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PackagedNitricAcid_256.png?v=1725286509 -> output\satis\items\packaged_nitric_acid.png
+2026-06-18 10:39:06,487 - INFO - Téléchargée: output\satis\items\packaged_nitric_acid.png
+2026-06-18 10:39:06,488 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PackagedNitrogen_256.png?v=1725286513 -> output\satis\items\packaged_nitrogen_gas.png
+2026-06-18 10:39:06,565 - INFO - Téléchargée: output\satis\items\packaged_nitrogen_gas.png
+2026-06-18 10:39:06,565 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Leaves_256.png?v=1725286514 -> output\satis\items\leaves.png
+2026-06-18 10:39:06,667 - INFO - Téléchargée: output\satis\items\leaves.png
+2026-06-18 10:39:06,667 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Mycelia_256.png?v=1725286514 -> output\satis\items\mycelia.png
+2026-06-18 10:39:06,766 - INFO - Téléchargée: output\satis\items\mycelia.png
+2026-06-18 10:39:06,766 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/FlowerPetals_Final_256.png?v=1687261562 -> output\satis\items\flower_petals.png
+2026-06-18 10:39:06,842 - INFO - Téléchargée: output\satis\items\flower_petals.png
+2026-06-18 10:39:06,842 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Wood_256.png?v=1725286514 -> output\satis\items\wood.png
+2026-06-18 10:39:06,920 - INFO - Téléchargée: output\satis\items\wood.png
+2026-06-18 10:39:06,921 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Biomass_Final_256.png?v=1725286514 -> output\satis\items\biomass.png
+2026-06-18 10:39:06,995 - INFO - Téléchargée: output\satis\items\biomass.png
+2026-06-18 10:39:06,995 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CompactedCoal_256.png?v=1725286518 -> output\satis\items\compacted_coal.png
+2026-06-18 10:39:07,074 - INFO - Téléchargée: output\satis\items\compacted_coal.png
+2026-06-18 10:39:07,074 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/Oil_256.png?v=1725286506 -> output\satis\items\packaged_oil.png
+2026-06-18 10:39:07,154 - INFO - Téléchargée: output\satis\items\packaged_oil.png
+2026-06-18 10:39:07,154 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/OilResidue_256.png?v=1725286506 -> output\satis\items\packaged_heavy_oil_residue.png
+2026-06-18 10:39:07,230 - INFO - Téléchargée: output\satis\items\packaged_heavy_oil_residue.png
+2026-06-18 10:39:07,232 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SolidBiofuel_256.png?v=1725286512 -> output\satis\items\solid_biofuel.png
+2026-06-18 10:39:07,320 - INFO - Téléchargée: output\satis\items\solid_biofuel.png
+2026-06-18 10:39:07,320 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Fuel_256.png?v=1725286517 -> output\satis\items\packaged_fuel.png
+2026-06-18 10:39:07,407 - INFO - Téléchargée: output\satis\items\packaged_fuel.png
+2026-06-18 10:39:07,407 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_LiquidBiofuel_256.png?v=1725286516 -> output\satis\items\packaged_liquid_biofuel.png
+2026-06-18 10:39:07,492 - INFO - Téléchargée: output\satis\items\packaged_liquid_biofuel.png
+2026-06-18 10:39:07,493 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_TurboFuel_256.png?v=1725286516 -> output\satis\items\packaged_turbofuel.png
+2026-06-18 10:39:07,579 - INFO - Téléchargée: output\satis\items\packaged_turbofuel.png
+2026-06-18 10:39:07,580 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PackagedRocketFuel_256.png?v=1725286515 -> output\satis\items\packaged_rocket_fuel.png
+2026-06-18 10:39:07,653 - INFO - Téléchargée: output\satis\items\packaged_rocket_fuel.png
+2026-06-18 10:39:07,653 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_IonizedRocketFuel_256.png?v=1725286511 -> output\satis\items\packaged_ionized_fuel.png
+2026-06-18 10:39:07,725 - INFO - Téléchargée: output\satis\items\packaged_ionized_fuel.png
+2026-06-18 10:39:07,725 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NuclearFuelRod_256.png?v=1725286510 -> output\satis\items\uranium_fuel_rod.png
+2026-06-18 10:39:07,802 - INFO - Téléchargée: output\satis\items\uranium_fuel_rod.png
+2026-06-18 10:39:07,802 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PlutoniumFuelRod_256.png?v=1725286509 -> output\satis\items\plutonium_fuel_rod.png
+2026-06-18 10:39:07,880 - INFO - Téléchargée: output\satis\items\plutonium_fuel_rod.png
+2026-06-18 10:39:07,882 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Gunpowder_256.png?v=1725286517 -> output\satis\items\black_powder.png
+2026-06-18 10:39:07,954 - INFO - Téléchargée: output\satis\items\black_powder.png
+2026-06-18 10:39:07,954 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_GunpowderMk2_256.png?v=1725286517 -> output\satis\items\smokeless_powder.png
+2026-06-18 10:39:08,026 - INFO - Téléchargée: output\satis\items\smokeless_powder.png
+2026-06-18 10:39:08,026 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_GasMaskFilter_256.png?v=1725286510 -> output\satis\items\gas_filter.png
+2026-06-18 10:39:08,102 - INFO - Téléchargée: output\satis\items\gas_filter.png
+2026-06-18 10:39:08,102 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ColorCartridge_256.png?v=1725286507 -> output\satis\items\color_cartridge.png
+2026-06-18 10:39:08,186 - INFO - Téléchargée: output\satis\items\color_cartridge.png
+2026-06-18 10:39:08,187 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Beacon_256.png?v=1725286505 -> output\satis\items\beacon.png
+2026-06-18 10:39:08,253 - INFO - Téléchargée: output\satis\items\beacon.png
+2026-06-18 10:39:08,253 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_HazmatFilter_256.png?v=1725286509 -> output\satis\items\iodine_infused_filter.png
+2026-06-18 10:39:08,333 - INFO - Téléchargée: output\satis\items\iodine_infused_filter.png
+2026-06-18 10:39:08,333 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Rebar_256.png?v=1725286524 -> output\satis\items\iron_rebar.png
+2026-06-18 10:39:08,400 - INFO - Téléchargée: output\satis\items\iron_rebar.png
+2026-06-18 10:39:08,400 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_StunRebar_256.png?v=1725286524 -> output\satis\items\stun_rebar.png
+2026-06-18 10:39:08,468 - INFO - Téléchargée: output\satis\items\stun_rebar.png
+2026-06-18 10:39:08,468 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ScatterRebar_256.png?v=1725286524 -> output\satis\items\shatter_rebar.png
+2026-06-18 10:39:08,534 - INFO - Téléchargée: output\satis\items\shatter_rebar.png
+2026-06-18 10:39:08,535 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ExpRebar_256.png?v=1725286524 -> output\satis\items\explosive_rebar.png
+2026-06-18 10:39:08,604 - INFO - Téléchargée: output\satis\items\explosive_rebar.png
+2026-06-18 10:39:08,604 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Rifle_256.png?v=1725286523 -> output\satis\items\rifle_ammo.png
+2026-06-18 10:39:08,678 - INFO - Téléchargée: output\satis\items\rifle_ammo.png
+2026-06-18 10:39:08,679 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_HomingRifle_256.png?v=1725286524 -> output\satis\items\homing_rifle_ammo.png
+2026-06-18 10:39:08,749 - INFO - Téléchargée: output\satis\items\homing_rifle_ammo.png
+2026-06-18 10:39:08,750 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_TurboRifle_256.png?v=1725286524 -> output\satis\items\turbo_rifle_ammo.png
+2026-06-18 10:39:08,826 - INFO - Téléchargée: output\satis\items\turbo_rifle_ammo.png
+2026-06-18 10:39:08,826 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Explosive_256.png?v=1725286513 -> output\satis\items\nobelisk.png
+2026-06-18 10:39:08,891 - INFO - Téléchargée: output\satis\items\nobelisk.png
+2026-06-18 10:39:08,891 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Gas_256.png?v=1725286513 -> output\satis\items\gas_nobelisk.png
+2026-06-18 10:39:08,963 - INFO - Téléchargée: output\satis\items\gas_nobelisk.png
+2026-06-18 10:39:08,965 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Shock_256.png?v=1725286513 -> output\satis\items\pulse_nobelisk.png
+2026-06-18 10:39:09,034 - INFO - Téléchargée: output\satis\items\pulse_nobelisk.png
+2026-06-18 10:39:09,034 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Cluster_256.png?v=1725286513 -> output\satis\items\cluster_nobelisk.png
+2026-06-18 10:39:09,114 - INFO - Téléchargée: output\satis\items\cluster_nobelisk.png
+2026-06-18 10:39:09,114 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Nuke_256.png?v=1725286513 -> output\satis\items\nuke_nobelisk.png
+2026-06-18 10:39:09,183 - INFO - Téléchargée: output\satis\items\nuke_nobelisk.png
+2026-06-18 10:39:09,185 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ElectromagneticControlRod_256.png?v=1725286512 -> output\satis\items\electromagnetic_control_rod.png
+2026-06-18 10:39:09,261 - INFO - Téléchargée: output\satis\items\electromagnetic_control_rod.png
+2026-06-18 10:39:09,261 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NuclearCell_256.png?v=1725286508 -> output\satis\items\encased_uranium_cell.png
+2026-06-18 10:39:09,339 - INFO - Téléchargée: output\satis\items\encased_uranium_cell.png
+2026-06-18 10:39:09,339 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NonFissileUranium_256.png?v=1725286509 -> output\satis\items\non_fissile_uranium.png
+2026-06-18 10:39:09,422 - INFO - Téléchargée: output\satis\items\non_fissile_uranium.png
+2026-06-18 10:39:09,422 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PlutoniumPellet_256.png?v=1725286511 -> output\satis\items\plutonium_pellet.png
+2026-06-18 10:39:09,513 - INFO - Téléchargée: output\satis\items\plutonium_pellet.png
+2026-06-18 10:39:09,514 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_EncasedPlutoniumCell_256.png?v=1725286508 -> output\satis\items\encased_plutonium_cell.png
+2026-06-18 10:39:09,592 - INFO - Téléchargée: output\satis\items\encased_plutonium_cell.png
+2026-06-18 10:39:09,593 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_FicsoniumCell_256.png?v=1725286507 -> output\satis\items\ficsonium.png
+2026-06-18 10:39:09,687 - INFO - Téléchargée: output\satis\items\ficsonium.png
+2026-06-18 10:39:09,687 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_FicsoniumFuelRod_256.png?v=1725286511 -> output\satis\items\ficsonium_fuel_rod.png
+2026-06-18 10:39:09,781 - INFO - Téléchargée: output\satis\items\ficsonium_fuel_rod.png
+2026-06-18 10:39:09,781 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NuclearWaste_256.png?v=1725286518 -> output\satis\items\uranium_waste.png
+2026-06-18 10:39:09,861 - INFO - Téléchargée: output\satis\items\uranium_waste.png
+2026-06-18 10:39:09,861 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PlutoniumWaste_256.png?v=1725286518 -> output\satis\items\plutonium_waste.png
+2026-06-18 10:39:09,928 - INFO - Téléchargée: output\satis\items\plutonium_waste.png
+2026-06-18 10:39:09,928 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/PowerSlugGreen_256.png?v=1725286505 -> output\satis\items\blue_power_slug.png
+2026-06-18 10:39:09,996 - INFO - Téléchargée: output\satis\items\blue_power_slug.png
+2026-06-18 10:39:09,997 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/PowerSlugYellow_256.png?v=1725286505 -> output\satis\items\yellow_power_slug.png
+2026-06-18 10:39:10,060 - INFO - Téléchargée: output\satis\items\yellow_power_slug.png
+2026-06-18 10:39:10,062 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/PowerSlugPurple_256.png?v=1725286505 -> output\satis\items\purple_power_slug.png
+2026-06-18 10:39:10,133 - INFO - Téléchargée: output\satis\items\purple_power_slug.png
+2026-06-18 10:39:10,135 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/PowerShard_256.png?v=1725286505 -> output\satis\items\power_shard.png
+2026-06-18 10:39:10,213 - INFO - Téléchargée: output\satis\items\power_shard.png
+2026-06-18 10:39:10,215 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Ficsit_Coupon_256.png?v=1725286507 -> output\satis\items\ficsit_coupon.png
+2026-06-18 10:39:10,291 - INFO - Téléchargée: output\satis\items\ficsit_coupon.png
+2026-06-18 10:39:10,291 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpelevatorPart_1_256.png?v=1725286514 -> output\satis\items\smart_plating.png
+2026-06-18 10:39:10,368 - INFO - Téléchargée: output\satis\items\smart_plating.png
+2026-06-18 10:39:10,369 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpelevatorPart_2_256.png?v=1725286510 -> output\satis\items\versatile_framework.png
+2026-06-18 10:39:10,444 - INFO - Téléchargée: output\satis\items\versatile_framework.png
+2026-06-18 10:39:10,445 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/SpelevatorPart_3_256.png?v=1725286508 -> output\satis\items\automated_wiring.png
+2026-06-18 10:39:10,523 - INFO - Téléchargée: output\satis\items\automated_wiring.png
+2026-06-18 10:39:10,523 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpelevatorPart_4_256.png?v=1725286513 -> output\satis\items\modular_engine.png
+2026-06-18 10:39:10,615 - INFO - Téléchargée: output\satis\items\modular_engine.png
+2026-06-18 10:39:10,615 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpelevatorPart_5_256.png?v=1725286516 -> output\satis\items\adaptive_control_unit.png
+2026-06-18 10:39:10,704 - INFO - Téléchargée: output\satis\items\adaptive_control_unit.png
+2026-06-18 10:39:10,704 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AssemblyDirectorSystem_256.png?v=1725286511 -> output\satis\items\assembly_director_system.png
+2026-06-18 10:39:10,783 - INFO - Téléchargée: output\satis\items\assembly_director_system.png
+2026-06-18 10:39:10,784 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_MagneticFieldGenerator_256.png?v=1725286510 -> output\satis\items\magnetic_field_generator.png
+2026-06-18 10:39:10,888 - INFO - Téléchargée: output\satis\items\magnetic_field_generator.png
+2026-06-18 10:39:10,888 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ThermalPropulsionRocket_256.png?v=1725286517 -> output\satis\items\thermal_propulsion_rocket.png
+2026-06-18 10:39:10,975 - INFO - Téléchargée: output\satis\items\thermal_propulsion_rocket.png
+2026-06-18 10:39:10,976 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NuclearPasta_256.png?v=1725286516 -> output\satis\items\nuclear_pasta.png
+2026-06-18 10:39:11,061 - INFO - Téléchargée: output\satis\items\nuclear_pasta.png
+2026-06-18 10:39:11,061 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_BiochemicalSculptor_256.png?v=1725286516 -> output\satis\items\biochemical_sculptor.png
+2026-06-18 10:39:11,154 - INFO - Téléchargée: output\satis\items\biochemical_sculptor.png
+2026-06-18 10:39:11,155 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_BallisticWarpDrive_256.png?v=1725286510 -> output\satis\items\ballistic_warp_drive.png
+2026-06-18 10:39:11,223 - INFO - Téléchargée: output\satis\items\ballistic_warp_drive.png
+2026-06-18 10:39:11,223 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AIExpension_256.png?v=1725286510 -> output\satis\items\ai_expansion_server.png
+2026-06-18 10:39:11,316 - INFO - Téléchargée: output\satis\items\ai_expansion_server.png
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'statue' non mappée à une catégorie virtuelle pour 'Adequate Pioneering', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'statue' non mappée à une catégorie virtuelle pour 'Pretty Good Pioneering', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'statue' non mappée à une catégorie virtuelle pour 'Satisfactory Pioneering', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'statue' non mappée à une catégorie virtuelle pour 'Silver Hog', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'statue' non mappée à une catégorie virtuelle pour 'Golden Nut', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'statue' non mappée à une catégorie virtuelle pour 'Lizard Doggo Statue', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'statue' non mappée à une catégorie virtuelle pour 'Confusing Creature', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Gift', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Candy Cane', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Actual Snow', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Red FICSMAS Ornament', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Blue FICSMAS Ornament', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Copper FICSMAS Ornament', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Iron FICSMAS Ornament', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Ornament Bundle', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Bow', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Tree Branch', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Wonder Star', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Wreath', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Snowball', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Sweet Fireworks', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Fancy Fireworks', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Sparkly Fireworks', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Data Cartridge Day 1', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Data Cartridge Day 4', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Data Cartridge Day 8', skip
+2026-06-18 10:39:11,317 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Data Cartridge Day 14', skip
+2026-06-18 10:39:11,318 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_LizardDoggo_256.png?v=1725286522 -> output\satis\creatures\lizard_doggo.png
+2026-06-18 10:39:11,411 - INFO - Téléchargée: output\satis\creatures\lizard_doggo.png
+2026-06-18 10:39:11,411 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpaceTick_256.png?v=1725286521 -> output\satis\creatures\space_giraffe_tick_penguin_whale_thing.png
+2026-06-18 10:39:11,481 - INFO - Téléchargée: output\satis\creatures\space_giraffe_tick_penguin_whale_thing.png
+2026-06-18 10:39:11,481 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NonFlyingBird_256.png?v=1725286522 -> output\satis\creatures\non_flying_bird.png
+2026-06-18 10:39:11,555 - INFO - Téléchargée: output\satis\creatures\non_flying_bird.png
+2026-06-18 10:39:11,555 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Hog_256.png?v=1725286521 -> output\satis\creatures\fluffy_tailed_hog.png
+2026-06-18 10:39:11,634 - INFO - Téléchargée: output\satis\creatures\fluffy_tailed_hog.png
+2026-06-18 10:39:11,634 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_HogAlpha_256.png?v=1725286521 -> output\satis\creatures\alpha_hog.png
+2026-06-18 10:39:11,710 - INFO - Téléchargée: output\satis\creatures\alpha_hog.png
+2026-06-18 10:39:11,711 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CliffHog_256.png?v=1725286522 -> output\satis\creatures\cliff_hog.png
+2026-06-18 10:39:11,803 - INFO - Téléchargée: output\satis\creatures\cliff_hog.png
+2026-06-18 10:39:11,803 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NuclearHog_256.png?v=1725286522 -> output\satis\creatures\nuclear_hog.png
+2026-06-18 10:39:11,893 - INFO - Téléchargée: output\satis\creatures\nuclear_hog.png
+2026-06-18 10:39:11,893 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Hog_256.png?v=1725286521 -> output\satis\creatures\johnny_the_jetpack_hog.png
+2026-06-18 10:39:11,968 - INFO - Téléchargée: output\satis\creatures\johnny_the_jetpack_hog.png
+2026-06-18 10:39:11,968 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/faunaIcons/Char_Spitter_Small_C.png?v=1638444933 -> output\satis\creatures\green_alpha_spitter.png
+2026-06-18 10:39:12,073 - INFO - Téléchargée: output\satis\creatures\green_alpha_spitter.png
+2026-06-18 10:39:12,073 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterDesert_256.png?v=1725286521 -> output\satis\creatures\desert_spitter.png
+2026-06-18 10:39:12,162 - INFO - Téléchargée: output\satis\creatures\desert_spitter.png
+2026-06-18 10:39:12,163 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterDesertAlpha_256.png?v=1725286520 -> output\satis\creatures\desert_alpha_spitter.png
+2026-06-18 10:39:12,243 - INFO - Téléchargée: output\satis\creatures\desert_alpha_spitter.png
+2026-06-18 10:39:12,243 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterForest_256.png?v=1725286522 -> output\satis\creatures\forest_spitter.png
+2026-06-18 10:39:12,329 - INFO - Téléchargée: output\satis\creatures\forest_spitter.png
+2026-06-18 10:39:12,329 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterForestAlpha_256.png?v=1725286520 -> output\satis\creatures\forest_alpha_spitter.png
+2026-06-18 10:39:12,413 - INFO - Téléchargée: output\satis\creatures\forest_alpha_spitter.png
+2026-06-18 10:39:12,414 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterRForest_256.png?v=1725286522 -> output\satis\creatures\red_forest_spitter.png
+2026-06-18 10:39:12,488 - INFO - Téléchargée: output\satis\creatures\red_forest_spitter.png
+2026-06-18 10:39:12,488 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterRForestAlpha_256.png?v=1725286523 -> output\satis\creatures\red_forest_alpha_spitter.png
+2026-06-18 10:39:12,591 - INFO - Téléchargée: output\satis\creatures\red_forest_alpha_spitter.png
+2026-06-18 10:39:12,591 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterAqua_256.png?v=1725286520 -> output\satis\creatures\aquatic_spitter.png
+2026-06-18 10:39:12,689 - INFO - Téléchargée: output\satis\creatures\aquatic_spitter.png
+2026-06-18 10:39:12,690 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterAquaAlpha_256.png?v=1725286521 -> output\satis\creatures\aquatic_alpha_spitter.png
+2026-06-18 10:39:12,780 - INFO - Téléchargée: output\satis\creatures\aquatic_alpha_spitter.png
+2026-06-18 10:39:12,781 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_StingerChild_256.png?v=1725286521 -> output\satis\creatures\small_stinger.png
+2026-06-18 10:39:12,870 - INFO - Téléchargée: output\satis\creatures\small_stinger.png
+2026-06-18 10:39:12,870 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Stinger_256.png?v=1725286521 -> output\satis\creatures\big_stinger.png
+2026-06-18 10:39:12,961 - INFO - Téléchargée: output\satis\creatures\big_stinger.png
+2026-06-18 10:39:12,961 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_StingerElite_256.png?v=1725286522 -> output\satis\creatures\elite_stinger.png
+2026-06-18 10:39:13,050 - INFO - Téléchargée: output\satis\creatures\elite_stinger.png
+2026-06-18 10:39:13,050 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Hatcher_256.png?v=1725286521 -> output\satis\creatures\flying_crab_hatcher.png
+2026-06-18 10:39:13,142 - INFO - Téléchargée: output\satis\creatures\flying_crab_hatcher.png
+2026-06-18 10:39:13,142 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Hatcher_256.png?v=1725286521 -> output\satis\creatures\big_flying_crab_hatcher.png
+2026-06-18 10:39:13,226 - INFO - Téléchargée: output\satis\creatures\big_flying_crab_hatcher.png
+2026-06-18 10:39:13,228 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/faunaIcons/Char_BabyCrab_C.png?v=1638440041 -> output\satis\creatures\flying_crab.png
+2026-06-18 10:39:13,338 - INFO - Téléchargée: output\satis\creatures\flying_crab.png
+2026-06-18 10:39:13,338 - INFO - Images téléchargées/traitées: 174
+2026-06-18 10:39:13,338 - INFO - 0 fichiers JSON trouvés dans output
+2026-06-18 10:39:13,338 - INFO - Terminé. JSON modifiés: 0. Images traitées: 174
+2026-06-18 10:40:39,222 - INFO - === Début fix_pictures ===
+2026-06-18 10:40:39,222 - INFO - CSV: filtered_items.csv  Output dir: output
+2026-06-18 10:40:39,224 - INFO - 201 lignes lues depuis le CSV
+2026-06-18 10:40:39,225 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/Stone_256.png?v=1725286506 -> output\satis\items\limestone.png
+2026-06-18 10:40:39,305 - INFO - Téléchargée: output\satis\items\limestone.png
+2026-06-18 10:40:39,306 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_iron_new_256.png?v=1725286507 -> output\satis\items\iron_ore.png
+2026-06-18 10:40:39,381 - INFO - Téléchargée: output\satis\items\iron_ore.png
+2026-06-18 10:40:39,381 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_copper_new_256.png?v=1725286507 -> output\satis\items\copper_ore.png
+2026-06-18 10:40:39,476 - INFO - Téléchargée: output\satis\items\copper_ore.png
+2026-06-18 10:40:39,476 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CateriumOre_256.png?v=1725286507 -> output\satis\items\caterium_ore.png
+2026-06-18 10:40:39,570 - INFO - Téléchargée: output\satis\items\caterium_ore.png
+2026-06-18 10:40:39,570 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CoalOre_256.png?v=1725286506 -> output\satis\items\coal.png
+2026-06-18 10:40:39,672 - INFO - Téléchargée: output\satis\items\coal.png
+2026-06-18 10:40:39,673 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_QuartzCrystal_256.png?v=1725286510 -> output\satis\items\raw_quartz.png
+2026-06-18 10:40:39,764 - INFO - Téléchargée: output\satis\items\raw_quartz.png
+2026-06-18 10:40:39,764 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/Sulfur_256.png?v=1725286506 -> output\satis\items\sulfur.png
+2026-06-18 10:40:39,856 - INFO - Téléchargée: output\satis\items\sulfur.png
+2026-06-18 10:40:39,856 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Bauxite_256.png?v=1725286507 -> output\satis\items\bauxite.png
+2026-06-18 10:40:39,934 - INFO - Téléchargée: output\satis\items\bauxite.png
+2026-06-18 10:40:39,935 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SameOre_256.png?v=1725286506 -> output\satis\items\sam.png
+2026-06-18 10:40:40,013 - INFO - Téléchargée: output\satis\items\sam.png
+2026-06-18 10:40:40,013 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_UraniumOre_256.png?v=1725286506 -> output\satis\items\uranium.png
+2026-06-18 10:40:40,096 - INFO - Téléchargée: output\satis\items\uranium.png
+2026-06-18 10:40:40,097 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_IronIngot_256.png?v=1725286517 -> output\satis\items\iron_ingot.png
+2026-06-18 10:40:40,171 - INFO - Téléchargée: output\satis\items\iron_ingot.png
+2026-06-18 10:40:40,174 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CopperIngot_256.png?v=1725286515 -> output\satis\items\copper_ingot.png
+2026-06-18 10:40:40,253 - INFO - Téléchargée: output\satis\items\copper_ingot.png
+2026-06-18 10:40:40,254 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CateriumIngot_256.png?v=1725286512 -> output\satis\items\caterium_ingot.png
+2026-06-18 10:40:40,331 - INFO - Téléchargée: output\satis\items\caterium_ingot.png
+2026-06-18 10:40:40,332 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SteelIngot_256.png?v=1725286509 -> output\satis\items\steel_ingot.png
+2026-06-18 10:40:40,411 - INFO - Téléchargée: output\satis\items\steel_ingot.png
+2026-06-18 10:40:40,411 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AluminiumIngot_256.png?v=1725286515 -> output\satis\items\aluminum_ingot.png
+2026-06-18 10:40:40,489 - INFO - Téléchargée: output\satis\items\aluminum_ingot.png
+2026-06-18 10:40:40,489 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_FicsiteIngot_256.png?v=1725286507 -> output\satis\items\ficsite_ingot.png
+2026-06-18 10:40:40,578 - INFO - Téléchargée: output\satis\items\ficsite_ingot.png
+2026-06-18 10:40:40,579 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Concrete_256.png?v=1725286514 -> output\satis\items\concrete.png
+2026-06-18 10:40:40,659 - INFO - Téléchargée: output\satis\items\concrete.png
+2026-06-18 10:40:40,660 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_QuartzResource_256.png?v=1725286510 -> output\satis\items\quartz_crystal.png
+2026-06-18 10:40:40,740 - INFO - Téléchargée: output\satis\items\quartz_crystal.png
+2026-06-18 10:40:40,741 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Silica_256.png?v=1725286517 -> output\satis\items\silica.png
+2026-06-18 10:40:40,818 - INFO - Téléchargée: output\satis\items\silica.png
+2026-06-18 10:40:40,818 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CopperDust_256.png?v=1725286512 -> output\satis\items\copper_powder.png
+2026-06-18 10:40:40,896 - INFO - Téléchargée: output\satis\items\copper_powder.png
+2026-06-18 10:40:40,896 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PolymerResin_256.png?v=1725286508 -> output\satis\items\polymer_resin.png
+2026-06-18 10:40:40,989 - INFO - Téléchargée: output\satis\items\polymer_resin.png
+2026-06-18 10:40:40,989 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PetroleumCoke_256.png?v=1725286511 -> output\satis\items\petroleum_coke.png
+2026-06-18 10:40:41,081 - INFO - Téléchargée: output\satis\items\petroleum_coke.png
+2026-06-18 10:40:41,081 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AluminiumScrap_256.png?v=1725286511 -> output\satis\items\aluminum_scrap.png
+2026-06-18 10:40:41,169 - INFO - Téléchargée: output\satis\items\aluminum_scrap.png
+2026-06-18 10:40:41,170 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AlienProtein_256.png?v=1725286516 -> output\satis\creatures\alien_protein.png
+2026-06-18 10:40:41,247 - INFO - Téléchargée: output\satis\creatures\alien_protein.png
+2026-06-18 10:40:41,247 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AlienDNA_256.png?v=1725286510 -> output\satis\creatures\alien_dna_capsule.png
+2026-06-18 10:40:41,323 - INFO - Téléchargée: output\satis\creatures\alien_dna_capsule.png
+2026-06-18 10:40:41,323 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/LiquidWater_Pipe_256.png?v=1725286506 -> output\satis\items\water.png
+2026-06-18 10:40:41,406 - INFO - Téléchargée: output\satis\items\water.png
+2026-06-18 10:40:41,406 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/LiquidOil_Pipe_256.png?v=1725286506 -> output\satis\items\crude_oil.png
+2026-06-18 10:40:41,475 - INFO - Téléchargée: output\satis\items\crude_oil.png
+2026-06-18 10:40:41,475 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_LiquidHeavyOilResidue_Pipe_256.png?v=1725286510 -> output\satis\items\heavy_oil_residue.png
+2026-06-18 10:40:41,542 - INFO - Téléchargée: output\satis\items\heavy_oil_residue.png
+2026-06-18 10:40:41,542 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_LiquidFuel_Pipe_256.png?v=1725286517 -> output\satis\items\fuel.png
+2026-06-18 10:40:41,630 - INFO - Téléchargée: output\satis\items\fuel.png
+2026-06-18 10:40:41,630 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_LiquidBiofuel_Pipe_256.png?v=1725286511 -> output\satis\items\liquid_biofuel.png
+2026-06-18 10:40:41,706 - INFO - Téléchargée: output\satis\items\liquid_biofuel.png
+2026-06-18 10:40:41,707 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_LiquidTurboFuel_Pipe_256.png?v=1725286516 -> output\satis\items\turbofuel.png
+2026-06-18 10:40:41,779 - INFO - Téléchargée: output\satis\items\turbofuel.png
+2026-06-18 10:40:41,779 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/LiquidAlumina_Pipe_256.png?v=1725286517 -> output\satis\items\alumina_solution.png
+2026-06-18 10:40:41,853 - INFO - Téléchargée: output\satis\items\alumina_solution.png
+2026-06-18 10:40:41,853 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_LiquidSulfuricAcid_Pipe_256.png?v=1725286508 -> output\satis\items\sulfuric_acid.png
+2026-06-18 10:40:41,931 - INFO - Téléchargée: output\satis\items\sulfuric_acid.png
+2026-06-18 10:40:41,931 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NitricAcid_256.png?v=1725286509 -> output\satis\items\nitric_acid.png
+2026-06-18 10:40:42,015 - INFO - Téléchargée: output\satis\items\nitric_acid.png
+2026-06-18 10:40:42,015 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_DissolvedSilica_256.png?v=1725286507 -> output\satis\items\dissolved_silica.png
+2026-06-18 10:40:42,101 - INFO - Téléchargée: output\satis\items\dissolved_silica.png
+2026-06-18 10:40:42,101 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NitricAcid_256.png?v=1725286509 -> output\satis\items\nitrogen_gas.png
+2026-06-18 10:40:42,175 - INFO - Téléchargée: output\satis\items\nitrogen_gas.png
+2026-06-18 10:40:42,176 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_RocketFuelPipe_256.png?v=1725286515 -> output\satis\items\rocket_fuel.png
+2026-06-18 10:40:42,263 - INFO - Téléchargée: output\satis\items\rocket_fuel.png
+2026-06-18 10:40:42,263 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_IonizedFuel_256.png?v=1725286511 -> output\satis\items\ionized_fuel.png
+2026-06-18 10:40:42,354 - INFO - Téléchargée: output\satis\items\ionized_fuel.png
+2026-06-18 10:40:42,354 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_DarkEnergy_256.png?v=1725286507 -> output\satis\items\dark_matter_residue.png
+2026-06-18 10:40:42,441 - INFO - Téléchargée: output\satis\items\dark_matter_residue.png
+2026-06-18 10:40:42,442 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_QuantumEnergy_256.png?v=1725286507 -> output\satis\items\excited_photonic_matter.png
+2026-06-18 10:40:42,530 - INFO - Téléchargée: output\satis\items\excited_photonic_matter.png
+2026-06-18 10:40:42,530 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_IronRods_256.png?v=1725286516 -> output\satis\items\iron_rod.png
+2026-06-18 10:40:42,607 - INFO - Téléchargée: output\satis\items\iron_rod.png
+2026-06-18 10:40:42,608 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_IronScrews_256.png?v=1725286512 -> output\satis\items\screws.png
+2026-06-18 10:40:42,702 - INFO - Téléchargée: output\satis\items\screws.png
+2026-06-18 10:40:42,703 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_IronPlates_256.png?v=1725286507 -> output\satis\items\iron_plate.png
+2026-06-18 10:40:42,777 - INFO - Téléchargée: output\satis\items\iron_plate.png
+2026-06-18 10:40:42,777 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ReinforcedIronPlates_256.png?v=1725286515 -> output\satis\items\reinforced_iron_plate.png
+2026-06-18 10:40:42,855 - INFO - Téléchargée: output\satis\items\reinforced_iron_plate.png
+2026-06-18 10:40:42,855 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CopperSheet_256.png?v=1725286511 -> output\satis\items\copper_sheet.png
+2026-06-18 10:40:42,944 - INFO - Téléchargée: output\satis\items\copper_sheet.png
+2026-06-18 10:40:42,945 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AluminiumSheet_256.png?v=1725286508 -> output\satis\items\alclad_aluminum_sheet.png
+2026-06-18 10:40:43,020 - INFO - Téléchargée: output\satis\items\alclad_aluminum_sheet.png
+2026-06-18 10:40:43,020 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AluminiumCasing_256.png?v=1725286511 -> output\satis\items\aluminum_casing.png
+2026-06-18 10:40:43,099 - INFO - Téléchargée: output\satis\items\aluminum_casing.png
+2026-06-18 10:40:43,099 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SteelPipe_256.png?v=1725286515 -> output\satis\items\steel_pipe.png
+2026-06-18 10:40:43,171 - INFO - Téléchargée: output\satis\items\steel_pipe.png
+2026-06-18 10:40:43,171 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SteelBeam_256.png?v=1725286508 -> output\satis\items\steel_beam.png
+2026-06-18 10:40:43,248 - INFO - Téléchargée: output\satis\items\steel_beam.png
+2026-06-18 10:40:43,248 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_EncasedSteelBeam_256.png?v=1725286508 -> output\satis\items\encased_industrial_beam.png
+2026-06-18 10:40:43,323 - INFO - Téléchargée: output\satis\items\encased_industrial_beam.png
+2026-06-18 10:40:43,323 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ModularFrame_256.png?v=1725286508 -> output\satis\items\modular_frame.png
+2026-06-18 10:40:43,397 - INFO - Téléchargée: output\satis\items\modular_frame.png
+2026-06-18 10:40:43,398 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ModularFrameHeavy_256.png?v=1725286509 -> output\satis\items\heavy_modular_frame.png
+2026-06-18 10:40:43,469 - INFO - Téléchargée: output\satis\items\heavy_modular_frame.png
+2026-06-18 10:40:43,469 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_FusedModularFrame_256.png?v=1725286512 -> output\satis\items\fused_modular_frame.png
+2026-06-18 10:40:43,565 - INFO - Téléchargée: output\satis\items\fused_modular_frame.png
+2026-06-18 10:40:43,565 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_FicsiteMesh_256.png?v=1725286508 -> output\satis\items\ficsite_trigon.png
+2026-06-18 10:40:43,654 - INFO - Téléchargée: output\satis\items\ficsite_trigon.png
+2026-06-18 10:40:43,654 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Fabric_256.png?v=1725286514 -> output\satis\items\fabric.png
+2026-06-18 10:40:43,729 - INFO - Téléchargée: output\satis\items\fabric.png
+2026-06-18 10:40:43,729 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Plastic_256.png?v=1725286507 -> output\satis\items\plastic.png
+2026-06-18 10:40:43,795 - INFO - Téléchargée: output\satis\items\plastic.png
+2026-06-18 10:40:43,795 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Rubber_256.png?v=1725286512 -> output\satis\items\rubber.png
+2026-06-18 10:40:43,876 - INFO - Téléchargée: output\satis\items\rubber.png
+2026-06-18 10:40:43,877 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Rotor_256.png?v=1725286512 -> output\satis\items\rotor.png
+2026-06-18 10:40:43,966 - INFO - Téléchargée: output\satis\items\rotor.png
+2026-06-18 10:40:43,968 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Stator_256.png?v=1725286508 -> output\satis\items\stator.png
+2026-06-18 10:40:44,062 - INFO - Téléchargée: output\satis\items\stator.png
+2026-06-18 10:40:44,062 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Battery_256.png?v=1725286512 -> output\satis\items\battery.png
+2026-06-18 10:40:44,139 - INFO - Téléchargée: output\satis\items\battery.png
+2026-06-18 10:40:44,140 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Engine_256.png?v=1725286512 -> output\satis\items\motor.png
+2026-06-18 10:40:44,224 - INFO - Téléchargée: output\satis\items\motor.png
+2026-06-18 10:40:44,225 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Heatsink_256.png?v=1725286512 -> output\satis\items\heat_sink.png
+2026-06-18 10:40:44,299 - INFO - Téléchargée: output\satis\items\heat_sink.png
+2026-06-18 10:40:44,301 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CoolingSystem_256.png?v=1725286510 -> output\satis\items\cooling_system.png
+2026-06-18 10:40:44,388 - INFO - Téléchargée: output\satis\items\cooling_system.png
+2026-06-18 10:40:44,388 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_TurboMotor_256.png?v=1725286510 -> output\satis\items\turbo_motor.png
+2026-06-18 10:40:44,476 - INFO - Téléchargée: output\satis\items\turbo_motor.png
+2026-06-18 10:40:44,477 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Wire_256.png?v=1725286514 -> output\satis\items\wire.png
+2026-06-18 10:40:44,565 - INFO - Téléchargée: output\satis\items\wire.png
+2026-06-18 10:40:44,566 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Cables_256.png?v=1725286507 -> output\satis\items\cable.png
+2026-06-18 10:40:44,655 - INFO - Téléchargée: output\satis\items\cable.png
+2026-06-18 10:40:44,655 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Quickwire_256.png?v=1725286509 -> output\satis\items\quickwire.png
+2026-06-18 10:40:44,749 - INFO - Téléchargée: output\satis\items\quickwire.png
+2026-06-18 10:40:44,749 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CircuitBoard_256.png?v=1725286511 -> output\satis\items\circuit_board.png
+2026-06-18 10:40:44,847 - INFO - Téléchargée: output\satis\items\circuit_board.png
+2026-06-18 10:40:44,847 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AILimiter_256.png?v=1725286513 -> output\satis\items\ai_limiter.png
+2026-06-18 10:40:44,920 - INFO - Téléchargée: output\satis\items\ai_limiter.png
+2026-06-18 10:40:44,920 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_HighSpeedConnector_256.png?v=1725286509 -> output\satis\items\high_speed_connector.png
+2026-06-18 10:40:44,991 - INFO - Téléchargée: output\satis\items\high_speed_connector.png
+2026-06-18 10:40:44,991 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ReanimatedSam_256.png?v=1725286515 -> output\satis\items\reanimated_sam.png
+2026-06-18 10:40:45,089 - INFO - Téléchargée: output\satis\items\reanimated_sam.png
+2026-06-18 10:40:45,089 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SamFluctuator_256.png?v=1725286511 -> output\satis\items\sam_fluctuator.png
+2026-06-18 10:40:45,182 - INFO - Téléchargée: output\satis\items\sam_fluctuator.png
+2026-06-18 10:40:45,182 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Computer_256.png?v=1725286512 -> output\satis\items\computer.png
+2026-06-18 10:40:45,267 - INFO - Téléchargée: output\satis\items\computer.png
+2026-06-18 10:40:45,267 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_QuantumComputer_256.png?v=1725286508 -> output\satis\items\supercomputer.png
+2026-06-18 10:40:45,341 - INFO - Téléchargée: output\satis\items\supercomputer.png
+2026-06-18 10:40:45,342 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_RadioControlUnit_256.png?v=1725286515 -> output\satis\items\radio_control_unit.png
+2026-06-18 10:40:45,434 - INFO - Téléchargée: output\satis\items\radio_control_unit.png
+2026-06-18 10:40:45,435 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CrystalOscillator_256.png?v=1725286515 -> output\satis\items\crystal_oscillator.png
+2026-06-18 10:40:45,506 - INFO - Téléchargée: output\satis\items\crystal_oscillator.png
+2026-06-18 10:40:45,507 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SuperPositionOscillator_256.png?v=1725286509 -> output\satis\items\superposition_oscillator.png
+2026-06-18 10:40:45,587 - INFO - Téléchargée: output\satis\items\superposition_oscillator.png
+2026-06-18 10:40:45,587 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Diamonds_256.png?v=1725286509 -> output\satis\items\diamonds.png
+2026-06-18 10:40:45,687 - INFO - Téléchargée: output\satis\items\diamonds.png
+2026-06-18 10:40:45,687 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ExoticMatter_256.png?v=1725286513 -> output\satis\items\time_crystal.png
+2026-06-18 10:40:45,776 - INFO - Téléchargée: output\satis\items\time_crystal.png
+2026-06-18 10:40:45,776 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_TimeCrystal_256.png?v=1725286509 -> output\satis\items\dark_matter_crystal.png
+2026-06-18 10:40:45,858 - INFO - Téléchargée: output\satis\items\dark_matter_crystal.png
+2026-06-18 10:40:45,858 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SingularityCell_256.png?v=1725286516 -> output\satis\items\singularity_cell.png
+2026-06-18 10:40:45,953 - INFO - Téléchargée: output\satis\items\singularity_cell.png
+2026-06-18 10:40:45,953 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_TemporalProcessor_256.png?v=1725286516 -> output\satis\items\neural_quantum_processor.png
+2026-06-18 10:40:46,045 - INFO - Téléchargée: output\satis\items\neural_quantum_processor.png
+2026-06-18 10:40:46,046 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AlienPowerMatrix_256.png?v=1725286515 -> output\satis\items\alien_power_matrix.png
+2026-06-18 10:40:46,136 - INFO - Téléchargée: output\satis\items\alien_power_matrix.png
+2026-06-18 10:40:46,136 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_EmptyCannister_256.png?v=1725286509 -> output\satis\items\empty_canister.png
+2026-06-18 10:40:46,223 - INFO - Téléchargée: output\satis\items\empty_canister.png
+2026-06-18 10:40:46,224 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PressureTank_256.png?v=1725286513 -> output\satis\items\empty_fluid_tank.png
+2026-06-18 10:40:46,299 - INFO - Téléchargée: output\satis\items\empty_fluid_tank.png
+2026-06-18 10:40:46,300 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ConversionCube_256.png?v=1725286509 -> output\satis\items\pressure_conversion_cube.png
+2026-06-18 10:40:46,384 - INFO - Téléchargée: output\satis\items\pressure_conversion_cube.png
+2026-06-18 10:40:46,384 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PackagedWater_256.png?v=1725286515 -> output\satis\items\packaged_water.png
+2026-06-18 10:40:46,459 - INFO - Téléchargée: output\satis\items\packaged_water.png
+2026-06-18 10:40:46,459 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PackagedAluminaSolution_256.png?v=1725286517 -> output\satis\items\packaged_alumina_solution.png
+2026-06-18 10:40:46,540 - INFO - Téléchargée: output\satis\items\packaged_alumina_solution.png
+2026-06-18 10:40:46,541 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PckagedSulphuricAcid_256.png?v=1725286508 -> output\satis\items\packaged_sulfuric_acid.png
+2026-06-18 10:40:46,614 - INFO - Téléchargée: output\satis\items\packaged_sulfuric_acid.png
+2026-06-18 10:40:46,614 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PackagedNitricAcid_256.png?v=1725286509 -> output\satis\items\packaged_nitric_acid.png
+2026-06-18 10:40:46,686 - INFO - Téléchargée: output\satis\items\packaged_nitric_acid.png
+2026-06-18 10:40:46,688 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PackagedNitrogen_256.png?v=1725286513 -> output\satis\items\packaged_nitrogen_gas.png
+2026-06-18 10:40:46,762 - INFO - Téléchargée: output\satis\items\packaged_nitrogen_gas.png
+2026-06-18 10:40:46,762 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Leaves_256.png?v=1725286514 -> output\satis\items\leaves.png
+2026-06-18 10:40:46,850 - INFO - Téléchargée: output\satis\items\leaves.png
+2026-06-18 10:40:46,850 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Mycelia_256.png?v=1725286514 -> output\satis\items\mycelia.png
+2026-06-18 10:40:46,938 - INFO - Téléchargée: output\satis\items\mycelia.png
+2026-06-18 10:40:46,938 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/FlowerPetals_Final_256.png?v=1687261562 -> output\satis\items\flower_petals.png
+2026-06-18 10:40:47,011 - INFO - Téléchargée: output\satis\items\flower_petals.png
+2026-06-18 10:40:47,012 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Wood_256.png?v=1725286514 -> output\satis\items\wood.png
+2026-06-18 10:40:47,085 - INFO - Téléchargée: output\satis\items\wood.png
+2026-06-18 10:40:47,085 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Biomass_Final_256.png?v=1725286514 -> output\satis\items\biomass.png
+2026-06-18 10:40:47,159 - INFO - Téléchargée: output\satis\items\biomass.png
+2026-06-18 10:40:47,159 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CompactedCoal_256.png?v=1725286518 -> output\satis\items\compacted_coal.png
+2026-06-18 10:40:47,250 - INFO - Téléchargée: output\satis\items\compacted_coal.png
+2026-06-18 10:40:47,251 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/Oil_256.png?v=1725286506 -> output\satis\items\packaged_oil.png
+2026-06-18 10:40:47,323 - INFO - Téléchargée: output\satis\items\packaged_oil.png
+2026-06-18 10:40:47,323 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/OilResidue_256.png?v=1725286506 -> output\satis\items\packaged_heavy_oil_residue.png
+2026-06-18 10:40:47,397 - INFO - Téléchargée: output\satis\items\packaged_heavy_oil_residue.png
+2026-06-18 10:40:47,397 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SolidBiofuel_256.png?v=1725286512 -> output\satis\items\solid_biofuel.png
+2026-06-18 10:40:47,485 - INFO - Téléchargée: output\satis\items\solid_biofuel.png
+2026-06-18 10:40:47,485 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Fuel_256.png?v=1725286517 -> output\satis\items\packaged_fuel.png
+2026-06-18 10:40:47,571 - INFO - Téléchargée: output\satis\items\packaged_fuel.png
+2026-06-18 10:40:47,571 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_LiquidBiofuel_256.png?v=1725286516 -> output\satis\items\packaged_liquid_biofuel.png
+2026-06-18 10:40:47,662 - INFO - Téléchargée: output\satis\items\packaged_liquid_biofuel.png
+2026-06-18 10:40:47,662 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_TurboFuel_256.png?v=1725286516 -> output\satis\items\packaged_turbofuel.png
+2026-06-18 10:40:47,753 - INFO - Téléchargée: output\satis\items\packaged_turbofuel.png
+2026-06-18 10:40:47,753 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PackagedRocketFuel_256.png?v=1725286515 -> output\satis\items\packaged_rocket_fuel.png
+2026-06-18 10:40:47,828 - INFO - Téléchargée: output\satis\items\packaged_rocket_fuel.png
+2026-06-18 10:40:47,828 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_IonizedRocketFuel_256.png?v=1725286511 -> output\satis\items\packaged_ionized_fuel.png
+2026-06-18 10:40:47,902 - INFO - Téléchargée: output\satis\items\packaged_ionized_fuel.png
+2026-06-18 10:40:47,902 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NuclearFuelRod_256.png?v=1725286510 -> output\satis\items\uranium_fuel_rod.png
+2026-06-18 10:40:47,978 - INFO - Téléchargée: output\satis\items\uranium_fuel_rod.png
+2026-06-18 10:40:47,978 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PlutoniumFuelRod_256.png?v=1725286509 -> output\satis\items\plutonium_fuel_rod.png
+2026-06-18 10:40:48,047 - INFO - Téléchargée: output\satis\items\plutonium_fuel_rod.png
+2026-06-18 10:40:48,047 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Gunpowder_256.png?v=1725286517 -> output\satis\items\black_powder.png
+2026-06-18 10:40:48,120 - INFO - Téléchargée: output\satis\items\black_powder.png
+2026-06-18 10:40:48,120 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_GunpowderMk2_256.png?v=1725286517 -> output\satis\items\smokeless_powder.png
+2026-06-18 10:40:48,195 - INFO - Téléchargée: output\satis\items\smokeless_powder.png
+2026-06-18 10:40:48,196 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_GasMaskFilter_256.png?v=1725286510 -> output\satis\items\gas_filter.png
+2026-06-18 10:40:48,275 - INFO - Téléchargée: output\satis\items\gas_filter.png
+2026-06-18 10:40:48,275 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ColorCartridge_256.png?v=1725286507 -> output\satis\items\color_cartridge.png
+2026-06-18 10:40:48,372 - INFO - Téléchargée: output\satis\items\color_cartridge.png
+2026-06-18 10:40:48,373 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Beacon_256.png?v=1725286505 -> output\satis\items\beacon.png
+2026-06-18 10:40:48,450 - INFO - Téléchargée: output\satis\items\beacon.png
+2026-06-18 10:40:48,450 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_HazmatFilter_256.png?v=1725286509 -> output\satis\items\iodine_infused_filter.png
+2026-06-18 10:40:48,536 - INFO - Téléchargée: output\satis\items\iodine_infused_filter.png
+2026-06-18 10:40:48,536 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Rebar_256.png?v=1725286524 -> output\satis\items\iron_rebar.png
+2026-06-18 10:40:48,612 - INFO - Téléchargée: output\satis\items\iron_rebar.png
+2026-06-18 10:40:48,612 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_StunRebar_256.png?v=1725286524 -> output\satis\items\stun_rebar.png
+2026-06-18 10:40:48,693 - INFO - Téléchargée: output\satis\items\stun_rebar.png
+2026-06-18 10:40:48,693 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ScatterRebar_256.png?v=1725286524 -> output\satis\items\shatter_rebar.png
+2026-06-18 10:40:48,756 - INFO - Téléchargée: output\satis\items\shatter_rebar.png
+2026-06-18 10:40:48,756 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ExpRebar_256.png?v=1725286524 -> output\satis\items\explosive_rebar.png
+2026-06-18 10:40:48,830 - INFO - Téléchargée: output\satis\items\explosive_rebar.png
+2026-06-18 10:40:48,831 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Rifle_256.png?v=1725286523 -> output\satis\items\rifle_ammo.png
+2026-06-18 10:40:48,902 - INFO - Téléchargée: output\satis\items\rifle_ammo.png
+2026-06-18 10:40:48,902 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_HomingRifle_256.png?v=1725286524 -> output\satis\items\homing_rifle_ammo.png
+2026-06-18 10:40:48,972 - INFO - Téléchargée: output\satis\items\homing_rifle_ammo.png
+2026-06-18 10:40:48,973 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_TurboRifle_256.png?v=1725286524 -> output\satis\items\turbo_rifle_ammo.png
+2026-06-18 10:40:49,036 - INFO - Téléchargée: output\satis\items\turbo_rifle_ammo.png
+2026-06-18 10:40:49,037 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Explosive_256.png?v=1725286513 -> output\satis\items\nobelisk.png
+2026-06-18 10:40:49,113 - INFO - Téléchargée: output\satis\items\nobelisk.png
+2026-06-18 10:40:49,113 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Gas_256.png?v=1725286513 -> output\satis\items\gas_nobelisk.png
+2026-06-18 10:40:49,184 - INFO - Téléchargée: output\satis\items\gas_nobelisk.png
+2026-06-18 10:40:49,186 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Shock_256.png?v=1725286513 -> output\satis\items\pulse_nobelisk.png
+2026-06-18 10:40:49,264 - INFO - Téléchargée: output\satis\items\pulse_nobelisk.png
+2026-06-18 10:40:49,264 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Cluster_256.png?v=1725286513 -> output\satis\items\cluster_nobelisk.png
+2026-06-18 10:40:49,358 - INFO - Téléchargée: output\satis\items\cluster_nobelisk.png
+2026-06-18 10:40:49,358 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Nuke_256.png?v=1725286513 -> output\satis\items\nuke_nobelisk.png
+2026-06-18 10:40:49,435 - INFO - Téléchargée: output\satis\items\nuke_nobelisk.png
+2026-06-18 10:40:49,435 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ElectromagneticControlRod_256.png?v=1725286512 -> output\satis\items\electromagnetic_control_rod.png
+2026-06-18 10:40:49,518 - INFO - Téléchargée: output\satis\items\electromagnetic_control_rod.png
+2026-06-18 10:40:49,519 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NuclearCell_256.png?v=1725286508 -> output\satis\items\encased_uranium_cell.png
+2026-06-18 10:40:49,596 - INFO - Téléchargée: output\satis\items\encased_uranium_cell.png
+2026-06-18 10:40:49,597 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NonFissileUranium_256.png?v=1725286509 -> output\satis\items\non_fissile_uranium.png
+2026-06-18 10:40:49,686 - INFO - Téléchargée: output\satis\items\non_fissile_uranium.png
+2026-06-18 10:40:49,687 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PlutoniumPellet_256.png?v=1725286511 -> output\satis\items\plutonium_pellet.png
+2026-06-18 10:40:49,782 - INFO - Téléchargée: output\satis\items\plutonium_pellet.png
+2026-06-18 10:40:49,782 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_EncasedPlutoniumCell_256.png?v=1725286508 -> output\satis\items\encased_plutonium_cell.png
+2026-06-18 10:40:49,854 - INFO - Téléchargée: output\satis\items\encased_plutonium_cell.png
+2026-06-18 10:40:49,854 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_FicsoniumCell_256.png?v=1725286507 -> output\satis\items\ficsonium.png
+2026-06-18 10:40:49,934 - INFO - Téléchargée: output\satis\items\ficsonium.png
+2026-06-18 10:40:49,934 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_FicsoniumFuelRod_256.png?v=1725286511 -> output\satis\items\ficsonium_fuel_rod.png
+2026-06-18 10:40:50,023 - INFO - Téléchargée: output\satis\items\ficsonium_fuel_rod.png
+2026-06-18 10:40:50,023 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NuclearWaste_256.png?v=1725286518 -> output\satis\items\uranium_waste.png
+2026-06-18 10:40:50,100 - INFO - Téléchargée: output\satis\items\uranium_waste.png
+2026-06-18 10:40:50,100 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_PlutoniumWaste_256.png?v=1725286518 -> output\satis\items\plutonium_waste.png
+2026-06-18 10:40:50,177 - INFO - Téléchargée: output\satis\items\plutonium_waste.png
+2026-06-18 10:40:50,177 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/PowerSlugGreen_256.png?v=1725286505 -> output\satis\items\blue_power_slug.png
+2026-06-18 10:40:50,250 - INFO - Téléchargée: output\satis\items\blue_power_slug.png
+2026-06-18 10:40:50,250 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/PowerSlugYellow_256.png?v=1725286505 -> output\satis\items\yellow_power_slug.png
+2026-06-18 10:40:50,332 - INFO - Téléchargée: output\satis\items\yellow_power_slug.png
+2026-06-18 10:40:50,332 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/PowerSlugPurple_256.png?v=1725286505 -> output\satis\items\purple_power_slug.png
+2026-06-18 10:40:50,412 - INFO - Téléchargée: output\satis\items\purple_power_slug.png
+2026-06-18 10:40:50,412 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/PowerShard_256.png?v=1725286505 -> output\satis\items\power_shard.png
+2026-06-18 10:40:50,486 - INFO - Téléchargée: output\satis\items\power_shard.png
+2026-06-18 10:40:50,486 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Ficsit_Coupon_256.png?v=1725286507 -> output\satis\items\ficsit_coupon.png
+2026-06-18 10:40:50,562 - INFO - Téléchargée: output\satis\items\ficsit_coupon.png
+2026-06-18 10:40:50,564 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpelevatorPart_1_256.png?v=1725286514 -> output\satis\items\smart_plating.png
+2026-06-18 10:40:50,654 - INFO - Téléchargée: output\satis\items\smart_plating.png
+2026-06-18 10:40:50,654 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpelevatorPart_2_256.png?v=1725286510 -> output\satis\items\versatile_framework.png
+2026-06-18 10:40:50,738 - INFO - Téléchargée: output\satis\items\versatile_framework.png
+2026-06-18 10:40:50,738 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/SpelevatorPart_3_256.png?v=1725286508 -> output\satis\items\automated_wiring.png
+2026-06-18 10:40:50,810 - INFO - Téléchargée: output\satis\items\automated_wiring.png
+2026-06-18 10:40:50,810 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpelevatorPart_4_256.png?v=1725286513 -> output\satis\items\modular_engine.png
+2026-06-18 10:40:50,904 - INFO - Téléchargée: output\satis\items\modular_engine.png
+2026-06-18 10:40:50,904 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpelevatorPart_5_256.png?v=1725286516 -> output\satis\items\adaptive_control_unit.png
+2026-06-18 10:40:50,990 - INFO - Téléchargée: output\satis\items\adaptive_control_unit.png
+2026-06-18 10:40:50,990 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AssemblyDirectorSystem_256.png?v=1725286511 -> output\satis\items\assembly_director_system.png
+2026-06-18 10:40:51,071 - INFO - Téléchargée: output\satis\items\assembly_director_system.png
+2026-06-18 10:40:51,072 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_MagneticFieldGenerator_256.png?v=1725286510 -> output\satis\items\magnetic_field_generator.png
+2026-06-18 10:40:51,154 - INFO - Téléchargée: output\satis\items\magnetic_field_generator.png
+2026-06-18 10:40:51,154 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_ThermalPropulsionRocket_256.png?v=1725286517 -> output\satis\items\thermal_propulsion_rocket.png
+2026-06-18 10:40:51,244 - INFO - Téléchargée: output\satis\items\thermal_propulsion_rocket.png
+2026-06-18 10:40:51,244 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NuclearPasta_256.png?v=1725286516 -> output\satis\items\nuclear_pasta.png
+2026-06-18 10:40:51,314 - INFO - Téléchargée: output\satis\items\nuclear_pasta.png
+2026-06-18 10:40:51,314 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_BiochemicalSculptor_256.png?v=1725286516 -> output\satis\items\biochemical_sculptor.png
+2026-06-18 10:40:51,394 - INFO - Téléchargée: output\satis\items\biochemical_sculptor.png
+2026-06-18 10:40:51,394 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_BallisticWarpDrive_256.png?v=1725286510 -> output\satis\items\ballistic_warp_drive.png
+2026-06-18 10:40:51,464 - INFO - Téléchargée: output\satis\items\ballistic_warp_drive.png
+2026-06-18 10:40:51,464 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_AIExpension_256.png?v=1725286510 -> output\satis\items\ai_expansion_server.png
+2026-06-18 10:40:51,544 - INFO - Téléchargée: output\satis\items\ai_expansion_server.png
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'statue' non mappée à une catégorie virtuelle pour 'Adequate Pioneering', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'statue' non mappée à une catégorie virtuelle pour 'Pretty Good Pioneering', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'statue' non mappée à une catégorie virtuelle pour 'Satisfactory Pioneering', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'statue' non mappée à une catégorie virtuelle pour 'Silver Hog', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'statue' non mappée à une catégorie virtuelle pour 'Golden Nut', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'statue' non mappée à une catégorie virtuelle pour 'Lizard Doggo Statue', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'statue' non mappée à une catégorie virtuelle pour 'Confusing Creature', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Gift', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Candy Cane', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Actual Snow', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Red FICSMAS Ornament', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Blue FICSMAS Ornament', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Copper FICSMAS Ornament', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Iron FICSMAS Ornament', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Ornament Bundle', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Bow', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Tree Branch', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Wonder Star', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Wreath', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Snowball', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Sweet Fireworks', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Fancy Fireworks', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'Sparkly Fireworks', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Data Cartridge Day 1', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Data Cartridge Day 4', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Data Cartridge Day 8', skip
+2026-06-18 10:40:51,545 - DEBUG - Catégorie réelle 'ficsmas' non mappée à une catégorie virtuelle pour 'FICSMAS Data Cartridge Day 14', skip
+2026-06-18 10:40:51,545 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_LizardDoggo_256.png?v=1725286522 -> output\satis\creatures\lizard_doggo.png
+2026-06-18 10:40:51,641 - INFO - Téléchargée: output\satis\creatures\lizard_doggo.png
+2026-06-18 10:40:51,642 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpaceTick_256.png?v=1725286521 -> output\satis\creatures\space_giraffe_tick_penguin_whale_thing.png
+2026-06-18 10:40:51,711 - INFO - Téléchargée: output\satis\creatures\space_giraffe_tick_penguin_whale_thing.png
+2026-06-18 10:40:51,711 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NonFlyingBird_256.png?v=1725286522 -> output\satis\creatures\non_flying_bird.png
+2026-06-18 10:40:51,770 - INFO - Téléchargée: output\satis\creatures\non_flying_bird.png
+2026-06-18 10:40:51,770 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Hog_256.png?v=1725286521 -> output\satis\creatures\fluffy_tailed_hog.png
+2026-06-18 10:40:51,851 - INFO - Téléchargée: output\satis\creatures\fluffy_tailed_hog.png
+2026-06-18 10:40:51,851 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_HogAlpha_256.png?v=1725286521 -> output\satis\creatures\alpha_hog.png
+2026-06-18 10:40:51,936 - INFO - Téléchargée: output\satis\creatures\alpha_hog.png
+2026-06-18 10:40:51,936 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_CliffHog_256.png?v=1725286522 -> output\satis\creatures\cliff_hog.png
+2026-06-18 10:40:52,042 - INFO - Téléchargée: output\satis\creatures\cliff_hog.png
+2026-06-18 10:40:52,043 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_NuclearHog_256.png?v=1725286522 -> output\satis\creatures\nuclear_hog.png
+2026-06-18 10:40:52,134 - INFO - Téléchargée: output\satis\creatures\nuclear_hog.png
+2026-06-18 10:40:52,134 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Hog_256.png?v=1725286521 -> output\satis\creatures\johnny_the_jetpack_hog.png
+2026-06-18 10:40:52,205 - INFO - Téléchargée: output\satis\creatures\johnny_the_jetpack_hog.png
+2026-06-18 10:40:52,207 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/faunaIcons/Char_Spitter_Small_C.png?v=1638444933 -> output\satis\creatures\green_alpha_spitter.png
+2026-06-18 10:40:52,296 - INFO - Téléchargée: output\satis\creatures\green_alpha_spitter.png
+2026-06-18 10:40:52,297 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterDesert_256.png?v=1725286521 -> output\satis\creatures\desert_spitter.png
+2026-06-18 10:40:52,380 - INFO - Téléchargée: output\satis\creatures\desert_spitter.png
+2026-06-18 10:40:52,380 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterDesertAlpha_256.png?v=1725286520 -> output\satis\creatures\desert_alpha_spitter.png
+2026-06-18 10:40:52,477 - INFO - Téléchargée: output\satis\creatures\desert_alpha_spitter.png
+2026-06-18 10:40:52,478 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterForest_256.png?v=1725286522 -> output\satis\creatures\forest_spitter.png
+2026-06-18 10:40:52,557 - INFO - Téléchargée: output\satis\creatures\forest_spitter.png
+2026-06-18 10:40:52,558 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterForestAlpha_256.png?v=1725286520 -> output\satis\creatures\forest_alpha_spitter.png
+2026-06-18 10:40:52,639 - INFO - Téléchargée: output\satis\creatures\forest_alpha_spitter.png
+2026-06-18 10:40:52,640 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterRForest_256.png?v=1725286522 -> output\satis\creatures\red_forest_spitter.png
+2026-06-18 10:40:52,719 - INFO - Téléchargée: output\satis\creatures\red_forest_spitter.png
+2026-06-18 10:40:52,720 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterRForestAlpha_256.png?v=1725286523 -> output\satis\creatures\red_forest_alpha_spitter.png
+2026-06-18 10:40:52,804 - INFO - Téléchargée: output\satis\creatures\red_forest_alpha_spitter.png
+2026-06-18 10:40:52,804 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterAqua_256.png?v=1725286520 -> output\satis\creatures\aquatic_spitter.png
+2026-06-18 10:40:52,883 - INFO - Téléchargée: output\satis\creatures\aquatic_spitter.png
+2026-06-18 10:40:52,885 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_SpitterAquaAlpha_256.png?v=1725286521 -> output\satis\creatures\aquatic_alpha_spitter.png
+2026-06-18 10:40:52,967 - INFO - Téléchargée: output\satis\creatures\aquatic_alpha_spitter.png
+2026-06-18 10:40:52,967 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_StingerChild_256.png?v=1725286521 -> output\satis\creatures\small_stinger.png
+2026-06-18 10:40:53,046 - INFO - Téléchargée: output\satis\creatures\small_stinger.png
+2026-06-18 10:40:53,046 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Stinger_256.png?v=1725286521 -> output\satis\creatures\big_stinger.png
+2026-06-18 10:40:53,120 - INFO - Téléchargée: output\satis\creatures\big_stinger.png
+2026-06-18 10:40:53,120 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_StingerElite_256.png?v=1725286522 -> output\satis\creatures\elite_stinger.png
+2026-06-18 10:40:53,187 - INFO - Téléchargée: output\satis\creatures\elite_stinger.png
+2026-06-18 10:40:53,187 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Hatcher_256.png?v=1725286521 -> output\satis\creatures\flying_crab_hatcher.png
+2026-06-18 10:40:53,287 - INFO - Téléchargée: output\satis\creatures\flying_crab_hatcher.png
+2026-06-18 10:40:53,287 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/gameStable1.0/IconDesc_Hatcher_256.png?v=1725286521 -> output\satis\creatures\big_flying_crab_hatcher.png
+2026-06-18 10:40:53,373 - INFO - Téléchargée: output\satis\creatures\big_flying_crab_hatcher.png
+2026-06-18 10:40:53,373 - DEBUG - Téléchargement (1/2) https://static.satisfactory-calculator.com/img/faunaIcons/Char_BabyCrab_C.png?v=1638440041 -> output\satis\creatures\flying_crab.png
+2026-06-18 10:40:53,456 - INFO - Téléchargée: output\satis\creatures\flying_crab.png
+2026-06-18 10:40:53,457 - INFO - Images téléchargées/traitées: 174
+2026-06-18 10:40:53,458 - INFO - 24 fichiers JSON trouvés dans output
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Lizard Doggo -> ./creatures/lizard_doggo.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Space Giraffe-Tick-Penguin-Whale Thing -> ./creatures/space_giraffe_tick_penguin_whale_thing.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Non Flying Bird -> ./creatures/non_flying_bird.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Fluffy-tailed Hog -> ./creatures/fluffy_tailed_hog.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Alpha Hog -> ./creatures/alpha_hog.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Cliff Hog -> ./creatures/cliff_hog.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Nuclear Hog -> ./creatures/nuclear_hog.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Johnny 'The Jetpack' Hog -> ./creatures/johnny_the_jetpack_hog.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Green Alpha Spitter -> ./creatures/green_alpha_spitter.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Desert Spitter -> ./creatures/desert_spitter.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Desert Alpha Spitter -> ./creatures/desert_alpha_spitter.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Forest Spitter -> ./creatures/forest_spitter.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Forest Alpha Spitter -> ./creatures/forest_alpha_spitter.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Red Forest Spitter -> ./creatures/red_forest_spitter.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Red Forest Alpha Spitter -> ./creatures/red_forest_alpha_spitter.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Aquatic Spitter -> ./creatures/aquatic_spitter.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Aquatic Alpha Spitter -> ./creatures/aquatic_alpha_spitter.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Small Stinger -> ./creatures/small_stinger.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Big Stinger -> ./creatures/big_stinger.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Elite Stinger -> ./creatures/elite_stinger.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Flying Crab Hatcher -> ./creatures/flying_crab_hatcher.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Big Flying Crab Hatcher -> ./creatures/big_flying_crab_hatcher.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Flying Crab -> ./creatures/flying_crab.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Alien Protein -> ./creatures/alien_protein.png
+2026-06-18 10:40:53,458 - DEBUG - Update JSON satis-all_creatures-1.1.json: Alien DNA Capsule -> ./creatures/alien_dna_capsule.png
+2026-06-18 10:40:53,459 - INFO - JSON mis à jour: output\satis-all_creatures-1.1.json (25 items)
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Limestone -> ./items/limestone.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Iron Ore -> ./items/iron_ore.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Copper Ore -> ./items/copper_ore.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Caterium Ore -> ./items/caterium_ore.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Coal -> ./items/coal.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Raw Quartz -> ./items/raw_quartz.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Sulfur -> ./items/sulfur.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Bauxite -> ./items/bauxite.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: SAM -> ./items/sam.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Uranium -> ./items/uranium.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Iron Ingot -> ./items/iron_ingot.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Copper Ingot -> ./items/copper_ingot.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Caterium Ingot -> ./items/caterium_ingot.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Steel Ingot -> ./items/steel_ingot.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Aluminum Ingot -> ./items/aluminum_ingot.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Ficsite Ingot -> ./items/ficsite_ingot.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Concrete -> ./items/concrete.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Quartz Crystal -> ./items/quartz_crystal.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Silica -> ./items/silica.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Copper Powder -> ./items/copper_powder.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Polymer Resin -> ./items/polymer_resin.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Petroleum Coke -> ./items/petroleum_coke.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Aluminum Scrap -> ./items/aluminum_scrap.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Water -> ./items/water.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Crude Oil -> ./items/crude_oil.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Heavy Oil Residue -> ./items/heavy_oil_residue.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Fuel -> ./items/fuel.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Liquid Biofuel -> ./items/liquid_biofuel.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Turbofuel -> ./items/turbofuel.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Alumina Solution -> ./items/alumina_solution.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Sulfuric Acid -> ./items/sulfuric_acid.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Nitric Acid -> ./items/nitric_acid.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Dissolved Silica -> ./items/dissolved_silica.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Nitrogen Gas -> ./items/nitrogen_gas.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Rocket Fuel -> ./items/rocket_fuel.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Ionized Fuel -> ./items/ionized_fuel.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Dark Matter Residue -> ./items/dark_matter_residue.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Excited Photonic Matter -> ./items/excited_photonic_matter.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Iron Rod -> ./items/iron_rod.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Screws -> ./items/screws.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Iron Plate -> ./items/iron_plate.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Reinforced Iron Plate -> ./items/reinforced_iron_plate.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Copper Sheet -> ./items/copper_sheet.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Alclad Aluminum Sheet -> ./items/alclad_aluminum_sheet.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Aluminum Casing -> ./items/aluminum_casing.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Steel Pipe -> ./items/steel_pipe.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Steel Beam -> ./items/steel_beam.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Encased Industrial Beam -> ./items/encased_industrial_beam.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Modular Frame -> ./items/modular_frame.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Heavy Modular Frame -> ./items/heavy_modular_frame.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Fused Modular Frame -> ./items/fused_modular_frame.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Ficsite Trigon -> ./items/ficsite_trigon.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Fabric -> ./items/fabric.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Plastic -> ./items/plastic.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Rubber -> ./items/rubber.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Rotor -> ./items/rotor.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Stator -> ./items/stator.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Battery -> ./items/battery.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Motor -> ./items/motor.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Heat Sink -> ./items/heat_sink.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Cooling System -> ./items/cooling_system.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Turbo Motor -> ./items/turbo_motor.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Wire -> ./items/wire.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Cable -> ./items/cable.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Quickwire -> ./items/quickwire.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Circuit Board -> ./items/circuit_board.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: AI Limiter -> ./items/ai_limiter.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: High-Speed Connector -> ./items/high_speed_connector.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Reanimated SAM -> ./items/reanimated_sam.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: SAM Fluctuator -> ./items/sam_fluctuator.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Computer -> ./items/computer.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Supercomputer -> ./items/supercomputer.png
+2026-06-18 10:40:53,460 - DEBUG - Update JSON satis-all_items-1.1.json: Radio Control Unit -> ./items/radio_control_unit.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Crystal Oscillator -> ./items/crystal_oscillator.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Superposition Oscillator -> ./items/superposition_oscillator.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Diamonds -> ./items/diamonds.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Time Crystal -> ./items/time_crystal.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Dark Matter Crystal -> ./items/dark_matter_crystal.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Singularity Cell -> ./items/singularity_cell.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Neural-Quantum Processor -> ./items/neural_quantum_processor.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Alien Power Matrix -> ./items/alien_power_matrix.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Empty Canister -> ./items/empty_canister.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Empty Fluid Tank -> ./items/empty_fluid_tank.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Pressure Conversion Cube -> ./items/pressure_conversion_cube.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Packaged Water -> ./items/packaged_water.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Packaged Alumina Solution -> ./items/packaged_alumina_solution.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Packaged Sulfuric Acid -> ./items/packaged_sulfuric_acid.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Packaged Nitric Acid -> ./items/packaged_nitric_acid.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Packaged Nitrogen Gas -> ./items/packaged_nitrogen_gas.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Leaves -> ./items/leaves.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Mycelia -> ./items/mycelia.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Flower Petals -> ./items/flower_petals.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Wood -> ./items/wood.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Biomass -> ./items/biomass.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Compacted Coal -> ./items/compacted_coal.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Packaged Oil -> ./items/packaged_oil.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Packaged Heavy Oil Residue -> ./items/packaged_heavy_oil_residue.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Solid Biofuel -> ./items/solid_biofuel.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Packaged Fuel -> ./items/packaged_fuel.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Packaged Liquid Biofuel -> ./items/packaged_liquid_biofuel.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Packaged Turbofuel -> ./items/packaged_turbofuel.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Packaged Rocket Fuel -> ./items/packaged_rocket_fuel.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Packaged Ionized Fuel -> ./items/packaged_ionized_fuel.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Uranium Fuel Rod -> ./items/uranium_fuel_rod.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Plutonium Fuel Rod -> ./items/plutonium_fuel_rod.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Black Powder -> ./items/black_powder.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Smokeless Powder -> ./items/smokeless_powder.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Gas Filter -> ./items/gas_filter.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Color Cartridge -> ./items/color_cartridge.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Beacon -> ./items/beacon.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Iodine-Infused Filter -> ./items/iodine_infused_filter.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Iron Rebar -> ./items/iron_rebar.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Stun Rebar -> ./items/stun_rebar.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Shatter Rebar -> ./items/shatter_rebar.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Explosive Rebar -> ./items/explosive_rebar.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Rifle Ammo -> ./items/rifle_ammo.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Homing Rifle Ammo -> ./items/homing_rifle_ammo.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Turbo Rifle Ammo -> ./items/turbo_rifle_ammo.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Nobelisk -> ./items/nobelisk.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Gas Nobelisk -> ./items/gas_nobelisk.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Pulse Nobelisk -> ./items/pulse_nobelisk.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Cluster Nobelisk -> ./items/cluster_nobelisk.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Nuke Nobelisk -> ./items/nuke_nobelisk.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Electromagnetic Control Rod -> ./items/electromagnetic_control_rod.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Encased Uranium Cell -> ./items/encased_uranium_cell.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Non-Fissile Uranium -> ./items/non_fissile_uranium.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Plutonium Pellet -> ./items/plutonium_pellet.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Encased Plutonium Cell -> ./items/encased_plutonium_cell.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Ficsonium -> ./items/ficsonium.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Ficsonium Fuel Rod -> ./items/ficsonium_fuel_rod.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Uranium Waste -> ./items/uranium_waste.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Plutonium Waste -> ./items/plutonium_waste.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Blue Power Slug -> ./items/blue_power_slug.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Yellow Power Slug -> ./items/yellow_power_slug.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Purple Power Slug -> ./items/purple_power_slug.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Power Shard -> ./items/power_shard.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: FICSIT Coupon -> ./items/ficsit_coupon.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Smart Plating -> ./items/smart_plating.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Versatile Framework -> ./items/versatile_framework.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Automated Wiring -> ./items/automated_wiring.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Modular Engine -> ./items/modular_engine.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Adaptive Control Unit -> ./items/adaptive_control_unit.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Assembly Director System -> ./items/assembly_director_system.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Magnetic Field Generator -> ./items/magnetic_field_generator.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Thermal Propulsion Rocket -> ./items/thermal_propulsion_rocket.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Nuclear Pasta -> ./items/nuclear_pasta.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Biochemical Sculptor -> ./items/biochemical_sculptor.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: Ballistic Warp Drive -> ./items/ballistic_warp_drive.png
+2026-06-18 10:40:53,461 - DEBUG - Update JSON satis-all_items-1.1.json: AI Expansion Server -> ./items/ai_expansion_server.png
+2026-06-18 10:40:53,462 - INFO - JSON mis à jour: output\satis-all_items-1.1.json (149 items)
+2026-06-18 10:40:53,462 - DEBUG - Update JSON satis-ammo-1.1.json: Iron Rebar -> ./items/iron_rebar.png
+2026-06-18 10:40:53,462 - DEBUG - Update JSON satis-ammo-1.1.json: Stun Rebar -> ./items/stun_rebar.png
+2026-06-18 10:40:53,462 - DEBUG - Update JSON satis-ammo-1.1.json: Shatter Rebar -> ./items/shatter_rebar.png
+2026-06-18 10:40:53,462 - DEBUG - Update JSON satis-ammo-1.1.json: Explosive Rebar -> ./items/explosive_rebar.png
+2026-06-18 10:40:53,462 - DEBUG - Update JSON satis-ammo-1.1.json: Rifle Ammo -> ./items/rifle_ammo.png
+2026-06-18 10:40:53,462 - DEBUG - Update JSON satis-ammo-1.1.json: Homing Rifle Ammo -> ./items/homing_rifle_ammo.png
+2026-06-18 10:40:53,462 - DEBUG - Update JSON satis-ammo-1.1.json: Turbo Rifle Ammo -> ./items/turbo_rifle_ammo.png
+2026-06-18 10:40:53,462 - DEBUG - Update JSON satis-ammo-1.1.json: Nobelisk -> ./items/nobelisk.png
+2026-06-18 10:40:53,462 - DEBUG - Update JSON satis-ammo-1.1.json: Gas Nobelisk -> ./items/gas_nobelisk.png
+2026-06-18 10:40:53,462 - DEBUG - Update JSON satis-ammo-1.1.json: Pulse Nobelisk -> ./items/pulse_nobelisk.png
+2026-06-18 10:40:53,462 - DEBUG - Update JSON satis-ammo-1.1.json: Cluster Nobelisk -> ./items/cluster_nobelisk.png
+2026-06-18 10:40:53,462 - DEBUG - Update JSON satis-ammo-1.1.json: Nuke Nobelisk -> ./items/nuke_nobelisk.png
+2026-06-18 10:40:53,463 - INFO - JSON mis à jour: output\satis-ammo-1.1.json (12 items)
+2026-06-18 10:40:53,463 - DEBUG - Update JSON satis-animal-1.1.json: Alien Protein -> ./creatures/alien_protein.png
+2026-06-18 10:40:53,463 - DEBUG - Update JSON satis-animal-1.1.json: Alien DNA Capsule -> ./creatures/alien_dna_capsule.png
+2026-06-18 10:40:53,463 - INFO - JSON mis à jour: output\satis-animal-1.1.json (2 items)
+2026-06-18 10:40:53,463 - DEBUG - Update JSON satis-communication-1.1.json: Computer -> ./items/computer.png
+2026-06-18 10:40:53,463 - DEBUG - Update JSON satis-communication-1.1.json: Supercomputer -> ./items/supercomputer.png
+2026-06-18 10:40:53,463 - DEBUG - Update JSON satis-communication-1.1.json: Radio Control Unit -> ./items/radio_control_unit.png
+2026-06-18 10:40:53,463 - DEBUG - Update JSON satis-communication-1.1.json: Crystal Oscillator -> ./items/crystal_oscillator.png
+2026-06-18 10:40:53,463 - DEBUG - Update JSON satis-communication-1.1.json: Superposition Oscillator -> ./items/superposition_oscillator.png
+2026-06-18 10:40:53,464 - INFO - JSON mis à jour: output\satis-communication-1.1.json (5 items)
+2026-06-18 10:40:53,464 - DEBUG - Update JSON satis-consumed-1.1.json: Black Powder -> ./items/black_powder.png
+2026-06-18 10:40:53,464 - DEBUG - Update JSON satis-consumed-1.1.json: Smokeless Powder -> ./items/smokeless_powder.png
+2026-06-18 10:40:53,464 - DEBUG - Update JSON satis-consumed-1.1.json: Gas Filter -> ./items/gas_filter.png
+2026-06-18 10:40:53,464 - DEBUG - Update JSON satis-consumed-1.1.json: Color Cartridge -> ./items/color_cartridge.png
+2026-06-18 10:40:53,464 - DEBUG - Update JSON satis-consumed-1.1.json: Beacon -> ./items/beacon.png
+2026-06-18 10:40:53,464 - DEBUG - Update JSON satis-consumed-1.1.json: Iodine-Infused Filter -> ./items/iodine_infused_filter.png
+2026-06-18 10:40:53,464 - INFO - JSON mis à jour: output\satis-consumed-1.1.json (6 items)
+2026-06-18 10:40:53,464 - DEBUG - Update JSON satis-container-1.1.json: Empty Canister -> ./items/empty_canister.png
+2026-06-18 10:40:53,464 - DEBUG - Update JSON satis-container-1.1.json: Empty Fluid Tank -> ./items/empty_fluid_tank.png
+2026-06-18 10:40:53,464 - DEBUG - Update JSON satis-container-1.1.json: Pressure Conversion Cube -> ./items/pressure_conversion_cube.png
+2026-06-18 10:40:53,464 - DEBUG - Update JSON satis-container-1.1.json: Packaged Water -> ./items/packaged_water.png
+2026-06-18 10:40:53,464 - DEBUG - Update JSON satis-container-1.1.json: Packaged Alumina Solution -> ./items/packaged_alumina_solution.png
+2026-06-18 10:40:53,464 - DEBUG - Update JSON satis-container-1.1.json: Packaged Sulfuric Acid -> ./items/packaged_sulfuric_acid.png
+2026-06-18 10:40:53,464 - DEBUG - Update JSON satis-container-1.1.json: Packaged Nitric Acid -> ./items/packaged_nitric_acid.png
+2026-06-18 10:40:53,464 - DEBUG - Update JSON satis-container-1.1.json: Packaged Nitrogen Gas -> ./items/packaged_nitrogen_gas.png
+2026-06-18 10:40:53,465 - INFO - JSON mis à jour: output\satis-container-1.1.json (8 items)
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-electronic-1.1.json: Wire -> ./items/wire.png
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-electronic-1.1.json: Cable -> ./items/cable.png
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-electronic-1.1.json: Quickwire -> ./items/quickwire.png
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-electronic-1.1.json: Circuit Board -> ./items/circuit_board.png
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-electronic-1.1.json: AI Limiter -> ./items/ai_limiter.png
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-electronic-1.1.json: High-Speed Connector -> ./items/high_speed_connector.png
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-electronic-1.1.json: Reanimated SAM -> ./items/reanimated_sam.png
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-electronic-1.1.json: SAM Fluctuator -> ./items/sam_fluctuator.png
+2026-06-18 10:40:53,465 - INFO - JSON mis à jour: output\satis-electronic-1.1.json (8 items)
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-enemy-1.1.json: Fluffy-tailed Hog -> ./creatures/fluffy_tailed_hog.png
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-enemy-1.1.json: Alpha Hog -> ./creatures/alpha_hog.png
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-enemy-1.1.json: Cliff Hog -> ./creatures/cliff_hog.png
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-enemy-1.1.json: Nuclear Hog -> ./creatures/nuclear_hog.png
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-enemy-1.1.json: Johnny 'The Jetpack' Hog -> ./creatures/johnny_the_jetpack_hog.png
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-enemy-1.1.json: Green Alpha Spitter -> ./creatures/green_alpha_spitter.png
+2026-06-18 10:40:53,465 - DEBUG - Update JSON satis-enemy-1.1.json: Desert Spitter -> ./creatures/desert_spitter.png
+2026-06-18 10:40:53,467 - DEBUG - Update JSON satis-enemy-1.1.json: Desert Alpha Spitter -> ./creatures/desert_alpha_spitter.png
+2026-06-18 10:40:53,467 - DEBUG - Update JSON satis-enemy-1.1.json: Forest Spitter -> ./creatures/forest_spitter.png
+2026-06-18 10:40:53,467 - DEBUG - Update JSON satis-enemy-1.1.json: Forest Alpha Spitter -> ./creatures/forest_alpha_spitter.png
+2026-06-18 10:40:53,467 - DEBUG - Update JSON satis-enemy-1.1.json: Red Forest Spitter -> ./creatures/red_forest_spitter.png
+2026-06-18 10:40:53,467 - DEBUG - Update JSON satis-enemy-1.1.json: Red Forest Alpha Spitter -> ./creatures/red_forest_alpha_spitter.png
+2026-06-18 10:40:53,467 - DEBUG - Update JSON satis-enemy-1.1.json: Aquatic Spitter -> ./creatures/aquatic_spitter.png
+2026-06-18 10:40:53,467 - DEBUG - Update JSON satis-enemy-1.1.json: Aquatic Alpha Spitter -> ./creatures/aquatic_alpha_spitter.png
+2026-06-18 10:40:53,467 - DEBUG - Update JSON satis-enemy-1.1.json: Small Stinger -> ./creatures/small_stinger.png
+2026-06-18 10:40:53,467 - DEBUG - Update JSON satis-enemy-1.1.json: Big Stinger -> ./creatures/big_stinger.png
+2026-06-18 10:40:53,467 - DEBUG - Update JSON satis-enemy-1.1.json: Elite Stinger -> ./creatures/elite_stinger.png
+2026-06-18 10:40:53,467 - DEBUG - Update JSON satis-enemy-1.1.json: Flying Crab Hatcher -> ./creatures/flying_crab_hatcher.png
+2026-06-18 10:40:53,467 - DEBUG - Update JSON satis-enemy-1.1.json: Big Flying Crab Hatcher -> ./creatures/big_flying_crab_hatcher.png
+2026-06-18 10:40:53,467 - DEBUG - Update JSON satis-enemy-1.1.json: Flying Crab -> ./creatures/flying_crab.png
+2026-06-18 10:40:53,467 - INFO - JSON mis à jour: output\satis-enemy-1.1.json (20 items)
+2026-06-18 10:40:53,467 - DEBUG - Aucune image locale pour 'FICSMAS Gift' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,467 - DEBUG - Aucune image locale pour 'Candy Cane' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,469 - DEBUG - Aucune image locale pour 'FICSMAS Actual Snow' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,469 - DEBUG - Aucune image locale pour 'Red FICSMAS Ornament' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,469 - DEBUG - Aucune image locale pour 'Blue FICSMAS Ornament' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,469 - DEBUG - Aucune image locale pour 'Copper FICSMAS Ornament' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,469 - DEBUG - Aucune image locale pour 'Iron FICSMAS Ornament' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,470 - DEBUG - Aucune image locale pour 'FICSMAS Ornament Bundle' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,470 - DEBUG - Aucune image locale pour 'FICSMAS Bow' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,470 - DEBUG - Aucune image locale pour 'FICSMAS Tree Branch' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,471 - DEBUG - Aucune image locale pour 'FICSMAS Wonder Star' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,471 - DEBUG - Aucune image locale pour 'FICSMAS Wreath' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,471 - DEBUG - Aucune image locale pour 'Snowball' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,472 - DEBUG - Aucune image locale pour 'Sweet Fireworks' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,472 - DEBUG - Aucune image locale pour 'Fancy Fireworks' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,472 - DEBUG - Aucune image locale pour 'Sparkly Fireworks' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,473 - DEBUG - Aucune image locale pour 'FICSMAS Data Cartridge Day 1' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,473 - DEBUG - Aucune image locale pour 'FICSMAS Data Cartridge Day 4' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,473 - DEBUG - Aucune image locale pour 'FICSMAS Data Cartridge Day 8' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,474 - DEBUG - Aucune image locale pour 'FICSMAS Data Cartridge Day 14' dans satis-ficsmas-1.1.json
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Leaves -> ./items/leaves.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Mycelia -> ./items/mycelia.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Flower Petals -> ./items/flower_petals.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Wood -> ./items/wood.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Biomass -> ./items/biomass.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Compacted Coal -> ./items/compacted_coal.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Packaged Oil -> ./items/packaged_oil.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Packaged Heavy Oil Residue -> ./items/packaged_heavy_oil_residue.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Solid Biofuel -> ./items/solid_biofuel.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Packaged Fuel -> ./items/packaged_fuel.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Packaged Liquid Biofuel -> ./items/packaged_liquid_biofuel.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Packaged Turbofuel -> ./items/packaged_turbofuel.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Packaged Rocket Fuel -> ./items/packaged_rocket_fuel.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Packaged Ionized Fuel -> ./items/packaged_ionized_fuel.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Uranium Fuel Rod -> ./items/uranium_fuel_rod.png
+2026-06-18 10:40:53,474 - DEBUG - Update JSON satis-fuel-1.1.json: Plutonium Fuel Rod -> ./items/plutonium_fuel_rod.png
+2026-06-18 10:40:53,475 - INFO - JSON mis à jour: output\satis-fuel-1.1.json (16 items)
+2026-06-18 10:40:53,475 - DEBUG - Update JSON satis-gas-1.1.json: Nitrogen Gas -> ./items/nitrogen_gas.png
+2026-06-18 10:40:53,475 - DEBUG - Update JSON satis-gas-1.1.json: Rocket Fuel -> ./items/rocket_fuel.png
+2026-06-18 10:40:53,475 - DEBUG - Update JSON satis-gas-1.1.json: Ionized Fuel -> ./items/ionized_fuel.png
+2026-06-18 10:40:53,475 - DEBUG - Update JSON satis-gas-1.1.json: Dark Matter Residue -> ./items/dark_matter_residue.png
+2026-06-18 10:40:53,475 - DEBUG - Update JSON satis-gas-1.1.json: Excited Photonic Matter -> ./items/excited_photonic_matter.png
+2026-06-18 10:40:53,475 - INFO - JSON mis à jour: output\satis-gas-1.1.json (5 items)
+2026-06-18 10:40:53,475 - DEBUG - Update JSON satis-industrial-1.1.json: Rotor -> ./items/rotor.png
+2026-06-18 10:40:53,475 - DEBUG - Update JSON satis-industrial-1.1.json: Stator -> ./items/stator.png
+2026-06-18 10:40:53,475 - DEBUG - Update JSON satis-industrial-1.1.json: Battery -> ./items/battery.png
+2026-06-18 10:40:53,475 - DEBUG - Update JSON satis-industrial-1.1.json: Motor -> ./items/motor.png
+2026-06-18 10:40:53,475 - DEBUG - Update JSON satis-industrial-1.1.json: Heat Sink -> ./items/heat_sink.png
+2026-06-18 10:40:53,475 - DEBUG - Update JSON satis-industrial-1.1.json: Cooling System -> ./items/cooling_system.png
+2026-06-18 10:40:53,475 - DEBUG - Update JSON satis-industrial-1.1.json: Turbo Motor -> ./items/turbo_motor.png
+2026-06-18 10:40:53,476 - INFO - JSON mis à jour: output\satis-industrial-1.1.json (7 items)
+2026-06-18 10:40:53,476 - DEBUG - Update JSON satis-ingot-1.1.json: Iron Ingot -> ./items/iron_ingot.png
+2026-06-18 10:40:53,476 - DEBUG - Update JSON satis-ingot-1.1.json: Copper Ingot -> ./items/copper_ingot.png
+2026-06-18 10:40:53,476 - DEBUG - Update JSON satis-ingot-1.1.json: Caterium Ingot -> ./items/caterium_ingot.png
+2026-06-18 10:40:53,476 - DEBUG - Update JSON satis-ingot-1.1.json: Steel Ingot -> ./items/steel_ingot.png
+2026-06-18 10:40:53,476 - DEBUG - Update JSON satis-ingot-1.1.json: Aluminum Ingot -> ./items/aluminum_ingot.png
+2026-06-18 10:40:53,476 - DEBUG - Update JSON satis-ingot-1.1.json: Ficsite Ingot -> ./items/ficsite_ingot.png
+2026-06-18 10:40:53,476 - INFO - JSON mis à jour: output\satis-ingot-1.1.json (6 items)
+2026-06-18 10:40:53,477 - DEBUG - Update JSON satis-liquid-1.1.json: Water -> ./items/water.png
+2026-06-18 10:40:53,477 - DEBUG - Update JSON satis-liquid-1.1.json: Crude Oil -> ./items/crude_oil.png
+2026-06-18 10:40:53,477 - DEBUG - Update JSON satis-liquid-1.1.json: Heavy Oil Residue -> ./items/heavy_oil_residue.png
+2026-06-18 10:40:53,477 - DEBUG - Update JSON satis-liquid-1.1.json: Fuel -> ./items/fuel.png
+2026-06-18 10:40:53,477 - DEBUG - Update JSON satis-liquid-1.1.json: Liquid Biofuel -> ./items/liquid_biofuel.png
+2026-06-18 10:40:53,477 - DEBUG - Update JSON satis-liquid-1.1.json: Turbofuel -> ./items/turbofuel.png
+2026-06-18 10:40:53,477 - DEBUG - Update JSON satis-liquid-1.1.json: Alumina Solution -> ./items/alumina_solution.png
+2026-06-18 10:40:53,477 - DEBUG - Update JSON satis-liquid-1.1.json: Sulfuric Acid -> ./items/sulfuric_acid.png
+2026-06-18 10:40:53,477 - DEBUG - Update JSON satis-liquid-1.1.json: Nitric Acid -> ./items/nitric_acid.png
+2026-06-18 10:40:53,477 - DEBUG - Update JSON satis-liquid-1.1.json: Dissolved Silica -> ./items/dissolved_silica.png
+2026-06-18 10:40:53,477 - INFO - JSON mis à jour: output\satis-liquid-1.1.json (10 items)
+2026-06-18 10:40:53,477 - DEBUG - Update JSON satis-mineral-1.1.json: Concrete -> ./items/concrete.png
+2026-06-18 10:40:53,477 - DEBUG - Update JSON satis-mineral-1.1.json: Quartz Crystal -> ./items/quartz_crystal.png
+2026-06-18 10:40:53,477 - DEBUG - Update JSON satis-mineral-1.1.json: Silica -> ./items/silica.png
+2026-06-18 10:40:53,477 - DEBUG - Update JSON satis-mineral-1.1.json: Copper Powder -> ./items/copper_powder.png
+2026-06-18 10:40:53,478 - DEBUG - Update JSON satis-mineral-1.1.json: Polymer Resin -> ./items/polymer_resin.png
+2026-06-18 10:40:53,478 - DEBUG - Update JSON satis-mineral-1.1.json: Petroleum Coke -> ./items/petroleum_coke.png
+2026-06-18 10:40:53,478 - DEBUG - Update JSON satis-mineral-1.1.json: Aluminum Scrap -> ./items/aluminum_scrap.png
+2026-06-18 10:40:53,478 - INFO - JSON mis à jour: output\satis-mineral-1.1.json (7 items)
+2026-06-18 10:40:53,478 - DEBUG - Update JSON satis-nuclear-1.1.json: Electromagnetic Control Rod -> ./items/electromagnetic_control_rod.png
+2026-06-18 10:40:53,478 - DEBUG - Update JSON satis-nuclear-1.1.json: Encased Uranium Cell -> ./items/encased_uranium_cell.png
+2026-06-18 10:40:53,478 - DEBUG - Update JSON satis-nuclear-1.1.json: Non-Fissile Uranium -> ./items/non_fissile_uranium.png
+2026-06-18 10:40:53,478 - DEBUG - Update JSON satis-nuclear-1.1.json: Plutonium Pellet -> ./items/plutonium_pellet.png
+2026-06-18 10:40:53,478 - DEBUG - Update JSON satis-nuclear-1.1.json: Encased Plutonium Cell -> ./items/encased_plutonium_cell.png
+2026-06-18 10:40:53,478 - DEBUG - Update JSON satis-nuclear-1.1.json: Ficsonium -> ./items/ficsonium.png
+2026-06-18 10:40:53,478 - DEBUG - Update JSON satis-nuclear-1.1.json: Ficsonium Fuel Rod -> ./items/ficsonium_fuel_rod.png
+2026-06-18 10:40:53,479 - INFO - JSON mis à jour: output\satis-nuclear-1.1.json (7 items)
+2026-06-18 10:40:53,479 - DEBUG - Update JSON satis-ore-1.1.json: Limestone -> ./items/limestone.png
+2026-06-18 10:40:53,479 - DEBUG - Update JSON satis-ore-1.1.json: Iron Ore -> ./items/iron_ore.png
+2026-06-18 10:40:53,479 - DEBUG - Update JSON satis-ore-1.1.json: Copper Ore -> ./items/copper_ore.png
+2026-06-18 10:40:53,479 - DEBUG - Update JSON satis-ore-1.1.json: Caterium Ore -> ./items/caterium_ore.png
+2026-06-18 10:40:53,479 - DEBUG - Update JSON satis-ore-1.1.json: Coal -> ./items/coal.png
+2026-06-18 10:40:53,479 - DEBUG - Update JSON satis-ore-1.1.json: Raw Quartz -> ./items/raw_quartz.png
+2026-06-18 10:40:53,479 - DEBUG - Update JSON satis-ore-1.1.json: Sulfur -> ./items/sulfur.png
+2026-06-18 10:40:53,479 - DEBUG - Update JSON satis-ore-1.1.json: Bauxite -> ./items/bauxite.png
+2026-06-18 10:40:53,479 - DEBUG - Update JSON satis-ore-1.1.json: SAM -> ./items/sam.png
+2026-06-18 10:40:53,479 - DEBUG - Update JSON satis-ore-1.1.json: Uranium -> ./items/uranium.png
+2026-06-18 10:40:53,480 - INFO - JSON mis à jour: output\satis-ore-1.1.json (10 items)
+2026-06-18 10:40:53,480 - DEBUG - Update JSON satis-quantum-1.1.json: Diamonds -> ./items/diamonds.png
+2026-06-18 10:40:53,480 - DEBUG - Update JSON satis-quantum-1.1.json: Time Crystal -> ./items/time_crystal.png
+2026-06-18 10:40:53,480 - DEBUG - Update JSON satis-quantum-1.1.json: Dark Matter Crystal -> ./items/dark_matter_crystal.png
+2026-06-18 10:40:53,480 - DEBUG - Update JSON satis-quantum-1.1.json: Singularity Cell -> ./items/singularity_cell.png
+2026-06-18 10:40:53,480 - DEBUG - Update JSON satis-quantum-1.1.json: Neural-Quantum Processor -> ./items/neural_quantum_processor.png
+2026-06-18 10:40:53,480 - DEBUG - Update JSON satis-quantum-1.1.json: Alien Power Matrix -> ./items/alien_power_matrix.png
+2026-06-18 10:40:53,480 - INFO - JSON mis à jour: output\satis-quantum-1.1.json (6 items)
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Blue Power Slug -> ./items/blue_power_slug.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Yellow Power Slug -> ./items/yellow_power_slug.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Purple Power Slug -> ./items/purple_power_slug.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Power Shard -> ./items/power_shard.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: FICSIT Coupon -> ./items/ficsit_coupon.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Smart Plating -> ./items/smart_plating.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Versatile Framework -> ./items/versatile_framework.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Automated Wiring -> ./items/automated_wiring.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Modular Engine -> ./items/modular_engine.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Adaptive Control Unit -> ./items/adaptive_control_unit.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Assembly Director System -> ./items/assembly_director_system.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Magnetic Field Generator -> ./items/magnetic_field_generator.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Thermal Propulsion Rocket -> ./items/thermal_propulsion_rocket.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Nuclear Pasta -> ./items/nuclear_pasta.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Biochemical Sculptor -> ./items/biochemical_sculptor.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: Ballistic Warp Drive -> ./items/ballistic_warp_drive.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-special-1.1.json: AI Expansion Server -> ./items/ai_expansion_server.png
+2026-06-18 10:40:53,481 - INFO - JSON mis à jour: output\satis-special-1.1.json (17 items)
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Iron Rod -> ./items/iron_rod.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Screws -> ./items/screws.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Iron Plate -> ./items/iron_plate.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Reinforced Iron Plate -> ./items/reinforced_iron_plate.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Copper Sheet -> ./items/copper_sheet.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Alclad Aluminum Sheet -> ./items/alclad_aluminum_sheet.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Aluminum Casing -> ./items/aluminum_casing.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Steel Pipe -> ./items/steel_pipe.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Steel Beam -> ./items/steel_beam.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Encased Industrial Beam -> ./items/encased_industrial_beam.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Modular Frame -> ./items/modular_frame.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Heavy Modular Frame -> ./items/heavy_modular_frame.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Fused Modular Frame -> ./items/fused_modular_frame.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Ficsite Trigon -> ./items/ficsite_trigon.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Fabric -> ./items/fabric.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Plastic -> ./items/plastic.png
+2026-06-18 10:40:53,481 - DEBUG - Update JSON satis-standard-1.1.json: Rubber -> ./items/rubber.png
+2026-06-18 10:40:53,482 - INFO - JSON mis à jour: output\satis-standard-1.1.json (17 items)
+2026-06-18 10:40:53,482 - DEBUG - Aucune image locale pour 'Adequate Pioneering' dans satis-statue-1.1.json
+2026-06-18 10:40:53,482 - DEBUG - Aucune image locale pour 'Pretty Good Pioneering' dans satis-statue-1.1.json
+2026-06-18 10:40:53,482 - DEBUG - Aucune image locale pour 'Satisfactory Pioneering' dans satis-statue-1.1.json
+2026-06-18 10:40:53,483 - DEBUG - Aucune image locale pour 'Silver Hog' dans satis-statue-1.1.json
+2026-06-18 10:40:53,483 - DEBUG - Aucune image locale pour 'Golden Nut' dans satis-statue-1.1.json
+2026-06-18 10:40:53,484 - DEBUG - Aucune image locale pour 'Lizard Doggo Statue' dans satis-statue-1.1.json
+2026-06-18 10:40:53,484 - DEBUG - Aucune image locale pour 'Confusing Creature' dans satis-statue-1.1.json
+2026-06-18 10:40:53,484 - DEBUG - Update JSON satis-waste-1.1.json: Uranium Waste -> ./items/uranium_waste.png
+2026-06-18 10:40:53,484 - DEBUG - Update JSON satis-waste-1.1.json: Plutonium Waste -> ./items/plutonium_waste.png
+2026-06-18 10:40:53,484 - INFO - JSON mis à jour: output\satis-waste-1.1.json (2 items)
+2026-06-18 10:40:53,484 - DEBUG - Update JSON satis-wildlife-1.1.json: Lizard Doggo -> ./creatures/lizard_doggo.png
+2026-06-18 10:40:53,484 - DEBUG - Update JSON satis-wildlife-1.1.json: Space Giraffe-Tick-Penguin-Whale Thing -> ./creatures/space_giraffe_tick_penguin_whale_thing.png
+2026-06-18 10:40:53,484 - DEBUG - Update JSON satis-wildlife-1.1.json: Non Flying Bird -> ./creatures/non_flying_bird.png
+2026-06-18 10:40:53,484 - INFO - JSON mis à jour: output\satis-wildlife-1.1.json (3 items)
+2026-06-18 10:40:53,484 - INFO - Terminé. JSON modifiés: 22. Images traitées: 174
