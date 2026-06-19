@@ -1,0 +1,986 @@
+[
+    {
+        "Item_name": "Briar Chickadoo",
+        "path": "./1/Food/Briar_Chickadoo.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Briar hen",
+        "path": "./1/Food/Briar_hen.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Carrot",
+        "path": "./1/Food/Carrot.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Chickadoo",
+        "path": "./1/Food/Chickadoo.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Cuberry",
+        "path": "./1/Food/Cuberry.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Elder hen",
+        "path": "./1/Food/Elder_hen.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Elder roostro",
+        "path": "./1/Food/Elder_roostro.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Gilded Ginger",
+        "path": "./1/Food/Gilded_Ginger.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Heart Beet",
+        "path": "./1/Food/Heart_Beet.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Hen hen",
+        "path": "./1/Food/Hen_hen.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Kookadoba",
+        "path": "./1/Food/Kookadoba.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Mint mango",
+        "path": "./1/Food/Mint_mango.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Oca Oca",
+        "path": "./1/Food/Oca_Oca.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Odd Onion",
+        "path": "./1/Food/Odd_Onion.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Painted Chickadoo",
+        "path": "./1/Food/Painted_Chickadoo.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Painted hen",
+        "path": "./1/Food/Painted_hen.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Phase Lemon",
+        "path": "./1/Food/Phase_Lemon.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Pogo fruit",
+        "path": "./1/Food/Pogo_fruit.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Prickle Pear",
+        "path": "./1/Food/Prickle_Pear.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Roostro",
+        "path": "./1/Food/Roostro.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Silver Parsnip",
+        "path": "./1/Food/Silver_Parsnip.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Stony Chickadoo",
+        "path": "./1/Food/Stony_Chickadoo.png",
+        "type": "Food",
+        "release": 1
+    },
+    {
+        "Item_name": "Boom",
+        "path": "./1/Plort/Boom.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Crystal",
+        "path": "./1/Plort/Crystal.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Dervish",
+        "path": "./1/Plort/Dervish.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Fire",
+        "path": "./1/Plort/Fire.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Honey",
+        "path": "./1/Plort/Honey.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Hunter",
+        "path": "./1/Plort/Hunter.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Mosaic",
+        "path": "./1/Plort/Mosaic.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Phosphor",
+        "path": "./1/Plort/Phosphor.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Pink",
+        "path": "./1/Plort/Pink.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Puddle",
+        "path": "./1/Plort/Puddle.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Quantum",
+        "path": "./1/Plort/Quantum.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Rad",
+        "path": "./1/Plort/Rad.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Rock",
+        "path": "./1/Plort/Rock.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Saber",
+        "path": "./1/Plort/Saber.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Tabby",
+        "path": "./1/Plort/Tabby.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Tangle",
+        "path": "./1/Plort/Tangle.png",
+        "type": "Plort",
+        "release": 1
+    },
+    {
+        "Item_name": "Buzz Wax",
+        "path": "./1/Science/Buzz_Wax.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Deep Brine",
+        "path": "./1/Science/Deep_Brine.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Glass Shard",
+        "path": "./1/Science/Glass_Shard.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Hexacomb",
+        "path": "./1/Science/Hexacomb.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Indigonium",
+        "path": "./1/Science/Indigonium.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Jellystone",
+        "path": "./1/Science/Jellystone.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Lava Dust",
+        "path": "./1/Science/Lava_Dust.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Pepper Jam",
+        "path": "./1/Science/Pepper_Jam.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Primordy Oil",
+        "path": "./1/Science/Primordy_Oil.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Royal Jelly",
+        "path": "./1/Science/Royal_Jelly.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Silky Sand",
+        "path": "./1/Science/Silky_Sand.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Slime Fossil",
+        "path": "./1/Science/Slime_Fossil.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Spiral Steam",
+        "path": "./1/Science/Spiral_Steam.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Strange Diamond",
+        "path": "./1/Science/Strange_Diamond.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Wild Honey",
+        "path": "./1/Science/Wild_Honey.png",
+        "type": "Science",
+        "release": 1
+    },
+    {
+        "Item_name": "Boom",
+        "path": "./1/slimes/Boom.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Crystal",
+        "path": "./1/slimes/Crystal.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Dervish",
+        "path": "./1/slimes/Dervish.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Fire",
+        "path": "./1/slimes/Fire.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Honey",
+        "path": "./1/slimes/Honey.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Hunter",
+        "path": "./1/slimes/Hunter.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Mosaic",
+        "path": "./1/slimes/Mosaic.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Phosphor",
+        "path": "./1/slimes/Phosphor.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Pink",
+        "path": "./1/slimes/Pink.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Puddle",
+        "path": "./1/slimes/Puddle.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Quantum",
+        "path": "./1/slimes/Quantum.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Rad",
+        "path": "./1/slimes/Rad.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Rock",
+        "path": "./1/slimes/Rock.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Saber",
+        "path": "./1/slimes/Saber.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Tabby",
+        "path": "./1/slimes/Tabby.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Tangle",
+        "path": "./1/slimes/Tangle.png",
+        "type": "Slimes",
+        "release": 1
+    },
+    {
+        "Item_name": "Bird Chick Thunder",
+        "path": "./2/food/Bird_Chick_Thunder.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Briar Chickadoo",
+        "path": "./2/food/Briar_Chickadoo.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Briar Hen",
+        "path": "./2/food/Briar_Hen.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Candied Chickadoo",
+        "path": "./2/food/Candied_Chickadoo.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Candied Hen",
+        "path": "./2/food/Candied_Hen.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Carrot",
+        "path": "./2/food/Carrot.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Chickadoo",
+        "path": "./2/food/Chickadoo.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Cuberry",
+        "path": "./2/food/Cuberry.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Elder Hen",
+        "path": "./2/food/Elder_Hen.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Elder Roostro",
+        "path": "./2/food/Elder_Roostro.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Heart Beet",
+        "path": "./2/food/Heart_Beet.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Hen Hen",
+        "path": "./2/food/Hen_Hen.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Mint Mango",
+        "path": "./2/food/Mint_Mango.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Odd Onion",
+        "path": "./2/food/Odd_Onion.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Painted Chick",
+        "path": "./2/food/Painted_Chick.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Painted Hen",
+        "path": "./2/food/Painted_Hen.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Pogofruit",
+        "path": "./2/food/Pogofruit.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Polaricherry",
+        "path": "./2/food/Polaricherry.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Pomegranite",
+        "path": "./2/food/Pomegranite.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Prickle Pear",
+        "path": "./2/food/Prickle_Pear.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Roostro",
+        "path": "./2/food/Roostro.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Sea Chickadoo",
+        "path": "./2/food/Sea_Chickadoo.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Sea Hen",
+        "path": "./2/food/Sea_Hen.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Stony Chickadoo",
+        "path": "./2/food/Stony_Chickadoo.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Stony Hen",
+        "path": "./2/food/Stony_Hen.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Thundercluck Hen",
+        "path": "./2/food/Thundercluck_Hen.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Turbo Tater",
+        "path": "./2/food/Turbo_Tater.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Water Lettuce",
+        "path": "./2/food/Water_Lettuce.png",
+        "type": "Food",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Dervish",
+        "path": "./2/plort/Plort_Dervish.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Tangle",
+        "path": "./2/plort/Plort_Tangle.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Angler",
+        "path": "./2/plort/Plort_Angler.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Batty",
+        "path": "./2/plort/Plort_Batty.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Cotton",
+        "path": "./2/plort/Plort_Cotton.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Crystal",
+        "path": "./2/plort/Plort_Crystal.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Fire",
+        "path": "./2/plort/Plort_Fire.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Flutter",
+        "path": "./2/plort/Plort_Flutter.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Gold",
+        "path": "./2/plort/Plort_Gold.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Honey",
+        "path": "./2/plort/Plort_Honey.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Hunter",
+        "path": "./2/plort/Plort_Hunter.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Hyper",
+        "path": "./2/plort/Plort_Hyper.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Phosphor",
+        "path": "./2/plort/Plort_Phosphor.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Pink",
+        "path": "./2/plort/Plort_Pink.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Prisma",
+        "path": "./2/plort/Plort_Prisma.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Puddle",
+        "path": "./2/plort/Plort_Puddle.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Ringtail",
+        "path": "./2/plort/Plort_Ringtail.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Rock",
+        "path": "./2/plort/Plort_Rock.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Shadow",
+        "path": "./2/plort/Plort_Shadow.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Sloomber",
+        "path": "./2/plort/Plort_Sloomber.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Tabby",
+        "path": "./2/plort/Plort_Tabby.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Twin",
+        "path": "./2/plort/Plort_Twin.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Plort Yolky",
+        "path": "./2/plort/Plort_Yolky.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Saber Plort",
+        "path": "./2/plort/Saber_Plort.png",
+        "type": "Plort",
+        "release": 2
+    },
+    {
+        "Item_name": "Aqua Glass",
+        "path": "./2/science/Aqua_Glass.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Black Indigonium",
+        "path": "./2/science/Black_Indigonium.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Buzz Wax",
+        "path": "./2/science/Buzz_Wax.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Deep Brine",
+        "path": "./2/science/Deep_Brine.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Dream Bubble",
+        "path": "./2/science/Dream_Bubble.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Drift Crystal",
+        "path": "./2/science/Drift_Crystal.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Jelly Stone",
+        "path": "./2/science/Jelly_Stone.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Lava Dust",
+        "path": "./2/science/Lava_Dust.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Lightning Mote",
+        "path": "./2/science/Lightning_Mote.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Magma Comb",
+        "path": "./2/science/Magma_Comb.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Perfect Snowflake",
+        "path": "./2/science/Perfect_Snowflake.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Primordy Oil",
+        "path": "./2/science/Primordy_Oil.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Radiant Ore",
+        "path": "./2/science/Radiant_Ore.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Royal Jelly",
+        "path": "./2/science/Royal_Jelly.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Silky Sand",
+        "path": "./2/science/Silky_Sand.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Fossil",
+        "path": "./2/science/Slime_Fossil.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Storm Glass",
+        "path": "./2/science/Storm_Glass.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Strange Diamond",
+        "path": "./2/science/Strange_Diamond.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Sun Sap",
+        "path": "./2/science/Sun_Sap.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Tin Petal",
+        "path": "./2/science/Tin_Petal.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Wild Honey",
+        "path": "./2/science/Wild_Honey.png",
+        "type": "Science",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Dervish",
+        "path": "./2/slime/Slime_Dervish.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Saber",
+        "path": "./2/slime/Slime_Saber.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Tangle",
+        "path": "./2/slime/Slime_Tangle.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Angler",
+        "path": "./2/slime/Slime_Angler.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Batty",
+        "path": "./2/slime/Slime_Batty.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Boom",
+        "path": "./2/slime/Slime_Boom.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Cotton",
+        "path": "./2/slime/Slime_Cotton.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Crystal",
+        "path": "./2/slime/Slime_Crystal.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Fire",
+        "path": "./2/slime/Slime_Fire.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Flutter",
+        "path": "./2/slime/Slime_Flutter.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Honey",
+        "path": "./2/slime/Slime_Honey.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Hunter",
+        "path": "./2/slime/Slime_Hunter.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Hyper",
+        "path": "./2/slime/Slime_Hyper.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Phosphor",
+        "path": "./2/slime/Slime_Phosphor.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Pink",
+        "path": "./2/slime/Slime_Pink.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Puddle",
+        "path": "./2/slime/Slime_Puddle.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Ringtail",
+        "path": "./2/slime/Slime_Ringtail.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Rock",
+        "path": "./2/slime/Slime_Rock.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Sloomber",
+        "path": "./2/slime/Slime_Sloomber.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Tabby",
+        "path": "./2/slime/Slime_Tabby.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Twin",
+        "path": "./2/slime/Slime_Twin.png",
+        "type": "Slime",
+        "release": 2
+    },
+    {
+        "Item_name": "Slime Yolky",
+        "path": "./2/slime/Slime_Yolky.png",
+        "type": "Slime",
+        "release": 2
+    }
+]

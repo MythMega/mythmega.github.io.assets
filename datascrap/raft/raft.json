@@ -1,0 +1,737 @@
+[
+    {
+        "item_name": "Empty Cup",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Empty_Cup.png"
+    },
+    {
+        "item_name": "Empty Bottle",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Empty_Bottle.png"
+    },
+    {
+        "item_name": "Clay Bowl",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Clay_Bowl.png"
+    },
+    {
+        "item_name": "Bucket",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Bucket.png"
+    },
+    {
+        "item_name": "Simple Purifier",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Simple_Purifier.png"
+    },
+    {
+        "item_name": "Advanced Purifier",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Advanced_Purifier.png"
+    },
+    {
+        "item_name": "Electric Purifier",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Electric_Purifier.png"
+    },
+    {
+        "item_name": "Simple Grill",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Simple_Grill.png"
+    },
+    {
+        "item_name": "Advanced Grill",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Advanced_Grill.png"
+    },
+    {
+        "item_name": "Cookingpot",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Cookingpot.png"
+    },
+    {
+        "item_name": "Small Crop Plot",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Small_Crop_Plot.png"
+    },
+    {
+        "item_name": "Medium Crop Plot",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Medium_Crop_Plot.png"
+    },
+    {
+        "item_name": "Large Crop Plot",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Large_Crop_Plot.png"
+    },
+    {
+        "item_name": "Grass Plot",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Grass_Plot.png"
+    },
+    {
+        "item_name": "Sprinkler",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Sprinkler.png"
+    },
+    {
+        "item_name": "Scarecrow",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Scarecrow.png"
+    },
+    {
+        "item_name": "Healing Salve",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Healing_Salve.png"
+    },
+    {
+        "item_name": "Good Healing Salve",
+        "category": "Food/Water",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Good_Healing_Salve.png"
+    },
+    {
+        "item_name": "Research Table",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Research_Table.png"
+    },
+    {
+        "item_name": "Simple Bed",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Simple_Bed.png"
+    },
+    {
+        "item_name": "Hammock",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Hammock.png"
+    },
+    {
+        "item_name": "Small Storage",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Small_Storage.png"
+    },
+    {
+        "item_name": "Storage",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Storage.png"
+    },
+    {
+        "item_name": "Large Storage",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Large_Storage.png"
+    },
+    {
+        "item_name": "Smelter",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Smelter.png"
+    },
+    {
+        "item_name": "Birds Nest",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Birds_Nest.png"
+    },
+    {
+        "item_name": "Collection Net",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Collection_Net.png"
+    },
+    {
+        "item_name": "Fuel Tank",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Fuel_Tank.png"
+    },
+    {
+        "item_name": "Water Tank",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Water_Tank.png"
+    },
+    {
+        "item_name": "Fuel Pipe",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Fuel_Pipe.png"
+    },
+    {
+        "item_name": "Water Pipe",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Water_Pipe.png"
+    },
+    {
+        "item_name": "Biofuel Refiner",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Biofuel_Refiner.png"
+    },
+    {
+        "item_name": "Beehive",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Beehive.png"
+    },
+    {
+        "item_name": "Battery Charger",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Battery_Charger.png"
+    },
+    {
+        "item_name": "Zipline",
+        "category": "Other",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Zipline.png"
+    },
+    {
+        "item_name": "Building Hammer",
+        "category": "Tools",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Building_Hammer.png"
+    },
+    {
+        "item_name": "Plastic Hook",
+        "category": "Tools",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Plastic_Hook.png"
+    },
+    {
+        "item_name": "Scrap Hook",
+        "category": "Tools",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Scrap_Hook.png"
+    },
+    {
+        "item_name": "Stone Axe",
+        "category": "Tools",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Stone_Axe.png"
+    },
+    {
+        "item_name": "Metal Axe",
+        "category": "Tools",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Metal_Axe.png"
+    },
+    {
+        "item_name": "Fishing Rod",
+        "category": "Tools",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Fishing_Rod.png"
+    },
+    {
+        "item_name": "Metal Fishing Rod",
+        "category": "Tools",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Metal_Fishing_Rod.png"
+    },
+    {
+        "item_name": "Shear",
+        "category": "Tools",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Shear.png"
+    },
+    {
+        "item_name": "Shovel",
+        "category": "Tools",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Shovel.png"
+    },
+    {
+        "item_name": "Binoculars",
+        "category": "Tools",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Binoculars.png"
+    },
+    {
+        "item_name": "Shark Bait",
+        "category": "Tools",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Shark_Bait.png"
+    },
+    {
+        "item_name": "Sweep Net",
+        "category": "Tools",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Sweep_Net.png"
+    },
+    {
+        "item_name": "Firework",
+        "category": "Tools",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Firework.png"
+    },
+    {
+        "item_name": "Metal Detector",
+        "category": "Tools",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Metal_Detector.png"
+    },
+    {
+        "item_name": "Wooden Spear",
+        "category": "Weapons",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Wooden_Spear.png"
+    },
+    {
+        "item_name": "Metal Spear",
+        "category": "Weapons",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Metal_Spear.png"
+    },
+    {
+        "item_name": "Machete",
+        "category": "Weapons",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Machete.png"
+    },
+    {
+        "item_name": "Basic Bow",
+        "category": "Weapons",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Basic_Bow.png"
+    },
+    {
+        "item_name": "Stone Arrow",
+        "category": "Weapons",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Stone_Arrow.png"
+    },
+    {
+        "item_name": "Metal Arrow",
+        "category": "Weapons",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Metal_Arrow.png"
+    },
+    {
+        "item_name": "Net Launcher",
+        "category": "Weapons",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Net_Launcher.png"
+    },
+    {
+        "item_name": "Net Canister",
+        "category": "Weapons",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Net_Canister.png"
+    },
+    {
+        "item_name": "Oxygen Bottle",
+        "category": "Equipment",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Oxygen_Bottle.png"
+    },
+    {
+        "item_name": "Backpack",
+        "category": "Equipment",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Backpack.png"
+    },
+    {
+        "item_name": "Flippers",
+        "category": "Equipment",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Flippers.png"
+    },
+    {
+        "item_name": "Head Light",
+        "category": "Equipment",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Head_Light.png"
+    },
+    {
+        "item_name": "Leather Helmet",
+        "category": "Equipment",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Leather_Helmet.png"
+    },
+    {
+        "item_name": "Leather Body Armor",
+        "category": "Equipment",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Leather_Body_Armor.png"
+    },
+    {
+        "item_name": "Leather Greaves",
+        "category": "Equipment",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Leather_Greaves.png"
+    },
+    {
+        "item_name": "Zipline Tool",
+        "category": "Equipment",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Zipline_Tool.png"
+    },
+    {
+        "item_name": "Rope",
+        "category": "Resources",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Rope.png"
+    },
+    {
+        "item_name": "Bolt",
+        "category": "Resources",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Bolt.png"
+    },
+    {
+        "item_name": "Wet Brick",
+        "category": "Resources",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Wet_Brick.png"
+    },
+    {
+        "item_name": "Nail",
+        "category": "Resources",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Nail.png"
+    },
+    {
+        "item_name": "Hinge",
+        "category": "Resources",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Hinge.png"
+    },
+    {
+        "item_name": "Circuit Board",
+        "category": "Resources",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Circuit_Board.png"
+    },
+    {
+        "item_name": "Battery",
+        "category": "Resources",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Battery.png"
+    },
+    {
+        "item_name": "Honey",
+        "category": "Resources",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Honey.png"
+    },
+    {
+        "item_name": "Throwable Anchor",
+        "category": "Navigation",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Throwable_Anchor.png"
+    },
+    {
+        "item_name": "Stationary Anchor",
+        "category": "Navigation",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Stationary_Anchor.png"
+    },
+    {
+        "item_name": "Paddle",
+        "category": "Navigation",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Paddle.png"
+    },
+    {
+        "item_name": "Sail",
+        "category": "Navigation",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Sail.png"
+    },
+    {
+        "item_name": "Reciever",
+        "category": "Navigation",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Reciever.png"
+    },
+    {
+        "item_name": "Streamer",
+        "category": "Navigation",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Streamer.png"
+    },
+    {
+        "item_name": "Antenna",
+        "category": "Navigation",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Antenna.png"
+    },
+    {
+        "item_name": "Engine",
+        "category": "Navigation",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Engine.png"
+    },
+    {
+        "item_name": "Steering Wheel",
+        "category": "Navigation",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Steering_Wheel.png"
+    },
+    {
+        "item_name": "Paint Brush",
+        "category": "Decorations",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Paint_Brush.png"
+    },
+    {
+        "item_name": "Paint Mill",
+        "category": "Decorations",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Paint_Mill.png"
+    },
+    {
+        "item_name": "Lantern",
+        "category": "Decorations",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Lantern.png"
+    },
+    {
+        "item_name": "Clock",
+        "category": "Decorations",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Clock.png"
+    },
+    {
+        "item_name": "Chair",
+        "category": "Decorations",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Chair.png"
+    },
+    {
+        "item_name": "Rug",
+        "category": "Decorations",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Rug.png"
+    },
+    {
+        "item_name": "Table",
+        "category": "Decorations",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Table.png"
+    },
+    {
+        "item_name": "Shelf",
+        "category": "Decorations",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Shelf.png"
+    },
+    {
+        "item_name": "Sign",
+        "category": "Decorations",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Sign.png"
+    },
+    {
+        "item_name": "Calendar",
+        "category": "Decorations",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Calendar.png"
+    },
+    {
+        "item_name": "Small Trophy Board",
+        "category": "Decorations",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Small_Trophy_Board.png"
+    },
+    {
+        "item_name": "Medium Trophy Board",
+        "category": "Decorations",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Medium_Trophy_Board.png"
+    },
+    {
+        "item_name": "Large Trophy Board",
+        "category": "Decorations",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Large_Trophy_Board.png"
+    },
+    {
+        "item_name": "Palm Seed",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Palm_Seed.png"
+    },
+    {
+        "item_name": "Mango Seed",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Mango_Seed.png"
+    },
+    {
+        "item_name": "Pinecone",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Pinecone.png"
+    },
+    {
+        "item_name": "Birch Seed",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Birch_Seed.png"
+    },
+    {
+        "item_name": "Black Seed",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Black_Seed.png"
+    },
+    {
+        "item_name": "Blue Seed",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Blue_Seed.png"
+    },
+    {
+        "item_name": "Red Seed",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Red_Seed.png"
+    },
+    {
+        "item_name": "White Seed",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/White_Seed.png"
+    },
+    {
+        "item_name": "Yellow Seed",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Yellow_Seed.png"
+    },
+    {
+        "item_name": "Potato",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Potato.png"
+    },
+    {
+        "item_name": "Raw Beat",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Raw_Beat.png"
+    },
+    {
+        "item_name": "Pineapple Seed",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Pineapple_Seed.png"
+    },
+    {
+        "item_name": "Watermelon Seed",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Watermelon_Seed.png"
+    },
+    {
+        "item_name": "Strawberry Seed",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Strawberry_Seed.png"
+    },
+    {
+        "item_name": "Banana Seed",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Banana_Seed.png"
+    },
+    {
+        "item_name": "Llama",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Llama.png"
+    },
+    {
+        "item_name": "Clucker",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Clucker.png"
+    },
+    {
+        "item_name": "Goat",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Goat.png"
+    },
+    {
+        "item_name": "Lucky Cat",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Lucky_Cat.png"
+    },
+    {
+        "item_name": "Scrap Mechanic Duck",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Scrap_Mechanic_Duck.png"
+    },
+    {
+        "item_name": "Candle Bottle",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Candle_Bottle.png"
+    },
+    {
+        "item_name": "Old Shoe",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Old_Shoe.png"
+    },
+    {
+        "item_name": "Toy Robot",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Toy_Robot.png"
+    },
+    {
+        "item_name": "Golden Toy Robot",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Golden_Toy_Robot.png"
+    },
+    {
+        "item_name": "Major Tom",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Major_Tom.png"
+    },
+    {
+        "item_name": "Piano",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Piano.png"
+    },
+    {
+        "item_name": "Radio",
+        "category": "Creative",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Radio.png"
+    },
+    {
+        "item_name": "Bee Jar",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Bee_Jar.png"
+    },
+    {
+        "item_name": "Copper",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Copper.png"
+    },
+    {
+        "item_name": "Copper Ingot",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Copper_Ingot.png"
+    },
+    {
+        "item_name": "Dirt",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Dirt.png"
+    },
+    {
+        "item_name": "Dry Brick",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Dry_Brick.png"
+    },
+    {
+        "item_name": "Explosive Goo",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Explosive_Goo.png"
+    },
+    {
+        "item_name": "Explosive Powder",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Explosive_Powder.png"
+    },
+    {
+        "item_name": "Feather",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Feather.png"
+    },
+    {
+        "item_name": "Giant Clam",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Giant_Clam.png"
+    },
+    {
+        "item_name": "Glass",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Glass.png"
+    },
+    {
+        "item_name": "Honeycomb",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Honeycomb.png"
+    },
+    {
+        "item_name": "Leather",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Leather.png"
+    },
+    {
+        "item_name": "Metal Ore",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Metal_Ore.png"
+    },
+    {
+        "item_name": "Metal Ingot",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Metal_Ingot.png"
+    },
+    {
+        "item_name": "Titanium Ore",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Titanium_Ore.png"
+    },
+    {
+        "item_name": "Titanium Ingot",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Titanium_Ingot.png"
+    },
+    {
+        "item_name": "Palm Leaf",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Palm_Leaf.png"
+    },
+    {
+        "item_name": "Plank",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Plank.png"
+    },
+    {
+        "item_name": "Plastic",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Plastic.png"
+    },
+    {
+        "item_name": "Sand",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Sand.png"
+    },
+    {
+        "item_name": "Scrap",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Scrap.png"
+    },
+    {
+        "item_name": "Seaweed",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Seaweed.png"
+    },
+    {
+        "item_name": "Stone",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Stone.png"
+    },
+    {
+        "item_name": "Vine Goo",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Vine_Goo.png"
+    },
+    {
+        "item_name": "Wool",
+        "category": "Materials",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/raft/Wool.png"
+    }
+]

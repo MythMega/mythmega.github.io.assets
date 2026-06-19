@@ -1,0 +1,278 @@
+[
+    {
+        "item_name": "Airhorn",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Airhorn.png"
+    },
+    {
+        "item_name": "Apparatus",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Apparatus.png"
+    },
+    {
+        "item_name": "Bell",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Bell.png"
+    },
+    {
+        "item_name": "Big bolt",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Big_bolt.png"
+    },
+    {
+        "item_name": "Bone",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Bone.png"
+    },
+    {
+        "item_name": "Bottles",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Bottles.png"
+    },
+    {
+        "item_name": "Brush",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Brush.png"
+    },
+    {
+        "item_name": "Candy",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Candy.png"
+    },
+    {
+        "item_name": "Cash register",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Cash_register.png"
+    },
+    {
+        "item_name": "Chemical jug",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Chemical_jug.png"
+    },
+    {
+        "item_name": "Clock",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Clock.png"
+    },
+    {
+        "item_name": "Clown horn",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Clown_horn.png"
+    },
+    {
+        "item_name": "Comedy",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Comedy.png"
+    },
+    {
+        "item_name": "Control pad",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Control_pad.png"
+    },
+    {
+        "item_name": "Cookie mold pan",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Cookie_mold_pan.png"
+    },
+    {
+        "item_name": "Dust pan",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Dust_pan.png"
+    },
+    {
+        "item_name": "Ear",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Ear.png"
+    },
+    {
+        "item_name": "Easter egg",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Easter_egg.png"
+    },
+    {
+        "item_name": "Egg",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Egg.png"
+    },
+    {
+        "item_name": "Egg beater",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Egg_beater.png"
+    },
+    {
+        "item_name": "Fancy lamp",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Fancy_lamp.png"
+    },
+    {
+        "item_name": "Flask",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Flask.png"
+    },
+    {
+        "item_name": "Foot",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Foot.png"
+    },
+    {
+        "item_name": "Garbage lid",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Garbage_lid.png"
+    },
+    {
+        "item_name": "Gift",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Gift.png"
+    },
+    {
+        "item_name": "Gold bar",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Gold_bar.png"
+    },
+    {
+        "item_name": "Golden cup",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Golden_cup.png"
+    },
+    {
+        "item_name": "Hairdryer",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Hairdryer.png"
+    },
+    {
+        "item_name": "Hand",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Hand.png"
+    },
+    {
+        "item_name": "Heart",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Heart.png"
+    },
+    {
+        "item_name": "Hive",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Hive.png"
+    },
+    {
+        "item_name": "Homemade flashbang",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Homemade_flashbang.png"
+    },
+    {
+        "item_name": "Jar of pickles",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Jar_of_pickles.png"
+    },
+    {
+        "item_name": "Kitchen knife",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Kitchen_knife.png"
+    },
+    {
+        "item_name": "Knee",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Knee.png"
+    },
+    {
+        "item_name": "Large axle",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Large_axle.png"
+    },
+    {
+        "item_name": "Laser pointer",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Laser_pointer.png"
+    },
+    {
+        "item_name": "Magic 7 ball",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Magic_7_ball.png"
+    },
+    {
+        "item_name": "Magnifying glass",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Magnifying_glass.png"
+    },
+    {
+        "item_name": "Metal sheet",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Metal_sheet.png"
+    },
+    {
+        "item_name": "Mug",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Mug.png"
+    },
+    {
+        "item_name": "Old phone",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Old_phone.png"
+    },
+    {
+        "item_name": "Painting",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Painting.png"
+    },
+    {
+        "item_name": "Perfume bottle",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Perfume_bottle.png"
+    },
+    {
+        "item_name": "Pill bottle",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Pill_bottle.png"
+    },
+    {
+        "item_name": "Plastic cup",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Plastic_cup.png"
+    },
+    {
+        "item_name": "Plastic fish",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Plastic_fish.png"
+    },
+    {
+        "item_name": "Red soda",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Red_soda.png"
+    },
+    {
+        "item_name": "Remote",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Remote.png"
+    },
+    {
+        "item_name": "Ribcage",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Ribcage.png"
+    },
+    {
+        "item_name": "Ring",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Ring.png"
+    },
+    {
+        "item_name": "Rubber Ducky",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Rubber_Ducky.png"
+    },
+    {
+        "item_name": "Shotgun",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Shotgun.png"
+    },
+    {
+        "item_name": "Soccer ball",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Soccer_ball.png"
+    },
+    {
+        "item_name": "Steering wheel",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Steering_wheel.png"
+    },
+    {
+        "item_name": "Stop sign",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Stop_sign.png"
+    },
+    {
+        "item_name": "Tea kettle",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Tea_kettle.png"
+    },
+    {
+        "item_name": "Teeth",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Teeth.png"
+    },
+    {
+        "item_name": "Toilet paper",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Toilet_paper.png"
+    },
+    {
+        "item_name": "Tongue",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Tongue.png"
+    },
+    {
+        "item_name": "Toothpaste",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Toothpaste.png"
+    },
+    {
+        "item_name": "Toy cube",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Toy_cube.png"
+    },
+    {
+        "item_name": "Toy robot",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Toy_robot.png"
+    },
+    {
+        "item_name": "Toy train",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Toy_train.png"
+    },
+    {
+        "item_name": "Tragedy",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Tragedy.png"
+    },
+    {
+        "item_name": "V-type engine",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/V-type_engine.png"
+    },
+    {
+        "item_name": "Whoopie cushion",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Whoopie_cushion.png"
+    },
+    {
+        "item_name": "Yield sign",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Yield_sign.png"
+    },
+    {
+        "item_name": "Zed Dog",
+        "imgpath": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/lethalcompany/scrap/Zed_Dog.png"
+    }
+]

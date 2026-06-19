@@ -1,0 +1,4539 @@
+[
+    {
+        "index": "100",
+        "name": "Anubis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Anubis.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 4
+            },
+            {
+                "name": "Mining",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "42",
+        "name": "Arsox",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Arsox.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 1
+            },
+            {
+                "name": "Kindling",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "98",
+        "name": "Astegon",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Astegon.png",
+        "types": [
+            "elm3",
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Mining",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "136",
+        "name": "Azurmane",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Azurmane.png",
+        "types": [
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Generating Electricity",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "82",
+        "name": "Azurobe",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Azurobe.png",
+        "types": [
+            "elm7",
+            "elm3"
+        ],
+        "skills": [
+            {
+                "name": "Watering",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "82",
+        "name": "Azurobe Cryst",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Azurobe Cryst.png",
+        "types": [
+            "elm1",
+            "elm3"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "137",
+        "name": "Bastigor",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Bastigor.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 4
+            },
+            {
+                "name": "Deforesting",
+                "level": 3
+            },
+            {
+                "name": "Mining",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "73",
+        "name": "Beakon",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Beakon.png",
+        "types": [
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Generating Electricity",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "50",
+        "name": "Beegarde",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Beegarde.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Deforesting",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Farming",
+                "level": 1
+            },
+            {
+                "name": "Medicine Production",
+                "level": 1
+            },
+            {
+                "name": "Planting",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "112",
+        "name": "Bellanoir",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Bellanoir.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Medicine Production",
+                "level": 4
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "112",
+        "name": "Bellanoir Libero",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Bellanoir Libero.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Medicine Production",
+                "level": 4
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "96",
+        "name": "Blazamut",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Blazamut.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 3
+            },
+            {
+                "name": "Mining",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "96",
+        "name": "Blazamut Ryu",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Blazamut Ryu.png",
+        "types": [
+            "elm3",
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 4
+            },
+            {
+                "name": "Mining",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "84",
+        "name": "Blazehowl",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Blazehowl.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Kindling",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "84",
+        "name": "Blazehowl Noct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Blazehowl Noct.png",
+        "types": [
+            "elm8",
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Kindling",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "-1",
+        "name": "Blue Slime",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Blue Slime.png",
+        "types": [
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "145",
+        "name": "Braloha",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Braloha.png",
+        "types": [
+            "elm5",
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 4
+            },
+            {
+                "name": "Mining",
+                "level": 2
+            },
+            {
+                "name": "Planting",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "30",
+        "name": "Bristla",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Bristla.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Medicine Production",
+                "level": 2
+            },
+            {
+                "name": "Planting",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "86",
+        "name": "Broncherry",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Broncherry.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Planting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "86",
+        "name": "Broncherry Aqua",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Broncherry Aqua.png",
+        "types": [
+            "elm5",
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Watering",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "72",
+        "name": "Bushi",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Bushi.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Deforesting",
+                "level": 3
+            },
+            {
+                "name": "Kindling",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "72",
+        "name": "Bushi Noct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Bushi Noct.png",
+        "types": [
+            "elm8",
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Deforesting",
+                "level": 3
+            },
+            {
+                "name": "Kindling",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "35",
+        "name": "Caprity",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Caprity.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Farming",
+                "level": 1
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "35",
+        "name": "Caprity Noct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Caprity Noct.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Farming",
+                "level": 1
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "2",
+        "name": "Cattiva",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Cattiva.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Mining",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "-1",
+        "name": "Cave Bat",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Cave Bat.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "44",
+        "name": "Cawgnito",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Cawgnito.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "25",
+        "name": "Celaray",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Celaray.png",
+        "types": [
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "25",
+        "name": "Celaray Lux",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Celaray Lux.png",
+        "types": [
+            "elm7",
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Generating Electricity",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "132",
+        "name": "Celesdir",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Celesdir.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Deforesting",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "3",
+        "name": "Chikipi",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Chikipi.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Farming",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "55",
+        "name": "Chillet",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Chillet.png",
+        "types": [
+            "elm1",
+            "elm3"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Cooling",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "55",
+        "name": "Chillet Ignis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Chillet Ignis.png",
+        "types": [
+            "elm8",
+            "elm3"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Kindling",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "41",
+        "name": "Cinnamoth",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Cinnamoth.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Medicine Production",
+                "level": 1
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "18",
+        "name": "Cremis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Cremis.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Farming",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "114",
+        "name": "Croajiro",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Croajiro.png",
+        "types": [
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "114",
+        "name": "Croajiro Noct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Croajiro Noct.png",
+        "types": [
+            "elm7",
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "83",
+        "name": "Cryolinx",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Cryolinx.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 3
+            },
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "83",
+        "name": "Cryolinx Terra",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Cryolinx Terra.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Mining",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "19",
+        "name": "Daedream",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Daedream.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "123",
+        "name": "Dazemu",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Dazemu.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "62",
+        "name": "Dazzi",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Dazzi.png",
+        "types": [
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Generating Electricity",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "62",
+        "name": "Dazzi Noct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Dazzi Noct.png",
+        "types": [
+            "elm2",
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Generating Electricity",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Medicine Production",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "-1",
+        "name": "Demon Eye",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Demon Eye.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "17",
+        "name": "Depresso",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Depresso.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Mining",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "67",
+        "name": "Digtoise",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Digtoise.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Mining",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "64",
+        "name": "Dinossom",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Dinossom.png",
+        "types": [
+            "elm5",
+            "elm3"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "64",
+        "name": "Dinossom Lux",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Dinossom Lux.png",
+        "types": [
+            "elm6",
+            "elm3"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Generating Electricity",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "26",
+        "name": "Direhowl",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Direhowl.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "122",
+        "name": "Dogen",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Dogen.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 3
+            },
+            {
+                "name": "Medicine Production",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "43",
+        "name": "Dumud",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Dumud.png",
+        "types": [
+            "elm4",
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Mining",
+                "level": 2
+            },
+            {
+                "name": "Farming",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "43",
+        "name": "Dumud Gild",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Dumud Gild.png",
+        "types": [
+            "elm4",
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Mining",
+                "level": 2
+            },
+            {
+                "name": "Farming",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "37",
+        "name": "Eikthyrdeer",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Eikthyrdeer.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "37",
+        "name": "Eikthyrdeer Terra",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Eikthyrdeer Terra.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "51",
+        "name": "Elizabee",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Elizabee.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Deforesting",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Medicine Production",
+                "level": 2
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "80",
+        "name": "Elphidran",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Elphidran.png",
+        "types": [
+            "elm3"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "80",
+        "name": "Elphidran Aqua",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Elphidran Aqua.png",
+        "types": [
+            "elm3",
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Watering",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "-1",
+        "name": "Enchanted Sword",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Enchanted Sword.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "-1",
+        "name": "Eye of Cthulhu",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Eye of Cthulhu.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Transporting",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "105",
+        "name": "Faleris",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Faleris.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "105",
+        "name": "Faleris Aqua",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Faleris Aqua.png",
+        "types": [
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Transporting",
+                "level": 3
+            },
+            {
+                "name": "Watering",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "94",
+        "name": "Felbat",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Felbat.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Medicine Production",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "93",
+        "name": "Fenglope",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Fenglope.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "93",
+        "name": "Fenglope Lux",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Fenglope Lux.png",
+        "types": [
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Generating Electricity",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "152",
+        "name": "Finsider",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Finsider.png",
+        "types": [
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "152",
+        "name": "Finsider Ignis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Finsider Ignis.png",
+        "types": [
+            "elm7",
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "70",
+        "name": "Flambelle",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Flambelle.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Farming",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "28",
+        "name": "Flopie",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Flopie.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Medicine Production",
+                "level": 1
+            },
+            {
+                "name": "Planting",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "57",
+        "name": "Foxcicle",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Foxcicle.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "5",
+        "name": "Foxparks",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Foxparks.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "5",
+        "name": "Foxparks Cryst",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Foxparks Cryst.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "110",
+        "name": "Frostallion",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Frostallion.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "110",
+        "name": "Frostallion Noct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Frostallion Noct.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "143",
+        "name": "Frostplume",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Frostplume.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Cooling",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "6",
+        "name": "Fuack",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Fuack.png",
+        "types": [
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "6",
+        "name": "Fuack Ignis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Fuack Ignis.png",
+        "types": [
+            "elm7",
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "22",
+        "name": "Fuddler",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Fuddler.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Mining",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "47",
+        "name": "Galeclaw",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Galeclaw.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "153",
+        "name": "Ghangler",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Ghangler.png",
+        "types": [
+            "elm2",
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Transporting",
+                "level": 2
+            },
+            {
+                "name": "Watering",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "153",
+        "name": "Ghangler Ignis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Ghangler Ignis.png",
+        "types": [
+            "elm8",
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            },
+            {
+                "name": "Watering",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "140",
+        "name": "Gildane",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Gildane.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "151",
+        "name": "Gloopie",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Gloopie.png",
+        "types": [
+            "elm7",
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            },
+            {
+                "name": "Watering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "31",
+        "name": "Gobfin",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Gobfin.png",
+        "types": [
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "31",
+        "name": "Gobfin Ignis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Gobfin Ignis.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "49",
+        "name": "Gorirat",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Gorirat.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "49",
+        "name": "Gorirat Terra",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Gorirat Terra.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Mining",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "-1",
+        "name": "Green Slime",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Green Slime.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "52",
+        "name": "Grintale",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Grintale.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "103",
+        "name": "Grizzbolt",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Grizzbolt.png",
+        "types": [
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Generating Electricity",
+                "level": 3
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "13",
+        "name": "Gumoss",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Gumoss.png",
+        "types": [
+            "elm5",
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Planting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "32",
+        "name": "Hangyu",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Hangyu.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "32",
+        "name": "Hangyu Cryst",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Hangyu Cryst.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Cooling",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "97",
+        "name": "Helzephyr",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Helzephyr.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "97",
+        "name": "Helzephyr Lux",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Helzephyr Lux.png",
+        "types": [
+            "elm2",
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Generating Electricity",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "141",
+        "name": "Herbil",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Herbil.png",
+        "types": [
+            "elm5",
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "15",
+        "name": "Hoocrates",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Hoocrates.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "142",
+        "name": "Icelyn",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Icelyn.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 3
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Medicine Production",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "-1",
+        "name": "Illuminant Bat",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Illuminant Bat.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "-1",
+        "name": "Illuminant Slime",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Illuminant Slime.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "40",
+        "name": "Incineram",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Incineram.png",
+        "types": [
+            "elm8",
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "40",
+        "name": "Incineram Noct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Incineram Noct.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "150",
+        "name": "Jelliette",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Jelliette.png",
+        "types": [
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "149",
+        "name": "Jellroy",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Jellroy.png",
+        "types": [
+            "elm7",
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Medicine Production",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "111",
+        "name": "Jetragon",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Jetragon.png",
+        "types": [
+            "elm3"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "12",
+        "name": "Jolthog",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Jolthog.png",
+        "types": [
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Generating Electricity",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "12",
+        "name": "Jolthog Cryst",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Jolthog Cryst.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "101",
+        "name": "Jormuntide",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Jormuntide.png",
+        "types": [
+            "elm3",
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Watering",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "101",
+        "name": "Jormuntide Ignis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Jormuntide Ignis.png",
+        "types": [
+            "elm3",
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "75",
+        "name": "Katress",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Katress.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Medicine Production",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "75",
+        "name": "Katress Ignis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Katress Ignis.png",
+        "types": [
+            "elm2",
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Medicine Production",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "81",
+        "name": "Kelpsea",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Kelpsea.png",
+        "types": [
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Farming",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "81",
+        "name": "Kelpsea Ignis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Kelpsea Ignis.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 1
+            },
+            {
+                "name": "Farming",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "117",
+        "name": "Kikit",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Kikit.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Mining",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "23",
+        "name": "Killamari",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Killamari.png",
+        "types": [
+            "elm2",
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            },
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "23",
+        "name": "Killamari Primo",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Killamari Primo.png",
+        "types": [
+            "elm9",
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            },
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "89",
+        "name": "Kingpaca",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Kingpaca.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "89",
+        "name": "Kingpaca Cryst",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Kingpaca Cryst.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Cooling",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "61",
+        "name": "Kitsun",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Kitsun.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "61",
+        "name": "Kitsun Noct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Kitsun Noct.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "120",
+        "name": "Knocklem",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Knocklem.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 3
+            },
+            {
+                "name": "Mining",
+                "level": 4
+            },
+            {
+                "name": "Transporting",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "1",
+        "name": "Lamball",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Lamball.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Farming",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "45",
+        "name": "Leezpunk",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Leezpunk.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "45",
+        "name": "Leezpunk Ignis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Leezpunk Ignis.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Kindling",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "4",
+        "name": "Lifmunk",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Lifmunk.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Deforesting",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Medicine Production",
+                "level": 1
+            },
+            {
+                "name": "Planting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "46",
+        "name": "Loupmoon",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Loupmoon.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "46",
+        "name": "Loupmoon Cryst",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Loupmoon Cryst.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 3
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "69",
+        "name": "Lovander",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Lovander.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 1
+            },
+            {
+                "name": "Medicine Production",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "115",
+        "name": "Lullu",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Lullu.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Medicine Production",
+                "level": 2
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "63",
+        "name": "Lunaris",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Lunaris.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "104",
+        "name": "Lyleen",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Lyleen.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 3
+            },
+            {
+                "name": "Medicine Production",
+                "level": 3
+            },
+            {
+                "name": "Planting",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "104",
+        "name": "Lyleen Noct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Lyleen Noct.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 3
+            },
+            {
+                "name": "Medicine Production",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "90",
+        "name": "Mammorest",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Mammorest.png",
+        "types": [
+            "elm5",
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 2
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "90",
+        "name": "Mammorest Cryst",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Mammorest Cryst.png",
+        "types": [
+            "elm1",
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 2
+            },
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "66",
+        "name": "Maraith",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Maraith.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "24",
+        "name": "Mau",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Mau.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Farming",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "24",
+        "name": "Mau Cryst",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Mau Cryst.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 1
+            },
+            {
+                "name": "Farming",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "36",
+        "name": "Melpaca",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Melpaca.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Farming",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "99",
+        "name": "Menasting",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Menasting.png",
+        "types": [
+            "elm2",
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "99",
+        "name": "Menasting Terra",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Menasting Terra.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "124",
+        "name": "Mimog",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Mimog.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "33",
+        "name": "Mossanda",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Mossanda.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "33",
+        "name": "Mossanda Lux",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Mossanda Lux.png",
+        "types": [
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Generating Electricity",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "29",
+        "name": "Mozzarina",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Mozzarina.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Farming",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "146",
+        "name": "Munchill",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Munchill.png",
+        "types": [
+            "elm1",
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "109",
+        "name": "Necromus",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Necromus.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "155",
+        "name": "Neptilius",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Neptilius.png",
+        "types": [
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Watering",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "128",
+        "name": "Nitemary",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Nitemary.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "38",
+        "name": "Nitewing",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Nitewing.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "21",
+        "name": "Nox",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Nox.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "139",
+        "name": "Nyafia",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Nyafia.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "133",
+        "name": "Omascul",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Omascul.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "106",
+        "name": "Orserk",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Orserk.png",
+        "types": [
+            "elm3",
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Generating Electricity",
+                "level": 4
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "108",
+        "name": "Paladius",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Paladius.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "144",
+        "name": "Palumba",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Palumba.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 3
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "10",
+        "name": "Pengullet",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Pengullet.png",
+        "types": [
+            "elm7",
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "10",
+        "name": "Pengullet Lux",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Pengullet Lux.png",
+        "types": [
+            "elm7",
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Generating Electricity",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "11",
+        "name": "Penking",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Penking.png",
+        "types": [
+            "elm7",
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            },
+            {
+                "name": "Watering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "11",
+        "name": "Penking Lux",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Penking Lux.png",
+        "types": [
+            "elm7",
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Generating Electricity",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            },
+            {
+                "name": "Watering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "87",
+        "name": "Petallia",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Petallia.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Medicine Production",
+                "level": 2
+            },
+            {
+                "name": "Planting",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "147",
+        "name": "Polapup",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Polapup.png",
+        "types": [
+            "elm1",
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 3
+            },
+            {
+                "name": "Watering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "119",
+        "name": "Prixter",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Prixter.png",
+        "types": [
+            "elm2",
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Deforesting",
+                "level": 3
+            },
+            {
+                "name": "Medicine Production",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "138",
+        "name": "Prunelia",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Prunelia.png",
+        "types": [
+            "elm5",
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Medicine Production",
+                "level": 3
+            },
+            {
+                "name": "Planting",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "-1",
+        "name": "Purple Slime",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Purple Slime.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "58",
+        "name": "Pyrin",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Pyrin.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 1
+            },
+            {
+                "name": "Kindling",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "58",
+        "name": "Pyrin Noct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Pyrin Noct.png",
+        "types": [
+            "elm8",
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 1
+            },
+            {
+                "name": "Kindling",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "95",
+        "name": "Quivern",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Quivern.png",
+        "types": [
+            "elm3"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Mining",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "95",
+        "name": "Quivern Botan",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Quivern Botan.png",
+        "types": [
+            "elm3",
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Mining",
+                "level": 2
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "74",
+        "name": "Ragnahawk",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Ragnahawk.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "-1",
+        "name": "Rainbow Slime",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Rainbow Slime.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "60",
+        "name": "Rayhound",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Rayhound.png",
+        "types": [
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Generating Electricity",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "-1",
+        "name": "Red Slime",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Red Slime.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "59",
+        "name": "Reindrix",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Reindrix.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 2
+            },
+            {
+                "name": "Deforesting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "85",
+        "name": "Relaxaurus",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Relaxaurus.png",
+        "types": [
+            "elm3",
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "85",
+        "name": "Relaxaurus Lux",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Relaxaurus Lux.png",
+        "types": [
+            "elm3",
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Generating Electricity",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "88",
+        "name": "Reptyro",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Reptyro.png",
+        "types": [
+            "elm8",
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 3
+            },
+            {
+                "name": "Mining",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "88",
+        "name": "Reptyro Cryst",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Reptyro Cryst.png",
+        "types": [
+            "elm1",
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 3
+            },
+            {
+                "name": "Mining",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "39",
+        "name": "Ribbuny",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Ribbuny.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "39",
+        "name": "Ribbuny Botan",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Ribbuny Botan.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Planting",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "48",
+        "name": "Robinquill",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Robinquill.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Deforesting",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Medicine Production",
+                "level": 1
+            },
+            {
+                "name": "Planting",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "48",
+        "name": "Robinquill Terra",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Robinquill Terra.png",
+        "types": [
+            "elm5",
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Deforesting",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Medicine Production",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "9",
+        "name": "Rooby",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Rooby.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "20",
+        "name": "Rushoar",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Rushoar.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Mining",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "113",
+        "name": "Selyne",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Selyne.png",
+        "types": [
+            "elm2",
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 4
+            },
+            {
+                "name": "Medicine Production",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "107",
+        "name": "Shadowbeak",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Shadowbeak.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "116",
+        "name": "Shroomer",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Shroomer.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "116",
+        "name": "Shroomer Noct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Shroomer Noct.png",
+        "types": [
+            "elm5",
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "79",
+        "name": "Sibelyx",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Sibelyx.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 2
+            },
+            {
+                "name": "Farming",
+                "level": 1
+            },
+            {
+                "name": "Medicine Production",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "130",
+        "name": "Silvegis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Silvegis.png",
+        "types": [
+            "elm3"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "131",
+        "name": "Smokie",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Smokie.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "118",
+        "name": "Sootseer",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Sootseer.png",
+        "types": [
+            "elm2",
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Kindling",
+                "level": 3
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 2
+            },
+            {
+                "name": "Farming",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "7",
+        "name": "Sparkit",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Sparkit.png",
+        "types": [
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Generating Electricity",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "134",
+        "name": "Splatterina",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Splatterina.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 4
+            },
+            {
+                "name": "Medicine Production",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "129",
+        "name": "Starryon",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Starryon.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "65",
+        "name": "Surfent",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Surfent.png",
+        "types": [
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Watering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "65",
+        "name": "Surfent Terra",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Surfent Terra.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "102",
+        "name": "Suzaku",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Suzaku.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "102",
+        "name": "Suzaku Aqua",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Suzaku Aqua.png",
+        "types": [
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Watering",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "53",
+        "name": "Swee",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Swee.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Cooling",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "54",
+        "name": "Sweepa",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Sweepa.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Cooling",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "8",
+        "name": "Tanzee",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Tanzee.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Deforesting",
+                "level": 1
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Planting",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "135",
+        "name": "Tarantriss",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Tarantriss.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Medicine Production",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "16",
+        "name": "Teafant",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Teafant.png",
+        "types": [
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Watering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "27",
+        "name": "Tocotoco",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Tocotoco.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "68",
+        "name": "Tombat",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Tombat.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Mining",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "148",
+        "name": "Turtacle",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Turtacle.png",
+        "types": [
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Mining",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "148",
+        "name": "Turtacle Terra",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Turtacle Terra.png",
+        "types": [
+            "elm7",
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Mining",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            },
+            {
+                "name": "Watering",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "56",
+        "name": "Univolt",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Univolt.png",
+        "types": [
+            "elm6"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 1
+            },
+            {
+                "name": "Generating Electricity",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "78",
+        "name": "Vaelet",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Vaelet.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Medicine Production",
+                "level": 3
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "71",
+        "name": "Vanwyrm",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Vanwyrm.png",
+        "types": [
+            "elm8",
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "71",
+        "name": "Vanwyrm Cryst",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Vanwyrm Cryst.png",
+        "types": [
+            "elm1",
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "77",
+        "name": "Verdash",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Verdash.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 3
+            },
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 3
+            },
+            {
+                "name": "Planting",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "14",
+        "name": "Vixy",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Vixy.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            },
+            {
+                "name": "Farming",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "92",
+        "name": "Warsect",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Warsect.png",
+        "types": [
+            "elm4",
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 3
+            },
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Planting",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "92",
+        "name": "Warsect Terra",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Warsect Terra.png",
+        "types": [
+            "elm4"
+        ],
+        "skills": [
+            {
+                "name": "Handiwork",
+                "level": 1
+            },
+            {
+                "name": "Mining",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "154",
+        "name": "Whalaska",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Whalaska.png",
+        "types": [
+            "elm1",
+            "elm7"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 4
+            },
+            {
+                "name": "Watering",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "154",
+        "name": "Whalaska Ignis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Whalaska Ignis.png",
+        "types": [
+            "elm1",
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 4
+            },
+            {
+                "name": "Kindling",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "76",
+        "name": "Wixen",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Wixen.png",
+        "types": [
+            "elm8"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "76",
+        "name": "Wixen Noct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Wixen Noct.png",
+        "types": [
+            "elm8",
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Kindling",
+                "level": 2
+            },
+            {
+                "name": "Handiwork",
+                "level": 3
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "34",
+        "name": "Woolipop",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Woolipop.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Farming",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "91",
+        "name": "Wumpo",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Wumpo.png",
+        "types": [
+            "elm1"
+        ],
+        "skills": [
+            {
+                "name": "Cooling",
+                "level": 2
+            },
+            {
+                "name": "Deforesting",
+                "level": 3
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "91",
+        "name": "Wumpo Botan",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Wumpo Botan.png",
+        "types": [
+            "elm5"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 3
+            },
+            {
+                "name": "Handiwork",
+                "level": 2
+            },
+            {
+                "name": "Planting",
+                "level": 1
+            },
+            {
+                "name": "Transporting",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "index": "126",
+        "name": "Xenogard",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Xenogard.png",
+        "types": [
+            "elm3"
+        ],
+        "skills": [
+            {
+                "name": "Mining",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "index": "127",
+        "name": "Xenolord",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Xenolord.png",
+        "types": [
+            "elm2",
+            "elm3"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "index": "125",
+        "name": "Xenovader",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Xenovader.png",
+        "types": [
+            "elm2"
+        ],
+        "skills": [
+            {
+                "name": "Deforesting",
+                "level": 2
+            },
+            {
+                "name": "Transporting",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "index": "121",
+        "name": "Yakumo",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/pal/Yakumo.png",
+        "types": [
+            "elm9"
+        ],
+        "skills": [
+            {
+                "name": "Gathering",
+                "level": 2
+            }
+        ]
+    }
+]
