@@ -1,0 +1,290 @@
+[
+    {
+        "name": "Nibbit",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Nibbit.png"
+    },
+    {
+        "name": "Leaf Slime (S)",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Leaf_Slime_(S).png"
+    },
+    {
+        "name": "Leaf Slime (M)",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Leaf_Slime_(M).png"
+    },
+    {
+        "name": "Twig Slime (S)",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Twig_Slime_(S).png"
+    },
+    {
+        "name": "Twig Slime (M)",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Twig_Slime_(M).png"
+    },
+    {
+        "name": "Shrinker Beetle",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Shrinker_Beetle.png"
+    },
+    {
+        "name": "Fuzzy Wurm Crawler",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Fuzzy_Wurm_Crawler.png"
+    },
+    {
+        "name": "Inklet",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Inklet.png"
+    },
+    {
+        "name": "Flyconid",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Flyconid.png"
+    },
+    {
+        "name": "Fogmog",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Fogmog.png"
+    },
+    {
+        "name": "Eye With Teeth",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Eye_With_Teeth.png"
+    },
+    {
+        "name": "Mawler",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Mawler.png"
+    },
+    {
+        "name": "Snapping Jaxfruit",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Snapping_Jaxfruit.png"
+    },
+    {
+        "name": "Slithering Strangler",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Slithering_Strangler.png"
+    },
+    {
+        "name": "Vine Shambler",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Vine_Shambler.png"
+    },
+    {
+        "name": "Cubex Construct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Cubex_Construct.png"
+    },
+    {
+        "name": "Axe Raider",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Axe_Raider.png"
+    },
+    {
+        "name": "Assassin Raider",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Assassin_Raider.png"
+    },
+    {
+        "name": "Brute Raider",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Brute_Raider.png"
+    },
+    {
+        "name": "Crossbow Raider",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Crossbow_Raider.png"
+    },
+    {
+        "name": "Tracker Raider",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Tracker_Raider.png"
+    },
+    {
+        "name": "Corpse Slug",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Corpse_Slug.png"
+    },
+    {
+        "name": "Seapunk",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Seapunk.png"
+    },
+    {
+        "name": "Sludge Spinner",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Sludge_Spinner.png"
+    },
+    {
+        "name": "Toadpole",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Toadpole.png"
+    },
+    {
+        "name": "Calcified Cultist",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Calcified_Cultist.png"
+    },
+    {
+        "name": "Damp Cultist",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Damp_Cultist.png"
+    },
+    {
+        "name": "Living Fog",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Living_Fog.png"
+    },
+    {
+        "name": "Gas Bomb",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Gas_Bomb.png"
+    },
+    {
+        "name": "Fossil Stalker",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Fossil_Stalker.png"
+    },
+    {
+        "name": "Gremlin Merc",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Gremlin_Merc.png"
+    },
+    {
+        "name": "Fat Gremlin",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Fat_Gremlin.png"
+    },
+    {
+        "name": "Sneaky Gremlin",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Sneaky_Gremlin.png"
+    },
+    {
+        "name": "Haunted Ship",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Haunted_Ship.png"
+    },
+    {
+        "name": "Punch Construct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Punch_Construct.png"
+    },
+    {
+        "name": "Sewer Clam",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Sewer_Clam.png"
+    },
+    {
+        "name": "Two-Tailed Rat",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Two-Tailed_Rat.png"
+    },
+    {
+        "name": "Bowlbug (Rock)",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Bowlbug_(Rock).png"
+    },
+    {
+        "name": "Bowlbug (Egg)",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Bowlbug_(Egg).png"
+    },
+    {
+        "name": "Bowlbug (Silk)",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Bowlbug_(Silk).png"
+    },
+    {
+        "name": "Bowlbug (Nectar)",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Bowlbug_(Nectar).png"
+    },
+    {
+        "name": "Exoskeleton",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Exoskeleton.png"
+    },
+    {
+        "name": "Thieving Hopper",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Thieving_Hopper.png"
+    },
+    {
+        "name": "Tunneler",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Tunneler.png"
+    },
+    {
+        "name": "Chomper",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Chomper.png"
+    },
+    {
+        "name": "Hunter Killer",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Hunter_Killer.png"
+    },
+    {
+        "name": "Louse Progenitor",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Louse_Progenitor.png"
+    },
+    {
+        "name": "Myte",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Myte.png"
+    },
+    {
+        "name": "Ovicopter",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Ovicopter.png"
+    },
+    {
+        "name": "Tough Egg",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Tough_Egg.png"
+    },
+    {
+        "name": "Slumbering Beetle",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Slumbering_Beetle.png"
+    },
+    {
+        "name": "Spiny Toad",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Spiny_Toad.png"
+    },
+    {
+        "name": "The Obscura",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/The_Obscura.png"
+    },
+    {
+        "name": "Parafright",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Parafright.png"
+    },
+    {
+        "name": "Axebot",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Axebot.png"
+    },
+    {
+        "name": "Devoted Sculptor",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Devoted_Sculptor.png"
+    },
+    {
+        "name": "Fabricator",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Fabricator.png"
+    },
+    {
+        "name": "Guardbot",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Guardbot.png"
+    },
+    {
+        "name": "Noisebot",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Noisebot.png"
+    },
+    {
+        "name": "Stabbot",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Stabbot.png"
+    },
+    {
+        "name": "Zapbot",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Zapbot.png"
+    },
+    {
+        "name": "Frog Knight",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Frog_Knight.png"
+    },
+    {
+        "name": "Globe Head",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Globe_Head.png"
+    },
+    {
+        "name": "Living Shield",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Living_Shield.png"
+    },
+    {
+        "name": "Turret Operator",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Turret_Operator.png"
+    },
+    {
+        "name": "Owl Magistrate",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Owl_Magistrate.png"
+    },
+    {
+        "name": "Scroll of Biting",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Scroll_of_Biting.png"
+    },
+    {
+        "name": "Slimed Berserker",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Slimed_Berserker.png"
+    },
+    {
+        "name": "The Lost",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/The_Lost.png"
+    },
+    {
+        "name": "The Forgotten",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/The_Forgotten.png"
+    },
+    {
+        "name": "Punch Construct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Punch_Construct.png"
+    },
+    {
+        "name": "Cubex Construct",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/monsters/Cubex_Construct.png"
+    }
+]

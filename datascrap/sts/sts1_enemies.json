@@ -1,0 +1,174 @@
+[
+    {
+        "name": "Spike Slimes",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Spike_Slimes.png"
+    },
+    {
+        "name": "Acid Slimes",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Acid_Slimes.png"
+    },
+    {
+        "name": "Cultist",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Cultist.png"
+    },
+    {
+        "name": "Jaw Worm",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Jaw_Worm.png"
+    },
+    {
+        "name": "Louses",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Louses.png"
+    },
+    {
+        "name": "Fungi Beast",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Fungi_Beast.png"
+    },
+    {
+        "name": "Gremlins",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Gremlins.png"
+    },
+    {
+        "name": "Looter",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Looter.png"
+    },
+    {
+        "name": "Slavers",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Slavers.png"
+    },
+    {
+        "name": "Byrd",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Byrd.png"
+    },
+    {
+        "name": "Chosen",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Chosen.png"
+    },
+    {
+        "name": "Mugger",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Mugger.png"
+    },
+    {
+        "name": "Shelled Parasite",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Shelled_Parasite.png"
+    },
+    {
+        "name": "Spheric Guardian",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Spheric_Guardian.png"
+    },
+    {
+        "name": "Centurion and Mystic",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Centurion_and_Mystic.png"
+    },
+    {
+        "name": "Snake Plant",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Snake_Plant.png"
+    },
+    {
+        "name": "Snecko",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Snecko.png"
+    },
+    {
+        "name": "Cultist",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Cultist.png"
+    },
+    {
+        "name": "Looter",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Looter.png"
+    },
+    {
+        "name": "Fungi Beast",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Fungi_Beast.png"
+    },
+    {
+        "name": "Gremlins",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Gremlins.png"
+    },
+    {
+        "name": "Slavers",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Slavers.png"
+    },
+    {
+        "name": "Sentry",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Sentry.png"
+    },
+    {
+        "name": "Darkling",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Darkling.png"
+    },
+    {
+        "name": "Orb Walker",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Orb_Walker.png"
+    },
+    {
+        "name": "Shapes",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Shapes.png"
+    },
+    {
+        "name": "The Maw",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/The_Maw.png"
+    },
+    {
+        "name": "Spire Growth",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Spire_Growth.png"
+    },
+    {
+        "name": "Transient",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Transient.png"
+    },
+    {
+        "name": "Writhing Mass",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Writhing_Mass.png"
+    },
+    {
+        "name": "Cultist",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Cultist.png"
+    },
+    {
+        "name": "Jaw Worm",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Jaw_Worm.png"
+    },
+    {
+        "name": "Spheric Guardian",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/monsters/Spheric_Guardian.png"
+    },
+    {
+        "name": "Gremlin Nob",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Gremlin_Nob.png"
+    },
+    {
+        "name": "Lagavulin",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Lagavulin.png"
+    },
+    {
+        "name": "Sentries",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Sentries.png"
+    },
+    {
+        "name": "Book of Stabbing",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Book_of_Stabbing.png"
+    },
+    {
+        "name": "Gremlin Leader",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Gremlin_Leader.png"
+    },
+    {
+        "name": "Taskmaster",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Taskmaster.png"
+    },
+    {
+        "name": "Giant Head",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Giant_Head.png"
+    },
+    {
+        "name": "Nemesis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Nemesis.png"
+    },
+    {
+        "name": "Reptomancer",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Reptomancer.png"
+    },
+    {
+        "name": "Spire Shield and Spire Spear",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Spire_Shield_and_Spire_Spear.png"
+    }
+]

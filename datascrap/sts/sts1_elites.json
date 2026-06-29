@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Gremlin Nob",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Gremlin_Nob.png"
+    },
+    {
+        "name": "Lagavulin",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Lagavulin.png"
+    },
+    {
+        "name": "Sentries",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Sentries.png"
+    },
+    {
+        "name": "Book of Stabbing",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Book_of_Stabbing.png"
+    },
+    {
+        "name": "Gremlin Leader",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Gremlin_Leader.png"
+    },
+    {
+        "name": "Taskmaster",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Taskmaster.png"
+    },
+    {
+        "name": "Giant Head",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Giant_Head.png"
+    },
+    {
+        "name": "Nemesis",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Nemesis.png"
+    },
+    {
+        "name": "Reptomancer",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Reptomancer.png"
+    },
+    {
+        "name": "Spire Shield and Spire Spear",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts/elites/Spire_Shield_and_Spire_Spear.png"
+    }
+]

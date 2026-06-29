@@ -16,11 +16,26 @@ def slugify(s: str) -> str:
     s = re.sub(r"[\s\-]+", "_", s)
     return s
 
-def make_base_structure(title: str):
+def pretty_type_label(typ: str) -> str:
+    """
+    Retourne un libellé lisible pour Subcategory.
+    Exemples:
+      'material' -> 'Materials'
+      'unknown'  -> 'Unknowns'
+      'all types' -> 'All Types'
+    """
+    if typ.lower() in ("all types", "all"):
+        return "All Types"
+    t = typ.strip().title()
+    if not t.endswith("s"):
+        t = t + "s"
+    return t
+
+def make_base_structure(title: str, typ_label: str):
     return {
         "Name": title,
         "Category": "Palworld",
-        "Subcategory": "Items",
+        "Subcategory": f"Items - {typ_label}",
         "Quantizable": False,
         "Items": []
     }
@@ -44,72 +59,78 @@ def load_items(path: Path):
     return data
 
 def group_items(items):
-    # groups[type][rarity] -> list of items
     groups = defaultdict(lambda: defaultdict(list))
     rarities_set = set()
     types_set = set()
     for it in items:
-        typ = it.get("type", "Unknown").strip().lower()
+        typ = it.get("type", "Unknown").strip()
+        typ_key = typ.lower()
         stats = it.get("stats", {}) or {}
         rarity = stats.get("Rarity", 0)
         try:
             rarity = int(rarity)
         except Exception:
             rarity = 0
-        groups[typ][rarity].append(it)
+        groups[typ_key][rarity].append(it)
         rarities_set.add(rarity)
-        types_set.add(typ)
+        types_set.add(typ_key)
     return groups, sorted(rarities_set), sorted(types_set)
 
 def write_json(path: Path, obj):
     with path.open("w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
 
-def generate_for_type_and_rarity(out_dir: Path, typ: str, rarity: int, items_list: list):
-    title = f"Palworld - Items {typ}/rarity {rarity}"
-    base = make_base_structure(title)
+def generate_for_type_and_rarity(out_dir: Path, typ_key: str, rarity: int, items_list: list):
+    typ_label = pretty_type_label(typ_key)
+    title = f"Palworld - Items {typ_key}/rarity {rarity}"
+    base = make_base_structure(title, typ_label)
     base["Items"] = [item_to_entry(it) for it in items_list]
-    filename = out_dir / f"items_{typ}_rarity_{rarity}.json"
+    filename = out_dir / f"items_{slugify(typ_key)}_rarity_{rarity}.json"
     write_json(filename, base)
 
-def generate_for_type_all_rarities(out_dir: Path, typ: str, items_all: list):
-    title = f"Palworld - Items {typ}/all rarities"
-    base = make_base_structure(title)
+def generate_for_type_all_rarities(out_dir: Path, typ_key: str, items_all: list):
+    typ_label = pretty_type_label(typ_key)
+    title = f"Palworld - Items {typ_key}/all rarities"
+    base = make_base_structure(title, typ_label)
     base["Items"] = [item_to_entry(it) for it in items_all]
-    filename = out_dir / f"items_{typ}_all_rarities.json"
+    filename = out_dir / f"items_{slugify(typ_key)}_all_rarities.json"
     write_json(filename, base)
 
-def generate_for_type_andbelow(out_dir: Path, typ: str, threshold: int, items_by_rarity: dict):
-    # collect items with rarity <= threshold
+def generate_for_type_andbelow(out_dir: Path, typ_key: str, threshold: int, items_by_rarity: dict):
+    typ_label = pretty_type_label(typ_key)
     collected = []
     for r, items in items_by_rarity.items():
         if r <= threshold:
             collected.extend(items)
-    title = f"Palworld - Items {typ}/rarity {threshold} and below"
-    base = make_base_structure(title)
+    title = f"Palworld - Items {typ_key}/rarity {threshold} and below"
+    base = make_base_structure(title, typ_label)
     base["Items"] = [item_to_entry(it) for it in collected]
-    filename = out_dir / f"items_{typ}_rarity_{threshold}_andbelow.json"
+    filename = out_dir / f"items_{slugify(typ_key)}_rarity_{threshold}_andbelow.json"
     write_json(filename, base)
 
 def generate_global_files(out_dir: Path, groups, rarities, types):
-    # all types + per rarity across types
-    # 1) all types all rarities
+    # all types all rarities
     all_items = []
     for typ in types:
         for r in groups[typ]:
             all_items.extend(groups[typ][r])
+    typ_label = pretty_type_label("all types")
     title = "Palworld - Items all types/all rarities"
-    write_json(out_dir / "items_all_types_all_rarities.json", make_base_structure(title) | {"Items": [item_to_entry(it) for it in all_items]})
+    base = make_base_structure(title, typ_label)
+    base["Items"] = [item_to_entry(it) for it in all_items]
+    write_json(out_dir / "items_all_types_all_rarities.json", base)
 
-    # 2) all types per rarity
+    # all types per rarity
     for r in rarities:
         collected = []
         for typ in types:
             collected.extend(groups[typ].get(r, []))
         title = f"Palworld - Items all types/rarity {r}"
-        write_json(out_dir / f"items_all_types_rarity_{r}.json", make_base_structure(title) | {"Items": [item_to_entry(it) for it in collected]})
+        base = make_base_structure(title, typ_label)
+        base["Items"] = [item_to_entry(it) for it in collected]
+        write_json(out_dir / f"items_all_types_rarity_{r}.json", base)
 
-    # 3) all types andbelow for each rarity threshold
+    # all types andbelow for each rarity threshold
     for threshold in rarities:
         collected = []
         for typ in types:
@@ -117,7 +138,9 @@ def generate_global_files(out_dir: Path, groups, rarities, types):
                 if r <= threshold:
                     collected.extend(items)
         title = f"Palworld - Items all types/rarity {threshold} and below"
-        write_json(out_dir / f"items_all_types_rarity_{threshold}_andbelow.json", make_base_structure(title) | {"Items": [item_to_entry(it) for it in collected]})
+        base = make_base_structure(title, typ_label)
+        base["Items"] = [item_to_entry(it) for it in collected]
+        write_json(out_dir / f"items_all_types_rarity_{threshold}_andbelow.json", base)
 
 def main():
     items = load_items(INPUT)

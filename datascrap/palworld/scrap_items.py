@@ -1,173 +1,115 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
+import os
 import json
-import re
-from pathlib import Path
-from collections import defaultdict
+import time
+import requests
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
 
-INPUT = Path("./items.json")
-OUT_DIR = Path("./generated_json")
-OUT_DIR.mkdir(parents=True, exist_ok=True)
+BASE_URL = "https://palworld.gg/items"
+IMG_ITEM_DIR = "../../assets/category/palworld/items/"
+GITHUB_BASE = "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/palworld/items/"
 
-def slugify(s: str) -> str:
-    s = s.strip().lower()
-    s = re.sub(r"[^\w\s-]", "", s)
-    s = re.sub(r"[\s\-]+", "_", s)
-    return s
+os.makedirs(IMG_ITEM_DIR, exist_ok=True)
 
-def pretty_type_label(typ: str) -> str:
-    """
-    Retourne un libellé lisible pour Subcategory.
-    Exemples:
-      'material' -> 'Materials'
-      'unknown'  -> 'Unknowns'
-      'all types' -> 'All Types'
-    """
-    if typ.lower() in ("all types", "all"):
-        return "All Types"
-    t = typ.strip().title()
-    if not t.endswith("s"):
-        t = t + "s"
-    return t
+def download_image(url, name):
+    if url.startswith("/"):
+        url = "https://palworld.gg" + url
 
-def make_base_structure(title: str, typ_label: str):
-    return {
-        "Name": title,
-        "Category": "Palworld",
-        "Subcategory": f"Items - {typ_label}",
-        "Quantizable": False,
-        "Items": []
-    }
+    filename = f"{name}.png"
+    path = os.path.join(IMG_ITEM_DIR, filename)
 
-def item_to_entry(item: dict):
-    name = item.get("name", "")
-    image = item.get("image", "")
-    idx = slugify(name) if name else ""
-    return {
-        "Index": idx,
-        "Name_FR": name,
-        "Name_EN": name,
-        "PictureMain": image
-    }
+    img_data = requests.get(url).content
+    with open(path, "wb") as f:
+        f.write(img_data)
 
-def load_items(path: Path):
-    if not path.exists():
-        raise FileNotFoundError(f"Input file not found: {path}")
-    with path.open("r", encoding="utf-8") as f:
-        data = json.load(f)
-    return data
+    return GITHUB_BASE + filename
 
-def group_items(items):
-    groups = defaultdict(lambda: defaultdict(list))
-    rarities_set = set()
-    types_set = set()
-    for it in items:
-        typ = it.get("type", "Unknown").strip()
-        typ_key = typ.lower()
-        stats = it.get("stats", {}) or {}
-        rarity = stats.get("Rarity", 0)
-        try:
-            rarity = int(rarity)
-        except Exception:
-            rarity = 0
-        groups[typ_key][rarity].append(it)
-        rarities_set.add(rarity)
-        types_set.add(typ_key)
-    return groups, sorted(rarities_set), sorted(types_set)
 
-def write_json(path: Path, obj):
-    with path.open("w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=2)
+# --- Lancer Chrome ---
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+driver.get(BASE_URL)
+time.sleep(2)
 
-def generate_for_type_and_rarity(out_dir: Path, typ_key: str, rarity: int, items_list: list):
-    typ_label = pretty_type_label(typ_key)
-    title = f"Palworld - Items {typ_key}/rarity {rarity}"
-    base = make_base_structure(title, typ_label)
-    base["Items"] = [item_to_entry(it) for it in items_list]
-    filename = out_dir / f"items_{slugify(typ_key)}_rarity_{rarity}.json"
-    write_json(filename, base)
+ALL_ITEMS = []
 
-def generate_for_type_all_rarities(out_dir: Path, typ_key: str, items_all: list):
-    typ_label = pretty_type_label(typ_key)
-    title = f"Palworld - Items {typ_key}/all rarities"
-    base = make_base_structure(title, typ_label)
-    base["Items"] = [item_to_entry(it) for it in items_all]
-    filename = out_dir / f"items_{slugify(typ_key)}_all_rarities.json"
-    write_json(filename, base)
+print("Scraping des items Palworld…")
 
-def generate_for_type_andbelow(out_dir: Path, typ_key: str, threshold: int, items_by_rarity: dict):
-    typ_label = pretty_type_label(typ_key)
-    collected = []
-    for r, items in items_by_rarity.items():
-        if r <= threshold:
-            collected.extend(items)
-    title = f"Palworld - Items {typ_key}/rarity {threshold} and below"
-    base = make_base_structure(title, typ_label)
-    base["Items"] = [item_to_entry(it) for it in collected]
-    filename = out_dir / f"items_{slugify(typ_key)}_rarity_{threshold}_andbelow.json"
-    write_json(filename, base)
+# --- Trouver les boutons de pagination ---
+page_buttons = driver.find_elements(By.CSS_SELECTOR, ".page-nav-btn")
+total_pages = len(page_buttons)
 
-def generate_global_files(out_dir: Path, groups, rarities, types):
-    # all types all rarities
-    all_items = []
-    for typ in types:
-        for r in groups[typ]:
-            all_items.extend(groups[typ][r])
-    typ_label = pretty_type_label("all types")
-    title = "Palworld - Items all types/all rarities"
-    base = make_base_structure(title, typ_label)
-    base["Items"] = [item_to_entry(it) for it in all_items]
-    write_json(out_dir / "items_all_types_all_rarities.json", base)
+print(f"{total_pages} pages détectées.")
 
-    # all types per rarity
-    for r in rarities:
-        collected = []
-        for typ in types:
-            collected.extend(groups[typ].get(r, []))
-        title = f"Palworld - Items all types/rarity {r}"
-        base = make_base_structure(title, typ_label)
-        base["Items"] = [item_to_entry(it) for it in collected]
-        write_json(out_dir / f"items_all_types_rarity_{r}.json", base)
+for page_index in range(total_pages):
+    print(f"Page {page_index + 1}…")
 
-    # all types andbelow for each rarity threshold
-    for threshold in rarities:
-        collected = []
-        for typ in types:
-            for r, items in groups[typ].items():
-                if r <= threshold:
-                    collected.extend(items)
-        title = f"Palworld - Items all types/rarity {threshold} and below"
-        base = make_base_structure(title, typ_label)
-        base["Items"] = [item_to_entry(it) for it in collected]
-        write_json(out_dir / f"items_all_types_rarity_{threshold}_andbelow.json", base)
+    # Cliquer sur le bouton de page
+    page_buttons[page_index].click()
+    time.sleep(1.5)
 
-def main():
-    items = load_items(INPUT)
-    groups, rarities, types = group_items(items)
+    # Récupérer le HTML généré par JS
+    soup = BeautifulSoup(driver.page_source, "html.parser")
 
-    # Per-type files
-    for typ in types:
-        # gather all items for this type
-        items_all_for_type = []
-        for r in groups[typ]:
-            items_all_for_type.extend(groups[typ][r])
+    items = soup.select("section.items-list div.item")
 
-        # all rarities for this type
-        generate_for_type_all_rarities(OUT_DIR, typ, items_all_for_type)
+    for item in items:
+        name_tag = item.select_one(".up .name .text")
+        if not name_tag:
+            continue
+        name = name_tag.text.strip()
 
-        # per rarity for this type
-        for r in groups[typ]:
-            generate_for_type_and_rarity(OUT_DIR, typ, r, groups[typ][r])
+        type_tag = item.select_one(".up .name .type")
+        item_type = type_tag.text.strip() if type_tag else ""
 
-        # andbelow for thresholds based on global rarities set
-        for threshold in rarities:
-            generate_for_type_andbelow(OUT_DIR, typ, threshold, groups[typ])
+        img_tag = item.select_one(".up .image img")
+        img_url = img_tag.get("src")
+        image_github = download_image(img_url, name)
 
-    # Global files across types
-    generate_global_files(OUT_DIR, groups, rarities, types)
+        desc_tag = item.select_one(".item-card .description")
+        description = desc_tag.text.strip() if desc_tag else ""
 
-    print(f"Generated JSON files in {OUT_DIR} (types: {len(types)}, rarities: {len(rarities)})")
+        stats = {}
+        stat_items = item.select(".item-card .keys .key")
 
-if __name__ == "__main__":
-    main()
+        for stat in stat_items:
+            key_name = stat.select_one(".text").text.strip()
+            key_value = stat.select_one(".value").text.strip()
+
+            try:
+                key_value = int(key_value)
+            except:
+                pass
+
+            stats[key_name] = key_value
+
+        recipe_section = item.select_one(".item-card .recipe")
+        has_recipe = recipe_section is not None
+
+        recipe = []
+        if has_recipe:
+            recipe_items = recipe_section.select(".elms .item")
+            for r in recipe_items:
+                recipe.append(r.select_one(".name").text.strip())
+
+        ALL_ITEMS.append({
+            "name": name,
+            "type": item_type,
+            "image": image_github,
+            "description": description,
+            "stats": stats,
+            "has_recipe": has_recipe,
+            "recipe": recipe
+        })
+
+# Fermer Chrome
+driver.quit()
+
+# Sauvegarder JSON
+with open("items.json", "w", encoding="utf-8") as f:
+    json.dump(ALL_ITEMS, f, indent=4, ensure_ascii=False)
+
+print("Scraping terminé !")
+print("Fichier généré : items.json")

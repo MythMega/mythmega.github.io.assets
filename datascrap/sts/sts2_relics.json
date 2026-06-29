@@ -1,0 +1,1778 @@
+[
+    {
+        "name": "Burning Blood",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Burning_Blood.png",
+        "rarity": "Starter",
+        "character": "Ironclad"
+    },
+    {
+        "name": "Black Blood",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Black_Blood.png",
+        "rarity": "Starter",
+        "character": "Ironclad"
+    },
+    {
+        "name": "Ring of the Snake",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Ring_of_the_Snake.png",
+        "rarity": "Starter",
+        "character": "Silent"
+    },
+    {
+        "name": "Ring of the Drake",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Ring_of_the_Drake.png",
+        "rarity": "Starter",
+        "character": "Silent"
+    },
+    {
+        "name": "Divine Right",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Divine_Right.png",
+        "rarity": "Starter",
+        "character": "Regent"
+    },
+    {
+        "name": "Divine Destiny",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Divine_Destiny.png",
+        "rarity": "Starter",
+        "character": "Regent"
+    },
+    {
+        "name": "Bound Phylactery",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Bound_Phylactery.png",
+        "rarity": "Starter",
+        "character": "Necrobinder"
+    },
+    {
+        "name": "Phylactery Unbound",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Phylactery_Unbound.png",
+        "rarity": "Starter",
+        "character": "Necrobinder"
+    },
+    {
+        "name": "Cracked Core",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Cracked_Core.png",
+        "rarity": "Starter",
+        "character": "Defect"
+    },
+    {
+        "name": "Infused Core",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Infused_Core.png",
+        "rarity": "Starter",
+        "character": "Defect"
+    },
+    {
+        "name": "Amethyst Aubergine",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Amethyst_Aubergine.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Anchor",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Anchor.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Bag of Marbles",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Bag_of_Marbles.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Bag of Preparation",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Bag_of_Preparation.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Blood Vial",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Blood_Vial.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Book of Five Rings",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Book_of_Five_Rings.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Bronze Scales",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Bronze_Scales.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Centennial Puzzle",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Centennial_Puzzle.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Festive Popper",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Festive_Popper.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Gorget",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Gorget.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Happy Flower",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Happy_Flower.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Juzu Bracelet",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Juzu_Bracelet.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Lantern",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Lantern.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Meal Ticket",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Meal_Ticket.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Oddly Smooth Stone",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Oddly_Smooth_Stone.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Pendulum",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pendulum.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Potion Belt",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Potion_Belt.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Red Mask",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Red_Mask.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Regal Pillow",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Regal_Pillow.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Strawberry",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Strawberry.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Strike Dummy",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Strike_Dummy.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Vajra",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Vajra.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Venerable Tea Set",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Venerable_Tea_Set.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "War Paint",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/War_Paint.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Whetstone",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Whetstone.png",
+        "rarity": "Common",
+        "character": "Any"
+    },
+    {
+        "name": "Red Skull",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Red_Skull.png",
+        "rarity": "Common",
+        "character": "Ironclad"
+    },
+    {
+        "name": "Snecko Skull",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Snecko_Skull.png",
+        "rarity": "Common",
+        "character": "Silent"
+    },
+    {
+        "name": "Fencing Manual",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Fencing_Manual.png",
+        "rarity": "Common",
+        "character": "Regent"
+    },
+    {
+        "name": "Bone Flute",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Bone_Flute.png",
+        "rarity": "Common",
+        "character": "Necrobinder"
+    },
+    {
+        "name": "Data Disk",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Data_Disk.png",
+        "rarity": "Common",
+        "character": "Defect"
+    },
+    {
+        "name": "Akabeko",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Akabeko.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Bowler Hat",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Bowler_Hat.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Candelabra",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Candelabra.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Eternal Feather",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Eternal_Feather.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Gremlin Horn",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Gremlin_Horn.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Horn Cleat",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Horn_Cleat.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Joss Paper",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Joss_Paper.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Kusarigama",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Kusarigama.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Lasting Candy",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Lasting_Candy.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Letter Opener",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Letter_Opener.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Lucky Fysh",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Lucky_Fysh.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Mercury Hourglass",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Mercury_Hourglass.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Miniature Cannon",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Miniature_Cannon.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Nunchaku",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Nunchaku.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Orichalcum",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Orichalcum.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Ornamental Fan",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Ornamental_Fan.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Pantograph",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pantograph.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Parrying Shield",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Parrying_Shield.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Pear",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pear.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Pen Nib",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pen_Nib.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Permafrost",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Permafrost.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Petrified Toad",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Petrified_Toad.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Planisphere",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Planisphere.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Reptile Trinket",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Reptile_Trinket.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Ripple Basin",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Ripple_Basin.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Sparkling Rouge",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Sparkling_Rouge.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Stone Cracker",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Stone_Cracker.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Tiny Mailbox",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Tiny_Mailbox.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Tuning Fork",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Tuning_Fork.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Vambrace",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Vambrace.png",
+        "rarity": "Uncommon",
+        "character": "Any"
+    },
+    {
+        "name": "Paper Phrog",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Paper_Phrog.png",
+        "rarity": "Uncommon",
+        "character": "Ironclad"
+    },
+    {
+        "name": "Self-Forming Clay",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Self-Forming_Clay.png",
+        "rarity": "Uncommon",
+        "character": "Ironclad"
+    },
+    {
+        "name": "Tingsha",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Tingsha.png",
+        "rarity": "Uncommon",
+        "character": "Silent"
+    },
+    {
+        "name": "Twisted Funnel",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Twisted_Funnel.png",
+        "rarity": "Uncommon",
+        "character": "Silent"
+    },
+    {
+        "name": "Galactic Dust",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Galactic_Dust.png",
+        "rarity": "Uncommon",
+        "character": "Regent"
+    },
+    {
+        "name": "Regalite",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Regalite.png",
+        "rarity": "Uncommon",
+        "character": "Regent"
+    },
+    {
+        "name": "Book Repair Knife",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Book_Repair_Knife.png",
+        "rarity": "Uncommon",
+        "character": "Necrobinder"
+    },
+    {
+        "name": "Funerary Mask",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Funerary_Mask.png",
+        "rarity": "Uncommon",
+        "character": "Necrobinder"
+    },
+    {
+        "name": "Gold-Plated Cables",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Gold-Plated_Cables.png",
+        "rarity": "Uncommon",
+        "character": "Defect"
+    },
+    {
+        "name": "Symbiotic Virus",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Symbiotic_Virus.png",
+        "rarity": "Uncommon",
+        "character": "Defect"
+    },
+    {
+        "name": "Art of War",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Art_of_War.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Beating Remnant",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Beating_Remnant.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Bellows",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Bellows.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Captain's Wheel",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Captain's_Wheel.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Chandelier",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Chandelier.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Cloak Clasp",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Cloak_Clasp.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Frozen Egg",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Frozen_Egg.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Gambling Chip",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Gambling_Chip.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Game Piece",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Game_Piece.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Girya",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Girya.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Ice Cream",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Ice_Cream.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Intimidating Helmet",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Intimidating_Helmet.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Kunai",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Kunai.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Lizard Tail",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Lizard_Tail.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Mango",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Mango.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Meat on the Bone",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Meat_on_the_Bone.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Molten Egg",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Molten_Egg.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Mummified Hand",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Mummified_Hand.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Old Coin",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Old_Coin.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Pocketwatch",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pocketwatch.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Prayer Wheel",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Prayer_Wheel.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Rainbow Ring",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Rainbow_Ring.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Razor Tooth",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Razor_Tooth.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Shovel",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Shovel.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Shuriken",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Shuriken.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Stone Calendar",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Stone_Calendar.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Sturdy Clamp",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Sturdy_Clamp.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "The Courier",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/The_Courier.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Toxic Egg",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Toxic_Egg.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Tungsten Rod",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Tungsten_Rod.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Unceasing Top",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Unceasing_Top.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Unsettling Lamp",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Unsettling_Lamp.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Vexing Puzzlebox",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Vexing_Puzzlebox.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "White Beast Statue",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/White_Beast_Statue.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "White Star",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/White_Star.png",
+        "rarity": "Rare",
+        "character": "Any"
+    },
+    {
+        "name": "Charon's Ashes",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Charon's_Ashes.png",
+        "rarity": "Rare",
+        "character": "Ironclad"
+    },
+    {
+        "name": "Demon Tongue",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Demon_Tongue.png",
+        "rarity": "Rare",
+        "character": "Ironclad"
+    },
+    {
+        "name": "Ruined Helmet",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Ruined_Helmet.png",
+        "rarity": "Rare",
+        "character": "Ironclad"
+    },
+    {
+        "name": "Helical Dart",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Helical_Dart.png",
+        "rarity": "Rare",
+        "character": "Silent"
+    },
+    {
+        "name": "Paper Krane",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Paper_Krane.png",
+        "rarity": "Rare",
+        "character": "Silent"
+    },
+    {
+        "name": "Tough Bandages",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Tough_Bandages.png",
+        "rarity": "Rare",
+        "character": "Silent"
+    },
+    {
+        "name": "Lunar Pastry",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Lunar_Pastry.png",
+        "rarity": "Rare",
+        "character": "Regent"
+    },
+    {
+        "name": "Mini Regent",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Mini_Regent.png",
+        "rarity": "Rare",
+        "character": "Regent"
+    },
+    {
+        "name": "Orange Dough",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Orange_Dough.png",
+        "rarity": "Rare",
+        "character": "Regent"
+    },
+    {
+        "name": "Big Hat",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Big_Hat.png",
+        "rarity": "Rare",
+        "character": "Necrobinder"
+    },
+    {
+        "name": "Bookmark",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Bookmark.png",
+        "rarity": "Rare",
+        "character": "Necrobinder"
+    },
+    {
+        "name": "Ivory Tile",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Ivory_Tile.png",
+        "rarity": "Rare",
+        "character": "Necrobinder"
+    },
+    {
+        "name": "Emotion Chip",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Emotion_Chip.png",
+        "rarity": "Rare",
+        "character": "Defect"
+    },
+    {
+        "name": "Metronome",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Metronome.png",
+        "rarity": "Rare",
+        "character": "Defect"
+    },
+    {
+        "name": "Power Cell",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Power_Cell.png",
+        "rarity": "Rare",
+        "character": "Defect"
+    },
+    {
+        "name": "Arcane Scroll",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Arcane_Scroll.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Booming Conch",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Booming_Conch.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Cursed Pearl",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Cursed_Pearl.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Fishing Rod",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Fishing_Rod.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Golden Pearl",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Golden_Pearl.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Hefty Tablet",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Hefty_Tablet.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Kaleidoscope",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Kaleidoscope.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Large Capsule",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Large_Capsule.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Lava Rock",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Lava_Rock.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Lead Paperweight",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Lead_Paperweight.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Leafy Poultice",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Leafy_Poultice.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Lost Coffer",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Lost_Coffer.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Massive Scroll",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Massive_Scroll.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Neow's Bones",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Neow's_Bones.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Neow's Talisman",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Neow's_Talisman.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Neow's Torment",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Neow's_Torment.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "New Leaf",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/New_Leaf.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Nutritious Oyster",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Nutritious_Oyster.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Phial Holster",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Phial_Holster.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Pomander",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pomander.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Precarious Shears",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Precarious_Shears.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Precise Scissors",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Precise_Scissors.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Scroll Boxes",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Scroll_Boxes.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Silken Tress",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Silken_Tress.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Silver Crucible",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Silver_Crucible.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Small Capsule",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Small_Capsule.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Stone Humidifier",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Stone_Humidifier.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Winged Boots",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Winged_Boots.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Alchemical Coffer",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Alchemical_Coffer.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Archaic Tooth",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Archaic_Tooth.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Driftwood",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Driftwood.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Electric Shrymp",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Electric_Shrymp.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Glass Eye",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Glass_Eye.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Prismatic Gem",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Prismatic_Gem.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Radiant Pearl",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Radiant_Pearl.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Sand Castle",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Sand_Castle.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Sea Glass",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Sea_Glass.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Touch of Orobas",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Touch_of_Orobas.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Pael's Blood",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pael's_Blood.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Pael's Claw",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pael's_Claw.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Pael's Eye",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pael's_Eye.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Pael's Flesh",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pael's_Flesh.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Pael's Growth",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pael's_Growth.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Pael's Horn",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pael's_Horn.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Pael's Legion",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pael's_Legion.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Pael's Tears",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pael's_Tears.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Pael's Tooth",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pael's_Tooth.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Pael's Wing",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pael's_Wing.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Biiig Hug",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Biiig_Hug.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Golden Compass",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Golden_Compass.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Nutritious Soup",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Nutritious_Soup.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Pumpkin Candle",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pumpkin_Candle.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Seal of Gold",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Seal_of_Gold.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Storybook",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Storybook.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Toasty Mittens",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Toasty_Mittens.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Toy Box",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Toy_Box.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Very Hot Cocoa",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Very_Hot_Cocoa.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Yummy Cookie",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Yummy_Cookie.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Beautiful Bracelet",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Beautiful_Bracelet.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Blessed Antler",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Blessed_Antler.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Brilliant Scarf",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Brilliant_Scarf.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Delicate Frond",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Delicate_Frond.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Diamond Diadem",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Diamond_Diadem.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Fur Coat",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Fur_Coat.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Glitter",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Glitter.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Jewelry Box",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Jewelry_Box.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Looming Fruit",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Looming_Fruit.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Signet Ring",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Signet_Ring.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Claws",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Claws.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Crossbow",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Crossbow.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Iron Club",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Iron_Club.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Meat Cleaver",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Meat_Cleaver.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Sai",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Sai.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Spiked Gauntlets",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Spiked_Gauntlets.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Tanx's Whistle",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Tanx's_Whistle.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Throwing Axe",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Throwing_Axe.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Tri-Boomerang",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Tri-Boomerang.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "War Hammer",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/War_Hammer.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Blood-Soaked Rose",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Blood-Soaked_Rose.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Choices Paradox",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Choices_Paradox.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Distinguished Cape",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Distinguished_Cape.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Fiddle",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Fiddle.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Jeweled Mask",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Jeweled_Mask.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Lord's Parasol",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Lord's_Parasol.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Music Box",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Music_Box.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Preserved Fog",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Preserved_Fog.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Sere Talon",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Sere_Talon.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Whispering Earring",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Whispering_Earring.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Astrolabe",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Astrolabe.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Black Star",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Black_Star.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Calling Bell",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Calling_Bell.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Dusty Tome",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Dusty_Tome.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Ectoplasm",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Ectoplasm.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Empty Cage",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Empty_Cage.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Pandora's Box",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pandora's_Box.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Philosopher's Stone",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Philosopher's_Stone.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Runic Pyramid",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Runic_Pyramid.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Snecko Eye",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Snecko_Eye.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Sozu",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Sozu.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Velvet Choker",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Velvet_Choker.png",
+        "rarity": "Ancient",
+        "character": "Any"
+    },
+    {
+        "name": "Belt Buckle",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Belt_Buckle.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Bread",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Bread.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Burning Sticks",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Burning_Sticks.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Cauldron",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Cauldron.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Chemical X",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Chemical_X.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Dingy Rug",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Dingy_Rug.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Dolly's Mirror",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Dolly's_Mirror.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Dragon Fruit",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Dragon_Fruit.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Ghost Seed",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Ghost_Seed.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Gnarled Hammer",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Gnarled_Hammer.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Kifuda",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Kifuda.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Lava Lamp",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Lava_Lamp.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Lee's Waffle",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Lee's_Waffle.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Membership Card",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Membership_Card.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Miniature Tent",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Miniature_Tent.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Mystic Lighter",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Mystic_Lighter.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Orrery",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Orrery.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Punch Dagger",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Punch_Dagger.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Ringing Triangle",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Ringing_Triangle.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Royal Stamp",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Royal_Stamp.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Screaming Flagon",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Screaming_Flagon.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Sling of Courage",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Sling_of_Courage.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "The Abacus",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/The_Abacus.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Toolbox",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Toolbox.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Wing Charm",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Wing_Charm.png",
+        "rarity": "Shop",
+        "character": "Any"
+    },
+    {
+        "name": "Brimstone",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Brimstone.png",
+        "rarity": "Shop",
+        "character": "Ironclad"
+    },
+    {
+        "name": "Ninja Scroll",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Ninja_Scroll.png",
+        "rarity": "Shop",
+        "character": "Silent"
+    },
+    {
+        "name": "Vitruvian Minion",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Vitruvian_Minion.png",
+        "rarity": "Shop",
+        "character": "Regent"
+    },
+    {
+        "name": "Undying Sigil",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Undying_Sigil.png",
+        "rarity": "Shop",
+        "character": "Necrobinder"
+    },
+    {
+        "name": "Runic Capacitor",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Runic_Capacitor.png",
+        "rarity": "Shop",
+        "character": "Defect"
+    },
+    {
+        "name": "Anchor???",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Anchor.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Big Mushroom",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Big_Mushroom.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Bing Bong",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Bing_Bong.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Blood Vial???",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Blood_Vial.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Bone Tea",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Bone_Tea.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Byrdpip",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Byrdpip.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Circlet",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Circlet.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Darkstone Periapt",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Darkstone_Periapt.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Daughter of the Wind",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Daughter_of_the_Wind.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Dream Catcher",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Dream_Catcher.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Ember Tea",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Ember_Tea.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Forgotten Soul",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Forgotten_Soul.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Fragrant Mushroom",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Fragrant_Mushroom.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Fresnel Lens",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Fresnel_Lens.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Hand Drill",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Hand_Drill.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Happy Flower???",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Happy_Flower.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "History Course",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/History_Course.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Lee's Waffle???",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Lee's_Waffle.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Lost Wisp",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Lost_Wisp.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Mango???",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Mango.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Maw Bank",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Maw_Bank.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Mr. Struggles",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Mr._Struggles.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Orichalcum???",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Orichalcum.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Pollinous Core",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Pollinous_Core.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Royal Poison",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Royal_Poison.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Snecko Eye???",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Snecko_Eye.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Strike Dummy???",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Strike_Dummy.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Sword of Jade",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Sword_of_Jade.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Sword of Stone",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Sword_of_Stone.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Tea of Discourtesy",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Tea_of_Discourtesy.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "The Boot",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/The_Boot.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "The Chosen Cheese",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/The_Chosen_Cheese.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "The Merchant's Rug???",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/The_Merchant's_Rug.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Venerable Tea Set???",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Venerable_Tea_Set.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Wongo Customer Appreciation Badge",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Wongo_Customer_Appreciation_Badge.png",
+        "rarity": "Event",
+        "character": "Any"
+    },
+    {
+        "name": "Wongo's Mystery Ticket",
+        "image": "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/sts2/relics/Wongo's_Mystery_Ticket.png",
+        "rarity": "Event",
+        "character": "Any"
+    }
+]
