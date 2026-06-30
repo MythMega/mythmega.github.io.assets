@@ -59,7 +59,7 @@ def enemy_to_entry(enemy: dict, index: int):
 
 def process_game(game_key: str, mapping: dict):
     is_sts2 = (game_key == "sts2")
-    game_label = "Slay The Spire (2)" if is_sts2 else "Slay The Spire"
+    game_label = "Slay The Spire 2" if is_sts2 else "Slay The Spire"
     out_dir = OUT_STS2 if is_sts2 else OUT_STS1
     prefix = "sts2" if is_sts2 else "sts"
 
