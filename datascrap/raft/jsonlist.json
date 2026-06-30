@@ -1,0 +1,46 @@
+[
+    {
+        "output": "All Items",
+        "included_cats" :[
+            "Food/Water",
+            "Tools",
+            "Weapons",
+            "Equipment",
+            "Resources",
+            "Materials"
+        ]
+    },
+    {
+        "output": "Food/Water",
+        "included_cats" :[
+            "Food/Water"
+        ]
+    },
+    {
+        "output": "Player Stuff",
+        "included_cats" :[
+            "Tools",
+            "Weapons",
+            "Equipment"
+        ]
+    },
+    {
+        "output": "Ressource & Materials",
+        "included_cats" :[
+            "Resources",
+            "Materials"
+        ]
+    },
+    {
+        "output": "Ressource",
+        "included_cats" :[
+            "Resources"        
+        ]
+    },
+    {
+        "output": "Materials",
+        "included_cats" :[
+            "Materials"
+        ]
+    }
+]

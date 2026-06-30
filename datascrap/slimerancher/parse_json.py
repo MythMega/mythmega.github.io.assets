@@ -9,10 +9,10 @@ INPUT_FILE = Path("result.json")
 OUTPUT_DIR = Path("out_json")
 BASE_URL = "https://raw.githubusercontent.com/MythMega/mythmega.github.io.assets/refs/heads/master/assets/category/slimerancher/"
 
-# Mapping release -> Category name and filename prefix
-RELEASE_MAP = {
-    1: {"category": "Slime Rancher", "prefix": "slimerancher"},
-    2: {"category": "Slime Rancher 2", "prefix": "slimerancher2"},
+# Mapping release -> labels
+RELEASE_LABEL = {
+    1: "Slime Rancher",
+    2: "Slime Rancher 2",
 }
 
 # Charge le fichier result.json
@@ -27,16 +27,13 @@ for idx, item in enumerate(data, start=1):
     name = item.get("Item_name", "").strip()
     path = item.get("path", "").strip()
 
-    if release not in RELEASE_MAP:
-        # Ignore ou créer une catégorie générique si nécessaire
+    if release not in RELEASE_LABEL:
         continue
 
     # Normalise path: retire le préfixe "./" s'il existe
     normalized_path = path[2:] if path.startswith("./") else path
-
     picture_url = BASE_URL + normalized_path
 
-    # Prépare l'objet item selon le format demandé
     out_item = {
         "Index": f"sr-{idx}",
         "Name_FR": name,
@@ -51,12 +48,14 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Pour chaque release, écrit un JSON par type et un allitems (sans type "slime")
 for release, types_dict in groups.items():
-    release_info = RELEASE_MAP.get(release)
-    if not release_info:
+    release_label = RELEASE_LABEL.get(release)
+    if not release_label:
         continue
 
-    category_name = release_info["category"]
-    prefix = release_info["prefix"]
+    # Category doit toujours être "Slime Rancher"
+    category_field = "Slime Rancher"
+    # Subcategory doit être la label de release (Slime Rancher ou Slime Rancher 2)
+    subcategory_field = release_label
 
     # allitems: concatène tous les types sauf "slime" (case-insensitive)
     all_items = []
@@ -67,32 +66,32 @@ for release, types_dict in groups.items():
 
     # Écrit le fichier allitems s'il y a des éléments
     if all_items:
+        # Name reste inchangé par rapport à la logique précédente (on garde le label de release dans le Name)
         all_json = {
-            "Name": f"{category_name} - All items",
-            "Category": category_name,
-            "Subcategory": "allitems",
+            "Name": f"{release_label} - All items",
+            "Category": category_field,
+            "Subcategory": subcategory_field,
             "Quantizable": False,
             "Items": all_items
         }
-        out_path = OUTPUT_DIR / f"{prefix}-allitems.json"
+        out_path = OUTPUT_DIR / f"{release_label.replace(' ', '').lower()}-allitems.json"
         with out_path.open("w", encoding="utf-8") as f:
             json.dump(all_json, f, ensure_ascii=False, indent=2)
 
     # Écrit un fichier par type
     for typ, items in types_dict.items():
-        # Nom de sous-catégorie tel que demandé
-        subcategory = typ
-        name_field = f"{category_name} - {subcategory}"
+        # Name reste inchangé (on inclut le label de release dans le Name)
+        name_field = f"{release_label} - {typ}"
         out_json = {
             "Name": name_field,
-            "Category": category_name,
-            "Subcategory": subcategory,
+            "Category": category_field,
+            "Subcategory": subcategory_field,
             "Quantizable": False,
             "Items": items
         }
         # safe filename: remplace espaces par underscore et retire caractères problématiques
         safe_typ = "".join(c if c.isalnum() or c in ("_", "-") else "_" for c in typ)
-        filename = f"{prefix}-{safe_typ}.json"
+        filename = f"{release_label.replace(' ', '').lower()}-{safe_typ}.json"
         out_path = OUTPUT_DIR / filename
         with out_path.open("w", encoding="utf-8") as f:
             json.dump(out_json, f, ensure_ascii=False, indent=2)
