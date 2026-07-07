@@ -1,8 +1,25 @@
 import os
 import re
+from PIL import Image
 
 pattern = re.compile(r"\(.*?\)|JE\w+")
 
+def convert_webp_to_png(folder="."):
+    for filename in os.listdir(folder):
+        if filename.lower().endswith(".webp"):
+            webp_path = os.path.join(folder, filename)
+            png_path = os.path.join(folder, filename[:-5] + ".png")
+
+            # Ouvrir et convertir
+            with Image.open(webp_path) as img:
+                img.save(png_path, "PNG")
+
+            # Supprimer le fichier webp
+            os.remove(webp_path)
+            print(f"Converti et supprimé : {filename}")
+
+
+convert_webp_to_png()         
 for filename in os.listdir("."):
     if filename.lower().endswith(".png"):
         name, ext = os.path.splitext(filename)
