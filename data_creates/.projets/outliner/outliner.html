@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio de Contours Métalliques</title>
+    <style>
+        :root {
+            --bg: #0f1115;
+            --card-bg: #1a1d24;
+            --text: #f0f2f5;
+            --accent: #d4af37;
+            --border: #2a2e39;
+            --hover: #252830;
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            padding: 25px;
+            border-radius: 16px;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+            max-width: 650px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-size: 1.3rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .controls-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        label {
+            font-size: 0.8rem;
+            color: #9ca3af;
+            font-weight: 500;
+        }
+        select, input[type="color"], input[type="range"] {
+            padding: 8px 12px;
+            font-size: 14px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: var(--hover);
+            color: var(--text);
+            outline: none;
+            cursor: pointer;
+        }
+        input[type="range"] {
+            accent-color: var(--accent);
+            padding: 0;
+            height: 36px;
+        }
+        input[type="color"] {
+            width: 100%;
+            height: 38px;
+            padding: 2px;
+        }
+        .button-row {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        button {
+            background: var(--hover);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+        button:hover {
+            border-color: var(--accent);
+            background: #2f3441;
+        }
+        .btn-primary {
+            background: var(--accent);
+            color: #000;
+            font-weight: 600;
+            border: none;
+        }
+        .btn-primary:hover {
+            background: #e2be43;
+        }
+        canvas {
+            max-width: 100%;
+            height: auto;
+            background: #000;
+            border-radius: 10px;
+            box-shadow: inset 0 0 20px rgba(0,0,0,0.9);
+            border: 1px solid var(--border);
+            margin-bottom: 15px;
+        }
+        .hint {
+            font-size: 0.75rem;
+            color: #6b7280;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Studio de Contours & Effets Métalliques</h1>
+        
+        <div class="controls-grid">
+            <!-- Style / Couleur -->
+            <div class="control-group">
+                <label for="color-preset">Style métallique :</label>
+                <select id="color-preset">
+                    <option value="gold">Or (Gold)</option>
+                    <option value="silver">Argent (Silver)</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="custom">Couleur personnalisée</option>
+                </select>
+            </div>
+
+            <!-- Sélecteur couleur perso (caché par défaut) -->
+            <div class="control-group" id="custom-container" style="display: none;">
+                <label for="custom-color">Couleur :</label>
+                <input type="color" id="custom-color" value="#ffd700">
+            </div>
+
+            <!-- Seuil de détection -->
+            <div class="control-group">
+                <label for="threshold-slider">Sensibilité contours : <span id="threshold-val">40</span></label>
+                <input type="range" id="threshold-slider" min="10" max="500" value="40">
+            </div>
+
+            <!-- Épaisseur des lignes -->
+            <div class="control-group">
+                <label for="thickness-slider">Épaisseur des lignes : <span id="thickness-val">1</span>px</label>
+                <input type="range" id="thickness-slider" min="1" max="10" value="2">
+            </div>
+        </div>
+
+        <!-- Boutons de transformation & téléchargement -->
+        <div class="button-row">
+            <button id="btn-rotate">Pivoter 90°</button>
+            <button id="btn-flip-h">Miroir Horizontal</button>
+            <button id="btn-flip-v">Miroir Vertical</button>
+            <button id="btn-download" class="btn-primary">Télécharger l'image</button>
+        </div>
+
+        <!-- Canvas d'affichage -->
+        <canvas id="canvas"></canvas>
+
+        <div class="hint">
+            Assurez-vous d'avoir une image nommée <code>img.png</code> dans le dossier. Utilisez un serveur local (Live Server) si nécessaire.
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const img = new Image();
+            img.crossOrigin = "anonymous";
+            img.src = './img.png';
+
+            const canvas = document.getElementById('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            const presetSelect = document.getElementById('color-preset');
+            const customContainer = document.getElementById('custom-container');
+            const customColorInput = document.getElementById('custom-color');
+            const thresholdSlider = document.getElementById('threshold-slider');
+            const thresholdVal = document.getElementById('threshold-val');
+            const thicknessSlider = document.getElementById('thickness-slider');
+            const thicknessVal = document.getElementById('thickness-val');
+
+            const btnRotate = document.getElementById('btn-rotate');
+            const btnFlipH = document.getElementById('btn-flip-h');
+            const btnFlipV = document.getElementById('btn-flip-v');
+            const btnDownload = document.getElementById('btn-download');
+
+            let rotation = 0; // 0, 90, 180, 270
+            let flipH = false;
+            let flipV = false;
+
+            img.onload = function() {
+                processAndRender();
+            };
+
+            function processAndRender() {
+                if (!img.complete) return;
+
+                // 1. Gérer les transformations géométriques sur un canvas temporaire
+                const tempCanvas = document.createElement('canvas');
+                const tCtx = tempCanvas.getContext('2d');
+
+                let w = img.width;
+                let h = img.height;
+
+                // Si rotation 90 ou 270, inverser largeur et hauteur
+                if (rotation === 90 || rotation === 270) {
+                    tempCanvas.width = h;
+                    tempCanvas.height = w;
+                } else {
+                    tempCanvas.width = w;
+                    tempCanvas.height = h;
+                }
+
+                tCtx.save();
+                tCtx.translate(tempCanvas.width / 2, tempCanvas.height / 2);
+                tCtx.rotate((rotation * Math.PI) / 180);
+                tCtx.scale(flipH ? -1 : 1, flipV ? -1 : 1);
+                tCtx.drawImage(img, -w / 2, -h / 2);
+                tCtx.restore();
+
+                const cWidth = tempCanvas.width;
+                const cHeight = tempCanvas.height;
+                canvas.width = cWidth;
+                canvas.height = cHeight;
+
+                const imgData = tCtx.getImageData(0, 0, cWidth, cHeight);
+                const data = imgData.data;
+
+                // 2. Conversion en niveaux de gris
+                const gray = new Float32Array(cWidth * cHeight);
+                for (let i = 0; i < data.length; i += 4) {
+                    gray[i / 4] = 0.299 * data[i] + 0.587 * data[i + 1] + 0.114 * data[i + 2];
+                }
+
+                // 3. Détection de contours (Sobel)
+                const threshold = parseInt(thresholdSlider.value);
+                const edges = new Uint8Array(cWidth * cHeight);
+                const sobelX = [-1, 0, 1, -2, 0, 2, -1, 0, 1];
+                const sobelY = [-1, -2, -1, 0, 0, 0, 1, 2, 1];
+
+                for (let y = 1; y < cHeight - 1; y++) {
+                    for (let x = 1; x < cWidth - 1; x++) {
+                        let px = 0, py = 0;
+                        let k = 0;
+                        for (let ky = -1; ky <= 1; ky++) {
+                            for (let kx = -1; kx <= 1; kx++) {
+                                const idx = (y + ky) * cWidth + (x + kx);
+                                px += gray[idx] * sobelX[k];
+                                py += gray[idx] * sobelY[k];
+                                k++;
+                            }
+                        }
+                        const magnitude = Math.sqrt(px * px + py * py);
+                        edges[y * cWidth + x] = magnitude > threshold ? 255 : 0;
+                    }
+                }
+
+                // 4. Épaisseur des lignes (Dilatation morphologique)
+                const thickness = parseInt(thicknessSlider.value);
+                let finalEdges = edges;
+                if (thickness > 1) {
+                    finalEdges = new Uint8Array(edges.length);
+                    const r = thickness - 1;
+                    for (let y = 0; y < cHeight; y++) {
+                        for (let x = 0; x < cWidth; x++) {
+                            if (edges[y * cWidth + x] === 255) {
+                                for (let dy = -r; dy <= r; dy++) {
+                                    for (let dx = -r; dx <= r; dx++) {
+                                        const nx = x + dx;
+                                        const ny = y + dy;
+                                        if (nx >= 0 && nx < cWidth && ny >= 0 && ny < cHeight) {
+                                            finalEdges[ny * cWidth + nx] = 255;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                // 5. Rendu final avec la couleur/dégradé choisi
+                const mode = presetSelect.value;
+                const outputData = ctx.createImageData(cWidth, cHeight);
+                const out = outputData.data;
+
+                for (let y = 0; y < cHeight; y++) {
+                    for (let x = 0; x < cWidth; x++) {
+                        const i = y * cWidth + x;
+                        const outIdx = i * 4;
+
+                        if (finalEdges[i] === 255) {
+                            const color = getMetallicColor(mode, x, y, cWidth, cHeight);
+                            out[outIdx]     = color.r;
+                            out[outIdx + 1] = color.g;
+                            out[outIdx + 2] = color.b;
+                            out[outIdx + 3] = 255;
+                        } else {
+                            out[outIdx + 3] = 0;
+                        }
+                    }
+                }
+                ctx.putImageData(outputData, 0, 0);
+            }
+
+            function getMetallicColor(mode, x, y, width, height) {
+                if (mode === 'custom') {
+                    let hex = customColorInput.value.replace('#', '');
+                    return {
+                        r: parseInt(hex.substring(0, 2), 16),
+                        g: parseInt(hex.substring(2, 4), 16),
+                        b: parseInt(hex.substring(4, 6), 16)
+                    };
+                }
+
+                const factor = (x + y) / (width + height);
+                let c1, c2;
+
+                if (mode === 'gold') {
+                    c1 = { r: 179, g: 135, b: 40 };
+                    c2 = { r: 252, g: 246, b: 186 };
+                } else if (mode === 'silver') {
+                    c1 = { r: 90, g: 95, b: 100 };
+                    c2 = { r: 245, g: 247, b: 248 };
+                } else { // bronze
+                    c1 = { r: 105, g: 50, b: 7 };
+                    c2 = { r: 243, g: 209, b: 174 };
+                }
+
+                return {
+                    r: Math.round(c1.r + (c2.r - c1.r) * factor),
+                    g: Math.round(c1.g + (c2.g - c1.g) * factor),
+                    b: Math.round(c1.b + (c2.b - c1.b) * factor)
+                };
+            }
+
+            // Écouteurs d'événements
+            presetSelect.addEventListener('change', (e) => {
+                customContainer.style.display = (e.target.value === 'custom') ? 'flex' : 'none';
+                processAndRender();
+            });
+
+            customColorInput.addEventListener('input', processAndRender);
+
+            thresholdSlider.addEventListener('input', (e) => {
+                thresholdVal.textContent = e.target.value;
+                processAndRender();
+            });
+
+            thicknessSlider.addEventListener('input', (e) => {
+                thicknessVal.textContent = e.target.value;
+                processAndRender();
+            });
+
+            btnRotate.addEventListener('click', () => {
+                rotation = (rotation + 90) % 360;
+                processAndRender();
+            });
+
+            btnFlipH.addEventListener('click', () => {
+                flipH = !flipH;
+                processAndRender();
+            });
+
+            btnFlipV.addEventListener('click', () => {
+                flipV = !flipV;
+                processAndRender();
+            });
+
+            btnDownload.addEventListener('click', () => {
+                const link = document.createElement('a');
+                link.download = 'contour-metallique.png';
+                link.href = canvas.toDataURL('image/png');
+                link.click();
+            });
+        });
+    </script>
+</body>
+</html>
