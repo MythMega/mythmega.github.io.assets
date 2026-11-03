@@ -1,0 +1,8 @@
+<api type="release" assembly-name="Bulkut.Android" mvid="341a3f3cf423476e8b1986ab4d277f83">
+  <module assembly-name="Bulkut.Android" mvid="341a3f3cf423476e8b1986ab4d277f83" mvid-bytes="PD8aNCP0bkeLGYarTSd/gw==">
+    <types-scratch>
+      <entry key="crc646f32ce3c20719675/MainActivity" java-name="crc646f32ce3c20719675/MainActivity" managed-type-name="BulkutMobile.MainActivity" token="33554437" />
+      <entry key="crc646f32ce3c20719675/MainApplication" java-name="crc646f32ce3c20719675/MainApplication" managed-type-name="BulkutMobile.MainApplication" token="33554438" />
+    </types-scratch>
+  </module>
+</api>

@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#060c18" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="application-name" content="Pokefeet" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Pokefeet" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+  <title>Pokefeet — Changelog</title>
+  <meta name="description" content="Pokefeet Changelog — Suivez l'évolution du jeu avec les notes de mise à jour, nouvelles fonctionnalités et correctifs." />
+  <meta name="keywords" content="Pokefeet, changelog, mises à jour, patch notes, évolution" />
+  <meta name="author" content="MythMega" />
+  <link rel="canonical" href="https://web.jmdev.fr/projets/pokefeet/changelog.html" />
+  <link rel="alternate" href="https://web.jmdev.fr/projets/pokefeet/changelog.html" hreflang="fr" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://web.jmdev.fr/projets/pokefeet/changelog.html" />
+  <meta property="og:title" content="Pokefeet — Changelog" />
+  <meta property="og:description" content="Suivez l'évolution du jeu avec les notes de mise à jour." />
+  <meta property="og:site_name" content="MythMega — jmdev" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Pokefeet — Changelog" />
+  <meta name="twitter:description" content="Notes de mise à jour et évolution du jeu." />
+  <link rel="icon" type="image/x-icon" href="./icon.png">
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/cosmetics.css" />
+  <link rel="stylesheet" href="styles/text-shadow.css" />
+  <style>
+    .changelog-container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 16px 80px;
+    }
+
+    .changelog-version-group {
+      margin-bottom: 28px;
+    }
+
+    .changelog-version-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .version-badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .04em;
+      white-space: nowrap;
+    }
+    .version-badge.release  { background: #166534; color: #bbf7d0; }
+    .version-badge.beta     { background: #78350f; color: #fde68a; }
+    .version-badge.alpha    { background: #1e3a5f; color: #bae6fd; }
+
+    .changelog-date {
+      font-size: 12px;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+
+    .changelog-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 0 0 8px;
+    }
+
+    .changelog-items {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .changelog-item {
+      display: flex;
+      align-items: baseline;
+      gap: 9px;
+      padding: 7px 12px;
+      border-radius: 7px;
+      background: rgba(0,0,0,0.30);
+      border: 1px solid rgba(255,255,255,0.05);
+      font-size: 13.5px;
+      line-height: 1.45;
+    }
+
+    .changelog-item::before {
+      content: '•';
+      opacity: 0.65;
+    }
+
+    /* La couleur du texte vient du Type de la modification... */
+    .changelog-item.type-feature         { color: #f5c542; }
+    .changelog-item.type-quality-of-life { color: #60a5fa; }
+    .changelog-item.type-content         { color: #4ade80; }
+    .changelog-item.type-fix             { color: #ffffff; }
+
+    /* ...et la graisse de sa Severity (3 = majeure, 1 = mineure). */
+    .changelog-item.severity-3 { font-weight: 700; }
+    .changelog-item.severity-2 { font-weight: 500; }
+    .changelog-item.severity-1 { font-weight: 400; }
+
+    #changelog-loading {
+      text-align: center;
+      color: var(--muted);
+      padding: 32px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main id="app">
+    <div class="deco n1"></div>
+    <div class="deco n2"></div>
+    <div class="deco n3"></div>
+    <div class="deco n4"></div>
+    <div class="deco-secondary n11"></div>
+    <div class="deco-secondary n12"></div>
+    <header>
+      <h1>Pokefeet — Changelog</h1>
+      <a class="small-btn" href="index.html" data-i18n="common.backHome">Retour à l'accueil</a>
+    </header>
+
+    <section class="game-area">
+      <div class="changelog-container">
+        <div id="changelog-loading">Chargement...</div>
+        <div id="changelog-list" style="display:none;"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/core/preferences.js"></script>
+  <script src="js/ui/loader.js"></script>
+  <script src="js/i18n/translate.js"></script>
+  <script src="js/i18n/language-switcher.js"></script>
+  <script src="js/ui/footer.js"></script>
+  <script src="js/i18n/setup.js"></script>
+  <script src="js/data/migration.js"></script>
+  <script src="js/core/pokemon.js"></script>
+  <script src="js/data/challenge-storage.js"></script>
+  <script src="js/data/data-files.js"></script>
+  <script src="js/features/settings/cosmetics.js"></script>
+  <script>
+    const CHANGELOG_URL = './data/changelog.json';
+
+    // Les éléments sont écrits en français et en anglais dans data/changelog.json.
+    function currentLanguage() {
+      if (typeof Translator !== 'undefined' && Translator.getLanguage) return Translator.getLanguage();
+      return document.documentElement.lang || 'fr';
+    }
+
+    function translatedItem(item) {
+      const key = currentLanguage() === 'en' ? 'Translation_EN' : 'Translation_FR';
+      return item[key] || item.Translation_EN || item.Translation_FR || '';
+    }
+
+    // "Feature" -> "type-feature", "Quality Of Life" -> "type-quality-of-life"
+    function typeClass(type) {
+      return 'type-' + String(type || '').toLowerCase().replace(/[^a-z]+/g, '-').replace(/^-|-$/g, '');
+    }
+
+    function badgeFor(version) {
+      const v = version || {};
+      const stage = String(v.Stage || 'Release').toLowerCase();
+      if (stage === 'beta')  return { className: 'beta',  label: 'Beta ' + v.Major + '.' + v.Minor };
+      if (stage === 'alpha') return { className: 'alpha', label: 'Alpha ' + v.Major + '.' + v.Minor };
+      return { className: 'release', label: 'v' + v.Major + '.' + v.Minor + '.' + v.Patch };
+    }
+
+    // Tri : date décroissante, puis version décroissante (Release > Beta > Alpha).
+    function dateValue(date) {
+      const parts = String(date || '').split('/');
+      if (parts.length !== 3) return 0;
+      return Date.UTC(Number(parts[2]), Number(parts[1]) - 1, Number(parts[0]));
+    }
+
+    function versionRank(version) {
+      const v = version || {};
+      const stage = String(v.Stage || 'Release').toLowerCase();
+      const base = (Number(v.Major) || 0) * 1000000 + (Number(v.Minor) || 0) * 1000 + (Number(v.Patch) || 0);
+      if (stage === 'beta')  return -2000000000 + base;
+      if (stage === 'alpha') return -3000000000 + base;
+      return base;
+    }
+
+    function renderEntries(entries) {
+      const listEl = document.getElementById('changelog-list');
+      listEl.innerHTML = '';
+
+      entries.forEach(entry => {
+        const badge = badgeFor(entry.Version);
+
+        const group = document.createElement('div');
+        group.className = 'changelog-version-group';
+
+        const header = document.createElement('div');
+        header.className = 'changelog-version-header';
+        const badgeEl = document.createElement('span');
+        badgeEl.className = 'version-badge ' + badge.className;
+        badgeEl.textContent = badge.label;
+        const dateEl = document.createElement('span');
+        dateEl.className = 'changelog-date';
+        dateEl.textContent = entry.Date || '';
+        header.appendChild(badgeEl);
+        header.appendChild(dateEl);
+        group.appendChild(header);
+
+        const title = document.createElement('h2');
+        title.className = 'changelog-title';
+        title.textContent = entry.Title || '';
+        group.appendChild(title);
+
+        const items = document.createElement('ul');
+        items.className = 'changelog-items';
+        (entry.Changelog || []).forEach(item => {
+          const line = document.createElement('li');
+          line.className = 'changelog-item ' + typeClass(item.Type) + ' severity-' + item.Severity;
+          line.textContent = translatedItem(item);
+          items.appendChild(line);
+        });
+        group.appendChild(items);
+
+        listEl.appendChild(group);
+      });
+    }
+
+    async function loadChangelog() {
+      const loadingEl = document.getElementById('changelog-loading');
+      const listEl    = document.getElementById('changelog-list');
+
+      try {
+        const res = await fetch(CHANGELOG_URL);
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const entries = await res.json();
+        if (!Array.isArray(entries)) throw new Error('tableau attendu dans ' + CHANGELOG_URL);
+
+        entries.sort((a, b) => {
+          const byDate = dateValue(b.Date) - dateValue(a.Date);
+          if (byDate !== 0) return byDate;
+          return versionRank(b.Version) - versionRank(a.Version);
+        });
+
+        renderEntries(entries);
+
+        loadingEl.style.display = 'none';
+        listEl.style.display    = 'block';
+
+      } catch (e) {
+        loadingEl.textContent = 'Impossible de charger le changelog.';
+        console.error('[Changelog]', e);
+      }
+    }
+
+    loadChangelog();
+  </script>
+  <script src="js/pwa.js"></script>
+</body>
+</html>

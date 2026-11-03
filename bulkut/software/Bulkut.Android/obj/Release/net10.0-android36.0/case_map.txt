@@ -1,0 +1,7 @@
+mipmap\appicon;mipmap\appicon
+mipmap\appicon_background;mipmap\appicon_background
+mipmap\appicon_foreground;mipmap\appicon_foreground
+values\ic_launcher_background;values\ic_launcher_background
+values\strings;values\strings
+values\styles;values\styles
+xml\file_paths;xml\file_paths

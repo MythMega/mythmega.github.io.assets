@@ -1,0 +1,15 @@
+<api>
+  <jcw-types>
+    <type name="MainActivity" package="crc646f32ce3c20719675" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6431345fe65afe8d98.AvaloniaMainActivity" partial_assembly_qualified_name="BulkutMobile.MainActivity, Bulkut.Android">
+      <constructors>
+        <constructor name="MainActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="MainActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="MainApplication" package="crc646f32ce3c20719675" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6431345fe65afe8d98.AvaloniaAndroidApplication_1" is_application="True" partial_assembly_qualified_name="BulkutMobile.MainApplication, Bulkut.Android" application_constructor="MainApplication" />
+  </jcw-types>
+  <acw-types partial-assembly-name="Bulkut.Android" module-name="Bulkut.Android.dll">
+    <type assembly-qualified-name="BulkutMobile.MainActivity, Bulkut.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="bulkutmobile.MainActivity" java-key="crc646f32ce3c20719675.MainActivity" managed-key="BulkutMobile.MainActivity" partial-assembly-qualified-name="BulkutMobile.MainActivity, Bulkut.Android" />
+    <type assembly-qualified-name="BulkutMobile.MainApplication, Bulkut.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="bulkutmobile.MainApplication" java-key="crc646f32ce3c20719675.MainApplication" managed-key="BulkutMobile.MainApplication" partial-assembly-qualified-name="BulkutMobile.MainApplication, Bulkut.Android" />
+  </acw-types>
+</api>

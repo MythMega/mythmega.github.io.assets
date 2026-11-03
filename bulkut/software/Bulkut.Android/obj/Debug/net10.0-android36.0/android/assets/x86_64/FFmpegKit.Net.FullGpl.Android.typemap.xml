@@ -1,0 +1,104 @@
+<api type="debug" assembly-name="FFmpegKit.Net.FullGpl.Android" mvid="eee61db3aea04b40b02c3e80283b9528">
+  <java-to-managed>
+    <entry java-name="crc6414fb8ed825ee5337/ActionFFmpegSessionCompleteCallback" managed-name="Ffmpegkit.Droid.ActionFFmpegSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554456" />
+    <entry java-name="crc6414fb8ed825ee5337/ActionFFprobeSessionCompleteCallback" managed-name="Ffmpegkit.Droid.ActionFFprobeSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554457" />
+    <entry java-name="crc6414fb8ed825ee5337/ActionMediaInformationSessionCompleteCallback" managed-name="Ffmpegkit.Droid.ActionMediaInformationSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554458" />
+    <entry java-name="crc6414fb8ed825ee5337/ActionLogCallback" managed-name="Ffmpegkit.Droid.ActionLogCallback, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554459" />
+    <entry java-name="crc6414fb8ed825ee5337/ActionStatisticsCallback" managed-name="Ffmpegkit.Droid.ActionStatisticsCallback, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554460" />
+    <entry java-name="com/arthenica/ffmpegkit/FFmpegKit" managed-name="Ffmpegkit.Droid.FFmpegKit, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554464" />
+    <entry java-name="com/arthenica/ffmpegkit/FFmpegKitConfig" managed-name="Ffmpegkit.Droid.FFmpegKitConfig, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554465" />
+    <entry java-name="com/arthenica/ffmpegkit/FFprobeKit" managed-name="Ffmpegkit.Droid.FFprobeKit, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554467" />
+    <entry java-name="com/arthenica/ffmpegkit/MediaInformation" managed-name="Ffmpegkit.Droid.MediaInformation, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554468" />
+    <entry java-name="com/arthenica/ffmpegkit/StreamInformation" managed-name="Ffmpegkit.Droid.StreamInformation, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554469" />
+    <entry java-name="com/arthenica/ffmpegkit/Abi" managed-name="Ffmpegkit.Droid.Abi, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554472" />
+    <entry java-name="com/arthenica/ffmpegkit/AbiDetect" managed-name="Ffmpegkit.Droid.AbiDetect, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554473" />
+    <entry java-name="com/arthenica/ffmpegkit/AbstractSession" managed-name="Ffmpegkit.Droid.AbstractSession, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554474" />
+    <entry java-name="com/arthenica/ffmpegkit/AbstractSession" managed-name="Ffmpegkit.Droid.AbstractSessionInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554475" />
+    <entry java-name="com/arthenica/ffmpegkit/AsyncFFmpegExecuteTask" managed-name="Ffmpegkit.Droid.AsyncFFmpegExecuteTask, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554476" />
+    <entry java-name="com/arthenica/ffmpegkit/AsyncFFprobeExecuteTask" managed-name="Ffmpegkit.Droid.AsyncFFprobeExecuteTask, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554477" />
+    <entry java-name="com/arthenica/ffmpegkit/AsyncGetMediaInformationTask" managed-name="Ffmpegkit.Droid.AsyncGetMediaInformationTask, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554478" />
+    <entry java-name="com/arthenica/ffmpegkit/Chapter" managed-name="Ffmpegkit.Droid.Chapter, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554479" />
+    <entry java-name="com/arthenica/ffmpegkit/DeepLTranslationProvider" managed-name="Ffmpegkit.Droid.DeepLTranslationProvider, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554480" />
+    <entry java-name="com/arthenica/ffmpegkit/FFmpegSession" managed-name="Ffmpegkit.Droid.FFmpegSession, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554481" />
+    <entry java-name="com/arthenica/ffmpegkit/FFprobeSession" managed-name="Ffmpegkit.Droid.FFprobeSession, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554482" />
+    <entry java-name="com/arthenica/ffmpegkit/GoogleTranslateProvider" managed-name="Ffmpegkit.Droid.GoogleTranslateProvider, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554483" />
+    <entry java-name="com/arthenica/ffmpegkit/FFmpegSessionCompleteCallback" managed-name="Ffmpegkit.Droid.IFFmpegSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" skip-in-java-to-managed="True" managed-type-token-id="33554484" />
+    <entry java-name="com/arthenica/ffmpegkit/FFmpegSessionCompleteCallback" managed-name="Ffmpegkit.Droid.IFFmpegSessionCompleteCallbackInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554485" />
+    <entry java-name="com/arthenica/ffmpegkit/FFprobeSessionCompleteCallback" managed-name="Ffmpegkit.Droid.IFFprobeSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" skip-in-java-to-managed="True" managed-type-token-id="33554486" />
+    <entry java-name="com/arthenica/ffmpegkit/FFprobeSessionCompleteCallback" managed-name="Ffmpegkit.Droid.IFFprobeSessionCompleteCallbackInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554487" />
+    <entry java-name="com/arthenica/ffmpegkit/LogCallback" managed-name="Ffmpegkit.Droid.ILogCallback, FFmpegKit.Net.FullGpl.Android" skip-in-java-to-managed="True" managed-type-token-id="33554488" />
+    <entry java-name="com/arthenica/ffmpegkit/LogCallback" managed-name="Ffmpegkit.Droid.ILogCallbackInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554489" />
+    <entry java-name="com/arthenica/ffmpegkit/MediaInformationSessionCompleteCallback" managed-name="Ffmpegkit.Droid.IMediaInformationSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" skip-in-java-to-managed="True" managed-type-token-id="33554490" />
+    <entry java-name="com/arthenica/ffmpegkit/MediaInformationSessionCompleteCallback" managed-name="Ffmpegkit.Droid.IMediaInformationSessionCompleteCallbackInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554491" />
+    <entry java-name="com/arthenica/ffmpegkit/Session" managed-name="Ffmpegkit.Droid.ISession, FFmpegKit.Net.FullGpl.Android" skip-in-java-to-managed="True" managed-type-token-id="33554492" />
+    <entry java-name="com/arthenica/ffmpegkit/Session" managed-name="Ffmpegkit.Droid.ISessionInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554493" />
+    <entry java-name="com/arthenica/ffmpegkit/StatisticsCallback" managed-name="Ffmpegkit.Droid.IStatisticsCallback, FFmpegKit.Net.FullGpl.Android" skip-in-java-to-managed="True" managed-type-token-id="33554494" />
+    <entry java-name="com/arthenica/ffmpegkit/StatisticsCallback" managed-name="Ffmpegkit.Droid.IStatisticsCallbackInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554495" />
+    <entry java-name="com/arthenica/ffmpegkit/TranslationProvider" managed-name="Ffmpegkit.Droid.ITranslationProvider, FFmpegKit.Net.FullGpl.Android" skip-in-java-to-managed="True" managed-type-token-id="33554496" />
+    <entry java-name="com/arthenica/ffmpegkit/TranslationProvider" managed-name="Ffmpegkit.Droid.ITranslationProviderInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554497" />
+    <entry java-name="com/arthenica/ffmpegkit/Level" managed-name="Ffmpegkit.Droid.Level, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554498" />
+    <entry java-name="com/arthenica/ffmpegkit/LibreTranslateProvider" managed-name="Ffmpegkit.Droid.LibreTranslateProvider, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554499" />
+    <entry java-name="com/arthenica/ffmpegkit/Log" managed-name="Ffmpegkit.Droid.Log, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554500" />
+    <entry java-name="com/arthenica/ffmpegkit/LogRedirectionStrategy" managed-name="Ffmpegkit.Droid.LogRedirectionStrategy, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554501" />
+    <entry java-name="com/arthenica/ffmpegkit/MediaInformationJsonParser" managed-name="Ffmpegkit.Droid.MediaInformationJsonParser, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554502" />
+    <entry java-name="com/arthenica/ffmpegkit/MediaInformationSession" managed-name="Ffmpegkit.Droid.MediaInformationSession, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554503" />
+    <entry java-name="com/arthenica/ffmpegkit/NativeLoader" managed-name="Ffmpegkit.Droid.NativeLoader, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554504" />
+    <entry java-name="com/arthenica/ffmpegkit/Packages" managed-name="Ffmpegkit.Droid.Packages, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554505" />
+    <entry java-name="com/arthenica/ffmpegkit/ReturnCode" managed-name="Ffmpegkit.Droid.ReturnCode, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554506" />
+    <entry java-name="com/arthenica/ffmpegkit/SessionState" managed-name="Ffmpegkit.Droid.SessionState, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554507" />
+    <entry java-name="com/arthenica/ffmpegkit/Signal" managed-name="Ffmpegkit.Droid.Signal, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554508" />
+    <entry java-name="com/arthenica/ffmpegkit/Statistics" managed-name="Ffmpegkit.Droid.Statistics, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554509" />
+    <entry java-name="com/arthenica/ffmpegkit/WhisperKit" managed-name="Ffmpegkit.Droid.WhisperKit, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554510" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc6414fb8ed825ee5337/ActionFFmpegSessionCompleteCallback" managed-name="Ffmpegkit.Droid.ActionFFmpegSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554456" />
+    <entry java-name="crc6414fb8ed825ee5337/ActionFFprobeSessionCompleteCallback" managed-name="Ffmpegkit.Droid.ActionFFprobeSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554457" />
+    <entry java-name="crc6414fb8ed825ee5337/ActionMediaInformationSessionCompleteCallback" managed-name="Ffmpegkit.Droid.ActionMediaInformationSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554458" />
+    <entry java-name="crc6414fb8ed825ee5337/ActionLogCallback" managed-name="Ffmpegkit.Droid.ActionLogCallback, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554459" />
+    <entry java-name="crc6414fb8ed825ee5337/ActionStatisticsCallback" managed-name="Ffmpegkit.Droid.ActionStatisticsCallback, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554460" />
+    <entry java-name="com/arthenica/ffmpegkit/FFmpegKit" managed-name="Ffmpegkit.Droid.FFmpegKit, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554464" />
+    <entry java-name="com/arthenica/ffmpegkit/FFmpegKitConfig" managed-name="Ffmpegkit.Droid.FFmpegKitConfig, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554465" />
+    <entry java-name="com/arthenica/ffmpegkit/FFprobeKit" managed-name="Ffmpegkit.Droid.FFprobeKit, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554467" />
+    <entry java-name="com/arthenica/ffmpegkit/MediaInformation" managed-name="Ffmpegkit.Droid.MediaInformation, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554468" />
+    <entry java-name="com/arthenica/ffmpegkit/StreamInformation" managed-name="Ffmpegkit.Droid.StreamInformation, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554469" />
+    <entry java-name="com/arthenica/ffmpegkit/Abi" managed-name="Ffmpegkit.Droid.Abi, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554472" />
+    <entry java-name="com/arthenica/ffmpegkit/AbiDetect" managed-name="Ffmpegkit.Droid.AbiDetect, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554473" />
+    <entry java-name="com/arthenica/ffmpegkit/AbstractSession" managed-name="Ffmpegkit.Droid.AbstractSession, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554474" />
+    <entry java-name="com/arthenica/ffmpegkit/AbstractSession" managed-name="Ffmpegkit.Droid.AbstractSessionInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554475" />
+    <entry java-name="com/arthenica/ffmpegkit/AsyncFFmpegExecuteTask" managed-name="Ffmpegkit.Droid.AsyncFFmpegExecuteTask, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554476" />
+    <entry java-name="com/arthenica/ffmpegkit/AsyncFFprobeExecuteTask" managed-name="Ffmpegkit.Droid.AsyncFFprobeExecuteTask, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554477" />
+    <entry java-name="com/arthenica/ffmpegkit/AsyncGetMediaInformationTask" managed-name="Ffmpegkit.Droid.AsyncGetMediaInformationTask, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554478" />
+    <entry java-name="com/arthenica/ffmpegkit/Chapter" managed-name="Ffmpegkit.Droid.Chapter, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554479" />
+    <entry java-name="com/arthenica/ffmpegkit/DeepLTranslationProvider" managed-name="Ffmpegkit.Droid.DeepLTranslationProvider, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554480" />
+    <entry java-name="com/arthenica/ffmpegkit/FFmpegSession" managed-name="Ffmpegkit.Droid.FFmpegSession, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554481" />
+    <entry java-name="com/arthenica/ffmpegkit/FFprobeSession" managed-name="Ffmpegkit.Droid.FFprobeSession, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554482" />
+    <entry java-name="com/arthenica/ffmpegkit/GoogleTranslateProvider" managed-name="Ffmpegkit.Droid.GoogleTranslateProvider, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554483" />
+    <entry java-name="com/arthenica/ffmpegkit/FFmpegSessionCompleteCallback" managed-name="Ffmpegkit.Droid.IFFmpegSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" skip-in-java-to-managed="True" managed-type-token-id="33554484" />
+    <entry java-name="com/arthenica/ffmpegkit/FFmpegSessionCompleteCallback" managed-name="Ffmpegkit.Droid.IFFmpegSessionCompleteCallbackInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554485" />
+    <entry java-name="com/arthenica/ffmpegkit/FFprobeSessionCompleteCallback" managed-name="Ffmpegkit.Droid.IFFprobeSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" skip-in-java-to-managed="True" managed-type-token-id="33554486" />
+    <entry java-name="com/arthenica/ffmpegkit/FFprobeSessionCompleteCallback" managed-name="Ffmpegkit.Droid.IFFprobeSessionCompleteCallbackInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554487" />
+    <entry java-name="com/arthenica/ffmpegkit/LogCallback" managed-name="Ffmpegkit.Droid.ILogCallback, FFmpegKit.Net.FullGpl.Android" skip-in-java-to-managed="True" managed-type-token-id="33554488" />
+    <entry java-name="com/arthenica/ffmpegkit/LogCallback" managed-name="Ffmpegkit.Droid.ILogCallbackInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554489" />
+    <entry java-name="com/arthenica/ffmpegkit/MediaInformationSessionCompleteCallback" managed-name="Ffmpegkit.Droid.IMediaInformationSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" skip-in-java-to-managed="True" managed-type-token-id="33554490" />
+    <entry java-name="com/arthenica/ffmpegkit/MediaInformationSessionCompleteCallback" managed-name="Ffmpegkit.Droid.IMediaInformationSessionCompleteCallbackInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554491" />
+    <entry java-name="com/arthenica/ffmpegkit/Session" managed-name="Ffmpegkit.Droid.ISession, FFmpegKit.Net.FullGpl.Android" skip-in-java-to-managed="True" managed-type-token-id="33554492" />
+    <entry java-name="com/arthenica/ffmpegkit/Session" managed-name="Ffmpegkit.Droid.ISessionInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554493" />
+    <entry java-name="com/arthenica/ffmpegkit/StatisticsCallback" managed-name="Ffmpegkit.Droid.IStatisticsCallback, FFmpegKit.Net.FullGpl.Android" skip-in-java-to-managed="True" managed-type-token-id="33554494" />
+    <entry java-name="com/arthenica/ffmpegkit/StatisticsCallback" managed-name="Ffmpegkit.Droid.IStatisticsCallbackInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554495" />
+    <entry java-name="com/arthenica/ffmpegkit/TranslationProvider" managed-name="Ffmpegkit.Droid.ITranslationProvider, FFmpegKit.Net.FullGpl.Android" skip-in-java-to-managed="True" managed-type-token-id="33554496" />
+    <entry java-name="com/arthenica/ffmpegkit/TranslationProvider" managed-name="Ffmpegkit.Droid.ITranslationProviderInvoker, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554497" />
+    <entry java-name="com/arthenica/ffmpegkit/Level" managed-name="Ffmpegkit.Droid.Level, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554498" />
+    <entry java-name="com/arthenica/ffmpegkit/LibreTranslateProvider" managed-name="Ffmpegkit.Droid.LibreTranslateProvider, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554499" />
+    <entry java-name="com/arthenica/ffmpegkit/Log" managed-name="Ffmpegkit.Droid.Log, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554500" />
+    <entry java-name="com/arthenica/ffmpegkit/LogRedirectionStrategy" managed-name="Ffmpegkit.Droid.LogRedirectionStrategy, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554501" />
+    <entry java-name="com/arthenica/ffmpegkit/MediaInformationJsonParser" managed-name="Ffmpegkit.Droid.MediaInformationJsonParser, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554502" />
+    <entry java-name="com/arthenica/ffmpegkit/MediaInformationSession" managed-name="Ffmpegkit.Droid.MediaInformationSession, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554503" />
+    <entry java-name="com/arthenica/ffmpegkit/NativeLoader" managed-name="Ffmpegkit.Droid.NativeLoader, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554504" />
+    <entry java-name="com/arthenica/ffmpegkit/Packages" managed-name="Ffmpegkit.Droid.Packages, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554505" />
+    <entry java-name="com/arthenica/ffmpegkit/ReturnCode" managed-name="Ffmpegkit.Droid.ReturnCode, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554506" />
+    <entry java-name="com/arthenica/ffmpegkit/SessionState" managed-name="Ffmpegkit.Droid.SessionState, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554507" />
+    <entry java-name="com/arthenica/ffmpegkit/Signal" managed-name="Ffmpegkit.Droid.Signal, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554508" />
+    <entry java-name="com/arthenica/ffmpegkit/Statistics" managed-name="Ffmpegkit.Droid.Statistics, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554509" />
+    <entry java-name="com/arthenica/ffmpegkit/WhisperKit" managed-name="Ffmpegkit.Droid.WhisperKit, FFmpegKit.Net.FullGpl.Android" managed-type-token-id="33554510" />
+  </managed-to-java>
+</api>

@@ -1,0 +1,73 @@
+<api>
+  <jcw-types>
+    <type name="ActionFFmpegSessionCompleteCallback" package="crc6414fb8ed825ee5337" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Ffmpegkit.Droid.ActionFFmpegSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android">
+      <implemented_interfaces>
+        <interface name="com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="ActionFFmpegSessionCompleteCallback" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="apply" method="n_apply:(Lcom/arthenica/ffmpegkit/FFmpegSession;)V:GetApply_Lcom_arthenica_ffmpegkit_FFmpegSession_Handler:Ffmpegkit.Droid.IFFmpegSessionCompleteCallbackInvoker, FFmpegKit.Net.FullGpl.Android" jni_signature="(Lcom/arthenica/ffmpegkit/FFmpegSession;)V" params="com.arthenica.ffmpegkit.FFmpegSession p0" retval="void" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="ActionFFprobeSessionCompleteCallback" package="crc6414fb8ed825ee5337" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Ffmpegkit.Droid.ActionFFprobeSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android">
+      <implemented_interfaces>
+        <interface name="com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="ActionFFprobeSessionCompleteCallback" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="apply" method="n_apply:(Lcom/arthenica/ffmpegkit/FFprobeSession;)V:GetApply_Lcom_arthenica_ffmpegkit_FFprobeSession_Handler:Ffmpegkit.Droid.IFFprobeSessionCompleteCallbackInvoker, FFmpegKit.Net.FullGpl.Android" jni_signature="(Lcom/arthenica/ffmpegkit/FFprobeSession;)V" params="com.arthenica.ffmpegkit.FFprobeSession p0" retval="void" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="ActionMediaInformationSessionCompleteCallback" package="crc6414fb8ed825ee5337" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Ffmpegkit.Droid.ActionMediaInformationSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android">
+      <implemented_interfaces>
+        <interface name="com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="ActionMediaInformationSessionCompleteCallback" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="apply" method="n_apply:(Lcom/arthenica/ffmpegkit/MediaInformationSession;)V:GetApply_Lcom_arthenica_ffmpegkit_MediaInformationSession_Handler:Ffmpegkit.Droid.IMediaInformationSessionCompleteCallbackInvoker, FFmpegKit.Net.FullGpl.Android" jni_signature="(Lcom/arthenica/ffmpegkit/MediaInformationSession;)V" params="com.arthenica.ffmpegkit.MediaInformationSession p0" retval="void" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="ActionLogCallback" package="crc6414fb8ed825ee5337" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Ffmpegkit.Droid.ActionLogCallback, FFmpegKit.Net.FullGpl.Android">
+      <implemented_interfaces>
+        <interface name="com.arthenica.ffmpegkit.LogCallback" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="ActionLogCallback" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="apply" method="n_apply:(Lcom/arthenica/ffmpegkit/Log;)V:GetApply_Lcom_arthenica_ffmpegkit_Log_Handler:Ffmpegkit.Droid.ILogCallbackInvoker, FFmpegKit.Net.FullGpl.Android" jni_signature="(Lcom/arthenica/ffmpegkit/Log;)V" params="com.arthenica.ffmpegkit.Log p0" retval="void" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="ActionStatisticsCallback" package="crc6414fb8ed825ee5337" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Ffmpegkit.Droid.ActionStatisticsCallback, FFmpegKit.Net.FullGpl.Android">
+      <implemented_interfaces>
+        <interface name="com.arthenica.ffmpegkit.StatisticsCallback" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="ActionStatisticsCallback" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="apply" method="n_apply:(Lcom/arthenica/ffmpegkit/Statistics;)V:GetApply_Lcom_arthenica_ffmpegkit_Statistics_Handler:Ffmpegkit.Droid.IStatisticsCallbackInvoker, FFmpegKit.Net.FullGpl.Android" jni_signature="(Lcom/arthenica/ffmpegkit/Statistics;)V" params="com.arthenica.ffmpegkit.Statistics p0" retval="void" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="FFmpegKit.Net.FullGpl.Android" module-name="FFmpegKit.Net.FullGpl.Android.dll">
+    <type assembly-qualified-name="Ffmpegkit.Droid.ActionFFmpegSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android, Version=8.1.2.4, Culture=neutral, PublicKeyToken=null" compat-jni-name="ffmpegkit.droid.ActionFFmpegSessionCompleteCallback" java-key="crc6414fb8ed825ee5337.ActionFFmpegSessionCompleteCallback" managed-key="Ffmpegkit.Droid.ActionFFmpegSessionCompleteCallback" partial-assembly-qualified-name="Ffmpegkit.Droid.ActionFFmpegSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" />
+    <type assembly-qualified-name="Ffmpegkit.Droid.ActionFFprobeSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android, Version=8.1.2.4, Culture=neutral, PublicKeyToken=null" compat-jni-name="ffmpegkit.droid.ActionFFprobeSessionCompleteCallback" java-key="crc6414fb8ed825ee5337.ActionFFprobeSessionCompleteCallback" managed-key="Ffmpegkit.Droid.ActionFFprobeSessionCompleteCallback" partial-assembly-qualified-name="Ffmpegkit.Droid.ActionFFprobeSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" />
+    <type assembly-qualified-name="Ffmpegkit.Droid.ActionMediaInformationSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android, Version=8.1.2.4, Culture=neutral, PublicKeyToken=null" compat-jni-name="ffmpegkit.droid.ActionMediaInformationSessionCompleteCallback" java-key="crc6414fb8ed825ee5337.ActionMediaInformationSessionCompleteCallback" managed-key="Ffmpegkit.Droid.ActionMediaInformationSessionCompleteCallback" partial-assembly-qualified-name="Ffmpegkit.Droid.ActionMediaInformationSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" />
+    <type assembly-qualified-name="Ffmpegkit.Droid.ActionLogCallback, FFmpegKit.Net.FullGpl.Android, Version=8.1.2.4, Culture=neutral, PublicKeyToken=null" compat-jni-name="ffmpegkit.droid.ActionLogCallback" java-key="crc6414fb8ed825ee5337.ActionLogCallback" managed-key="Ffmpegkit.Droid.ActionLogCallback" partial-assembly-qualified-name="Ffmpegkit.Droid.ActionLogCallback, FFmpegKit.Net.FullGpl.Android" />
+    <type assembly-qualified-name="Ffmpegkit.Droid.ActionStatisticsCallback, FFmpegKit.Net.FullGpl.Android, Version=8.1.2.4, Culture=neutral, PublicKeyToken=null" compat-jni-name="ffmpegkit.droid.ActionStatisticsCallback" java-key="crc6414fb8ed825ee5337.ActionStatisticsCallback" managed-key="Ffmpegkit.Droid.ActionStatisticsCallback" partial-assembly-qualified-name="Ffmpegkit.Droid.ActionStatisticsCallback, FFmpegKit.Net.FullGpl.Android" />
+    <type assembly-qualified-name="Ffmpegkit.Droid.IFFmpegSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android, Version=8.1.2.4, Culture=neutral, PublicKeyToken=null" compat-jni-name="com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback" java-key="com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback" managed-key="Ffmpegkit.Droid.IFFmpegSessionCompleteCallback" partial-assembly-qualified-name="Ffmpegkit.Droid.IFFmpegSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" />
+    <type assembly-qualified-name="Ffmpegkit.Droid.IFFprobeSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android, Version=8.1.2.4, Culture=neutral, PublicKeyToken=null" compat-jni-name="com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback" java-key="com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback" managed-key="Ffmpegkit.Droid.IFFprobeSessionCompleteCallback" partial-assembly-qualified-name="Ffmpegkit.Droid.IFFprobeSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" />
+    <type assembly-qualified-name="Ffmpegkit.Droid.ILogCallback, FFmpegKit.Net.FullGpl.Android, Version=8.1.2.4, Culture=neutral, PublicKeyToken=null" compat-jni-name="com.arthenica.ffmpegkit.LogCallback" java-key="com.arthenica.ffmpegkit.LogCallback" managed-key="Ffmpegkit.Droid.ILogCallback" partial-assembly-qualified-name="Ffmpegkit.Droid.ILogCallback, FFmpegKit.Net.FullGpl.Android" />
+    <type assembly-qualified-name="Ffmpegkit.Droid.IMediaInformationSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android, Version=8.1.2.4, Culture=neutral, PublicKeyToken=null" compat-jni-name="com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback" java-key="com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback" managed-key="Ffmpegkit.Droid.IMediaInformationSessionCompleteCallback" partial-assembly-qualified-name="Ffmpegkit.Droid.IMediaInformationSessionCompleteCallback, FFmpegKit.Net.FullGpl.Android" />
+    <type assembly-qualified-name="Ffmpegkit.Droid.ISession, FFmpegKit.Net.FullGpl.Android, Version=8.1.2.4, Culture=neutral, PublicKeyToken=null" compat-jni-name="com.arthenica.ffmpegkit.Session" java-key="com.arthenica.ffmpegkit.Session" managed-key="Ffmpegkit.Droid.ISession" partial-assembly-qualified-name="Ffmpegkit.Droid.ISession, FFmpegKit.Net.FullGpl.Android" />
+    <type assembly-qualified-name="Ffmpegkit.Droid.IStatisticsCallback, FFmpegKit.Net.FullGpl.Android, Version=8.1.2.4, Culture=neutral, PublicKeyToken=null" compat-jni-name="com.arthenica.ffmpegkit.StatisticsCallback" java-key="com.arthenica.ffmpegkit.StatisticsCallback" managed-key="Ffmpegkit.Droid.IStatisticsCallback" partial-assembly-qualified-name="Ffmpegkit.Droid.IStatisticsCallback, FFmpegKit.Net.FullGpl.Android" />
+    <type assembly-qualified-name="Ffmpegkit.Droid.ITranslationProvider, FFmpegKit.Net.FullGpl.Android, Version=8.1.2.4, Culture=neutral, PublicKeyToken=null" compat-jni-name="com.arthenica.ffmpegkit.TranslationProvider" java-key="com.arthenica.ffmpegkit.TranslationProvider" managed-key="Ffmpegkit.Droid.ITranslationProvider" partial-assembly-qualified-name="Ffmpegkit.Droid.ITranslationProvider, FFmpegKit.Net.FullGpl.Android" />
+  </acw-types>
+</api>

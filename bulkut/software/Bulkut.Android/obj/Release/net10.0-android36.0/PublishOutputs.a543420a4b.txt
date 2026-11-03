@@ -1,0 +1,3 @@
+C:\Users\mythm\source\repos\mythmega.github.io\projets\bulkut\software\Bulkut.Android\bin\Release\net10.0-android36.0\publish\com.jmd.bulkut-Signed.apk
+C:\Users\mythm\source\repos\mythmega.github.io\projets\bulkut\software\Bulkut.Android\bin\Release\net10.0-android36.0\publish\com.jmd.bulkut.apk
+C:\Users\mythm\source\repos\mythmega.github.io\projets\bulkut\software\Bulkut.Android\bin\Release\net10.0-android36.0\publish\_Microsoft.Android.Resource.Designer.dll

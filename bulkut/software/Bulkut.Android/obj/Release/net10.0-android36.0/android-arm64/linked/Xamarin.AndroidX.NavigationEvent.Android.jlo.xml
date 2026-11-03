@@ -1,0 +1,5 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.NavigationEvent.Android" module-name="Xamarin.AndroidX.NavigationEvent.Android.dll">
+    <type assembly-qualified-name="AndroidX.NavigationEvent.IOnBackCompletedFallback, Xamarin.AndroidX.NavigationEvent.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.navigationevent.OnBackCompletedFallback" java-key="androidx.navigationevent.OnBackCompletedFallback" managed-key="AndroidX.NavigationEvent.IOnBackCompletedFallback" partial-assembly-qualified-name="AndroidX.NavigationEvent.IOnBackCompletedFallback, Xamarin.AndroidX.NavigationEvent.Android" />
+  </acw-types>
+</api>

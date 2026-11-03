@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.DocumentFile" mvid="7a64bfcebbbf4be79a9acb3164f5fbd7">
+  <java-to-managed>
+    <entry java-name="androidx/documentfile/provider/DocumentFile" managed-name="AndroidX.DocumentFile.Provider.DocumentFile, Xamarin.AndroidX.DocumentFile" managed-type-token-id="33554441" />
+    <entry java-name="androidx/documentfile/provider/DocumentFile" managed-name="AndroidX.DocumentFile.Provider.DocumentFileInvoker, Xamarin.AndroidX.DocumentFile" managed-type-token-id="33554442" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/documentfile/provider/DocumentFile" managed-name="AndroidX.DocumentFile.Provider.DocumentFile, Xamarin.AndroidX.DocumentFile" managed-type-token-id="33554441" />
+    <entry java-name="androidx/documentfile/provider/DocumentFile" managed-name="AndroidX.DocumentFile.Provider.DocumentFileInvoker, Xamarin.AndroidX.DocumentFile" managed-type-token-id="33554442" />
+  </managed-to-java>
+</api>

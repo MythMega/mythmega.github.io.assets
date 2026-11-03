@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FFmpegKit.Net.Full.Android</name>
+    </assembly>
+    <members>
+        <member name="T:Ffmpegkit.Droid.FFmpegKitSessionState">
+            <summary>Managed counterpart of the Java <c>SessionState</c> enum.</summary>
+        </member>
+        <member name="T:Ffmpegkit.Droid.FFmpegKitLogLevel">
+            <summary>Managed counterpart of the Java <c>Level</c> enum (FFmpeg log levels).</summary>
+        </member>
+        <member name="T:Ffmpegkit.Droid.FFmpegKitEnumExtensions">
+            <summary>
+            Converts FFmpegKit's Java enums into managed enums.
+            </summary>
+            <remarks>
+            <see cref="T:Ffmpegkit.Droid.SessionState"/> and <see cref="T:Ffmpegkit.Droid.Level"/> are real Java enums, so the binding
+            projects them as <see cref="T:Java.Lang.Enum"/> subclasses rather than C# enums. They must
+            stay that way — the Java objects are what get passed back across JNI — but as a result they
+            cannot be used in a <c>switch</c>, and comparing them with <c>==</c> compares managed peer
+            references, which are not guaranteed to be the same instance for the same Java constant.
+            Converting once at the boundary avoids both problems.
+            </remarks>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFmpegKitEnumExtensions.ToManaged(Ffmpegkit.Droid.SessionState)">
+            <summary>Converts a Java <see cref="T:Ffmpegkit.Droid.SessionState"/> to <see cref="T:Ffmpegkit.Droid.FFmpegKitSessionState"/>.</summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">The state is not one FFmpegKit defines.</exception>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFmpegKitEnumExtensions.ToManaged(Ffmpegkit.Droid.Level)">
+            <summary>Converts a Java <see cref="T:Ffmpegkit.Droid.Level"/> to <see cref="T:Ffmpegkit.Droid.FFmpegKitLogLevel"/>.</summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">The level is not one FFmpegKit defines.</exception>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFmpegKitEnumExtensions.Succeeded(Ffmpegkit.Droid.AbstractSession)">
+            <summary>True when the session finished successfully.</summary>
+            <remarks>Shorthand for the <c>State</c> / <c>ReturnCode</c> pair that has to be checked together.</remarks>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFmpegKit.ExecuteAsync(System.String,System.Threading.CancellationToken)">
+            <summary>Runs an FFmpeg command and awaits its completion.</summary>
+            <param name="command">The FFmpeg command, as it would be typed after <c>ffmpeg</c>.</param>
+            <param name="cancellationToken">Cancels the running session.</param>
+            <returns>The completed session. Inspect <see cref="P:Ffmpegkit.Droid.AbstractSession.ReturnCode"/> for the outcome.</returns>
+            <remarks>
+            The synchronous <see cref="M:Ffmpegkit.Droid.FFmpegKit.Execute(System.String)"/> blocks the calling thread for the whole
+            transcode, which on the UI thread means a frozen app. This wraps FFmpegKit's own
+            asynchronous path so the command can simply be awaited.
+            <para>
+            A failing command completes the task normally with a non-success return code; it does
+            not throw. Cancellation asks FFmpeg to stop, and the session then completes with a
+            cancelled return code rather than raising <see cref="T:System.OperationCanceledException"/> —
+            FFmpeg may still have written a partial output file.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFmpegKit.ExecuteWithArgumentsAsync(System.String[],System.Threading.CancellationToken)">
+            <summary>Runs an FFmpeg command from pre-split arguments and awaits its completion.</summary>
+            <remarks>
+            Prefer this over <see cref="M:Ffmpegkit.Droid.FFmpegKit.ExecuteAsync(System.String,System.Threading.CancellationToken)"/> when any argument
+            may contain spaces or quotes, such as a file path: no quoting rules are involved.
+            </remarks>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFmpegKit.ExecuteAsync(System.String,System.IProgress{Ffmpegkit.Droid.FFmpegProgress},System.Nullable{System.TimeSpan},System.Threading.CancellationToken)">
+            <summary>Runs an FFmpeg command, reporting progress, and awaits its completion.</summary>
+            <param name="command">The FFmpeg command, as it would be typed after <c>ffmpeg</c>.</param>
+            <param name="progress">Receives a sample each time FFmpeg reports statistics.</param>
+            <param name="totalDuration">
+            Duration of the material being processed. Supply it to get
+            <see cref="P:Ffmpegkit.Droid.FFmpegProgress.Percent"/> and an estimated time remaining; without it the
+            other fields are still reported. <see cref="P:Ffmpegkit.Droid.MediaInformation.DurationOrNull"/> from an
+            <see cref="M:Ffmpegkit.Droid.FFprobeKit.GetMediaInformationAsync(System.String)"/> call is the usual source.
+            </param>
+            <param name="cancellationToken">Cancels the running session.</param>
+            <remarks>
+            Progress is reported on an FFmpegKit worker thread, so marshal to the UI thread before
+            touching UI. Statistics are per session here, not the global
+            <see cref="M:Ffmpegkit.Droid.FFmpegKitConfig.EnableStatisticsCallback(System.Action{Ffmpegkit.Droid.Statistics})"/> hook, so
+            concurrent commands do not report into each other's handlers.
+            </remarks>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFmpegKitConfig.EnableLogCallback(System.Action{Ffmpegkit.Droid.Log})">
+            <summary>Routes FFmpeg log output to a delegate.</summary>
+            <remarks>
+            Overload of <see cref="M:Ffmpegkit.Droid.FFmpegKitConfig.EnableLogCallback(Ffmpegkit.Droid.ILogCallback)"/> that takes a delegate, so a
+            lambda can be used instead of a class implementing the interface. The callback runs on
+            an FFmpegKit worker thread — marshal to the UI thread before touching UI.
+            <para>
+            The delegate is held by FFmpegKit until it is replaced, so anything it captures stays
+            alive too — avoid capturing an Activity. Clear it with
+            <see cref="M:Ffmpegkit.Droid.FFmpegKitConfig.DisableLogCallback"/>.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFmpegKitConfig.EnableStatisticsCallback(System.Action{Ffmpegkit.Droid.Statistics})">
+            <summary>Routes FFmpeg progress statistics to a delegate.</summary>
+            <remarks>
+            Overload of <see cref="M:Ffmpegkit.Droid.FFmpegKitConfig.EnableStatisticsCallback(Ffmpegkit.Droid.IStatisticsCallback)"/> taking a
+            delegate. Fires frequently during a transcode; see
+            <see cref="M:Ffmpegkit.Droid.FFmpegKitConfig.EnableLogCallback(System.Action{Ffmpegkit.Droid.Log})"/> for the threading and lifetime caveats.
+            </remarks>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFmpegKitConfig.DisableLogCallback">
+            <summary>Stops routing FFmpeg log lines to a previously enabled callback.</summary>
+            <remarks>
+            The delegate overload above deliberately rejects null; the native way to clear the
+            hook is passing a null interface, which nullable-enabled callers could only write as
+            <c>EnableLogCallback ((ILogCallback) null!)</c>. This says the same thing by name.
+            </remarks>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFmpegKitConfig.DisableStatisticsCallback">
+            <summary>Stops routing FFmpeg statistics samples to a previously enabled callback.</summary>
+            <remarks>See <see cref="M:Ffmpegkit.Droid.FFmpegKitConfig.DisableLogCallback"/>.</remarks>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFmpegKitConfig.GetSafParameterForRead(Android.Net.Uri)">
+            <summary>
+            Turns a <c>content://</c> URI into a path FFmpeg can read from.
+            </summary>
+            <param name="uri">A URI obtained from the photo picker, a document picker, or a share intent.</param>
+            <returns>A path to pass to FFmpeg in place of a file name.</returns>
+            <remarks>
+            On Android 10 and later an app cannot open arbitrary file paths, and anything the user
+            picks arrives as a <c>content://</c> URI. FFmpeg has no idea what those are, so passing
+            one straight into a command fails to open the input. This registers the URI with
+            FFmpegKit and hands back a path that resolves through the Storage Access Framework:
+            <code>
+            var input = FFmpegKitConfig.GetSafParameterForRead(pickedUri);
+            var session = await FFmpegKit.ExecuteAsync($"-i {input} -c:v mpeg4 \"{outputPath}\"");
+            </code>
+            Note the returned value is already a complete argument and must not be quoted.
+            <para>
+            The registration lives as long as the process, so treat these as per-operation rather
+            than obtaining one for every item in a long list.
+            </para>
+            Overload of <see cref="M:Ffmpegkit.Droid.FFmpegKitConfig.GetSafParameterForRead(Android.Content.Context,Android.Net.Uri)"/>
+            that uses the application context, since callers rarely have a reason to pass another.
+            </remarks>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFmpegKitConfig.GetSafParameterForWrite(Android.Net.Uri)">
+            <summary>Turns a <c>content://</c> URI into a path FFmpeg can write to.</summary>
+            <remarks>
+            The document must already exist - the Storage Access Framework has no notion of FFmpeg
+            creating a file - so create it first with <c>ACTION_CREATE_DOCUMENT</c> and pass the
+            resulting URI here. See <see cref="M:Ffmpegkit.Droid.FFmpegKitConfig.GetSafParameterForRead(Android.Net.Uri)"/> for the
+            rest of the caveats.
+            </remarks>
+        </member>
+        <member name="T:Ffmpegkit.Droid.FFmpegProgress">
+            <summary>
+            A progress sample taken while an FFmpeg command runs.
+            </summary>
+            <param name="Position">How far into the output FFmpeg has written.</param>
+            <param name="Percent">
+            Fraction of the way through, 0 to 1, or null when the total duration is not known.
+            </param>
+            <param name="SizeBytes">Bytes written so far.</param>
+            <param name="Bitrate">Current bit rate in kbit/s, or null when FFmpeg reports none.</param>
+            <param name="Speed">Encoding speed relative to realtime; 2.0 means twice as fast as playback.</param>
+            <param name="VideoFrameNumber">Frames encoded so far, 0 for audio-only work.</param>
+            <param name="VideoFps">Current frames per second, 0 for audio-only work.</param>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFmpegProgress.#ctor(System.TimeSpan,System.Nullable{System.Double},System.Int64,System.Nullable{System.Double},System.Double,System.Int32,System.Single)">
+            <summary>
+            A progress sample taken while an FFmpeg command runs.
+            </summary>
+            <param name="Position">How far into the output FFmpeg has written.</param>
+            <param name="Percent">
+            Fraction of the way through, 0 to 1, or null when the total duration is not known.
+            </param>
+            <param name="SizeBytes">Bytes written so far.</param>
+            <param name="Bitrate">Current bit rate in kbit/s, or null when FFmpeg reports none.</param>
+            <param name="Speed">Encoding speed relative to realtime; 2.0 means twice as fast as playback.</param>
+            <param name="VideoFrameNumber">Frames encoded so far, 0 for audio-only work.</param>
+            <param name="VideoFps">Current frames per second, 0 for audio-only work.</param>
+        </member>
+        <member name="P:Ffmpegkit.Droid.FFmpegProgress.Position">
+            <summary>How far into the output FFmpeg has written.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.FFmpegProgress.Percent">
+            <summary>
+            Fraction of the way through, 0 to 1, or null when the total duration is not known.
+            </summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.FFmpegProgress.SizeBytes">
+            <summary>Bytes written so far.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.FFmpegProgress.Bitrate">
+            <summary>Current bit rate in kbit/s, or null when FFmpeg reports none.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.FFmpegProgress.Speed">
+            <summary>Encoding speed relative to realtime; 2.0 means twice as fast as playback.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.FFmpegProgress.VideoFrameNumber">
+            <summary>Frames encoded so far, 0 for audio-only work.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.FFmpegProgress.VideoFps">
+            <summary>Current frames per second, 0 for audio-only work.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.FFmpegProgress.EstimatedTimeRemaining">
+            <summary>Estimated time remaining, or null without a total duration or a usable speed.</summary>
+            <remarks>
+            Derived from <see cref="P:Ffmpegkit.Droid.FFmpegProgress.Speed"/>, which FFmpeg reports relative to realtime, so this is
+            only as steady as the encode is. Treat it as an indication, not a countdown.
+            </remarks>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFprobeKit.GetMediaInformationAsync(System.String)">
+            <summary>Probes a file and awaits the parsed media information.</summary>
+            <param name="path">Path to the media file.</param>
+            <returns>
+            The completed session. <see cref="P:Ffmpegkit.Droid.MediaInformationSession.MediaInformation"/> is null
+            when the file could not be parsed; check <see cref="P:Ffmpegkit.Droid.AbstractSession.ReturnCode"/>.
+            </returns>
+            <remarks>
+            No <c>CancellationToken</c> overload is offered: FFmpegKit exposes no cancellation for
+            probe sessions, so a token could only abandon the wait while the probe kept running.
+            Probes are short; if you need to give up waiting, call <c>WaitAsync</c> on the returned
+            task yourself, and note the session still completes in the background.
+            </remarks>
+        </member>
+        <member name="M:Ffmpegkit.Droid.FFprobeKit.ExecuteAsync(System.String)">
+            <summary>Runs an FFprobe command and awaits its completion.</summary>
+            <param name="command">The FFprobe command, as it would be typed after <c>ffprobe</c>.</param>
+            <remarks>See <see cref="M:Ffmpegkit.Droid.FFprobeKit.GetMediaInformationAsync(System.String)"/> for why there is no cancellation overload.</remarks>
+        </member>
+        <member name="P:Ffmpegkit.Droid.MediaInformation.DurationOrNull">
+            <summary>Media duration, or null when the container does not report one.</summary>
+            <remarks>
+            Typed counterpart of <see cref="P:Ffmpegkit.Droid.MediaInformation.Duration"/>, which is the raw FFprobe string. Parse that
+            yourself and you inherit a culture bug: <c>double.Parse("12.345000")</c> yields
+            12,345,000 under a German locale and throws under a French one.
+            </remarks>
+        </member>
+        <member name="P:Ffmpegkit.Droid.MediaInformation.BitrateBps">
+            <summary>Overall bit rate in bits per second, or null when not reported.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.MediaInformation.SizeBytes">
+            <summary>File size in bytes, or null when not reported.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.MediaInformation.StartTimeOrNull">
+            <summary>Start time, or null when not reported.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.MediaInformation.TagValues">
+            <summary>Container metadata tags (title, artist, creation_time, ...), keyed case-insensitively.</summary>
+            <remarks>Typed counterpart of <see cref="P:Ffmpegkit.Droid.MediaInformation.Tags"/>, which is a Java <c>JSONObject</c>.</remarks>
+        </member>
+        <member name="P:Ffmpegkit.Droid.StreamInformation.PixelWidth">
+            <summary>Frame width in pixels, or null for non-video streams.</summary>
+            <remarks>Typed counterpart of <see cref="P:Ffmpegkit.Droid.StreamInformation.Width"/>, which is a boxed Java <c>Long</c>.</remarks>
+        </member>
+        <member name="P:Ffmpegkit.Droid.StreamInformation.PixelHeight">
+            <summary>Frame height in pixels, or null for non-video streams.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.StreamInformation.IndexOrNull">
+            <summary>Stream index, or null when not reported.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.StreamInformation.BitrateBps">
+            <summary>Stream bit rate in bits per second, or null when not reported.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.StreamInformation.SampleRateHz">
+            <summary>Audio sample rate in Hz, or null for non-audio streams.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.StreamInformation.AverageFrameRateFps">
+            <summary>Average frame rate in frames per second, or null when not reported.</summary>
+            <remarks>
+            <see cref="P:Ffmpegkit.Droid.StreamInformation.AverageFrameRate"/> is a rational string such as <c>"30000/1001"</c>, which is
+            how FFprobe expresses rates like 29.97 exactly. This evaluates it.
+            </remarks>
+        </member>
+        <member name="P:Ffmpegkit.Droid.StreamInformation.RealFrameRateFps">
+            <summary>Real frame rate in frames per second, or null when not reported.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.StreamInformation.IsVideo">
+            <summary>True when this is a video stream.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.StreamInformation.IsAudio">
+            <summary>True when this is an audio stream.</summary>
+        </member>
+        <member name="P:Ffmpegkit.Droid.StreamInformation.TagValues">
+            <summary>Stream metadata tags, keyed case-insensitively.</summary>
+        </member>
+        <member name="T:Ffmpegkit.Droid.MediaValues">
+            <summary>
+            Parsing for the values FFprobe reports as strings.
+            </summary>
+            <remarks>
+            FFprobe emits numbers in a fixed, invariant format - <c>"12.345000"</c>, <c>"30/1"</c> -
+            and always with a dot as the decimal separator. Parsing them with the ambient culture is
+            wrong and quietly so: on a German device <c>double.Parse("12.345000")</c> returns
+            12,345,000 because the dot reads as a group separator, and on a French one it throws.
+            Everything here parses invariantly, and returns null rather than throwing when a value is
+            absent or unparseable - FFprobe omits fields routinely depending on the container.
+            </remarks>
+        </member>
+        <member name="M:Ffmpegkit.Droid.MediaValues.Rational(System.String)">
+            <summary>Parses a rational such as "30/1" or "30000/1001", as FFprobe reports rates.</summary>
+        </member>
+        <member name="M:Ffmpegkit.Droid.MediaValues.ToDictionary(Org.Json.JSONObject)">
+            <summary>Flattens a JSON object into string values, so callers need no Java JSON type.</summary>
+        </member>
+        <member name="T:Ffmpegkit.Droid.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+    </members>
+</doc>

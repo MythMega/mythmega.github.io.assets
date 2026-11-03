@@ -1,0 +1,10 @@
+<api type="release" assembly-name="Xamarin.AndroidX.CustomView" mvid="27150ed93c264689ab8293fd6acca8e3">
+  <module assembly-name="Xamarin.AndroidX.CustomView" mvid="27150ed93c264689ab8293fd6acca8e3" mvid-bytes="2Q4VJyY8iUargpP9asyo4w==">
+    <duplicates>
+      <entry java-name="androidx/customview/widget/ExploreByTouchHelper" managed-type-name="AndroidX.CustomView.Widget.ExploreByTouchHelperInvoker" token="33554441" />
+    </duplicates>
+    <types-scratch>
+      <entry key="androidx/customview/widget/ExploreByTouchHelper" java-name="androidx/customview/widget/ExploreByTouchHelper" managed-type-name="AndroidX.CustomView.Widget.ExploreByTouchHelper" token="33554440" />
+    </types-scratch>
+  </module>
+</api>

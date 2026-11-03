@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "jxyAkTIliko=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mythm\\source\\repos\\mythmega.github.io\\projets\\bulkut\\software\\Bulkut.Shared\\Bulkut.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mythm\\.nuget\\packages\\avalonia\\12.1.4\\avalonia.12.1.4.nupkg.sha512",
+    "C:\\Users\\mythm\\.nuget\\packages\\avalonia.buildservices\\11.3.2\\avalonia.buildservices.11.3.2.nupkg.sha512",
+    "C:\\Users\\mythm\\.nuget\\packages\\avalonia.fonts.inter\\12.1.4\\avalonia.fonts.inter.12.1.4.nupkg.sha512",
+    "C:\\Users\\mythm\\.nuget\\packages\\avalonia.remote.protocol\\12.1.4\\avalonia.remote.protocol.12.1.4.nupkg.sha512",
+    "C:\\Users\\mythm\\.nuget\\packages\\avalonia.themes.fluent\\12.1.4\\avalonia.themes.fluent.12.1.4.nupkg.sha512",
+    "C:\\Users\\mythm\\.nuget\\packages\\microcom.runtime\\0.11.6\\microcom.runtime.0.11.6.nupkg.sha512"
+  ],
+  "logs": []
+}

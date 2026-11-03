@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="Bulkut.Android" mvid="0cf6a0e2e25d4287bd094c26cf7877f4">
+  <java-to-managed>
+    <entry java-name="crc646f32ce3c20719675/MainActivity" managed-name="BulkutMobile.MainActivity, Bulkut.Android" managed-type-token-id="33554437" />
+    <entry java-name="crc646f32ce3c20719675/MainApplication" managed-name="BulkutMobile.MainApplication, Bulkut.Android" managed-type-token-id="33554438" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc646f32ce3c20719675/MainActivity" managed-name="BulkutMobile.MainActivity, Bulkut.Android" managed-type-token-id="33554437" />
+    <entry java-name="crc646f32ce3c20719675/MainApplication" managed-name="BulkutMobile.MainApplication, Bulkut.Android" managed-type-token-id="33554438" />
+  </managed-to-java>
+</api>

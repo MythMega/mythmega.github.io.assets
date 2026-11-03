@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Ce code a été généré par un outil.
+    Il a été généré à partir de C:\Users\mythm\source\repos\mythmega.github.io\projets\bulkut\software\Bulkut.Android\AndroidManifest.xml
+    Les changements apportés à ce fichier peuvent provoquer un comportement incorrect et seront perdus si
+    le contenu est regénéré.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.jmd.bulkut" android:versionCode="1" android:versionName="1.0.0">
+  <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="36" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <permission android:name="com.jmd.bulkut.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
+  <uses-permission android:name="com.jmd.bulkut.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+  <application android:name="crc646f32ce3c20719675.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="@string/app_name" android:largeHeap="true" android:supportsRtl="true" android:theme="@style/MyTheme.NoActionBar">
+    <!-- Rendered files are handed to the share sheet through this provider. -->
+    <provider android:name="androidx.core.content.FileProvider" android:authorities="com.jmd.bulkut.fileprovider" android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
+    </provider>
+    <activity android:name="crc646f32ce3c20719675.MainActivity" android:configChanges="orientation|smallestScreenSize|screenSize|uiMode" android:exported="true" android:icon="@mipmap/appicon" android:label="@string/app_name" android:screenOrientation="unspecified" android:theme="@style/MyTheme.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:authorities="com.jmd.bulkut.mono.MonoRuntimeProvider.__mono_init__" android:exported="false" android:initOrder="1999999999" />
+    <provider android:name="androidx.startup.InitializationProvider" android:authorities="com.jmd.bulkut.androidx-startup" android:exported="false" tools:node="merge">
+      <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup" />
+      <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup" />
+      <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup" />
+    </provider>
+    <receiver android:name="androidx.profileinstaller.ProfileInstallReceiver" android:directBootAware="false" android:enabled="true" android:exported="true" android:permission="android.permission.DUMP">
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+      </intent-filter>
+    </receiver>
+    <uses-library android:name="androidx.window.extensions" android:required="false" />
+    <uses-library android:name="androidx.window.sidecar" android:required="false" />
+  </application>
+</manifest>

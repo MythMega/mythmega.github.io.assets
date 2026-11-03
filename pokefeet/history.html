@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#060c18" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="application-name" content="Pokefeet" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Pokefeet" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+  <title>Pokefeet — Historique</title>
+  <meta name="description" content="Pokefeet Historique — Consultez vos statistiques, votre progression et votre historique de parties." />
+  <meta name="keywords" content="Pokefeet, historique, statistiques, progression, scores" />
+  <meta name="author" content="MythMega" />
+  <link rel="canonical" href="https://web.jmdev.fr/projets/pokefeet/history.html" />
+  <link rel="alternate" href="https://web.jmdev.fr/projets/pokefeet/history.html" hreflang="fr" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://web.jmdev.fr/projets/pokefeet/history.html" />
+  <meta property="og:title" content="Pokefeet — Historique" />
+  <meta property="og:description" content="Consultez vos statistiques et votre progression Pokefeet." />
+  <meta property="og:site_name" content="MythMega — jmdev" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Pokefeet — Historique" />
+  <meta name="twitter:description" content="Consultez vos statistiques et votre progression." />
+  <link rel="icon" type="image/x-icon" href="./icon.png">
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/cosmetics.css" />
+  <link rel="stylesheet" href="styles/text-shadow.css" />
+  <style>
+  </style>
+</head>
+<body>
+  <main id="app">
+    <div class="deco n1"></div>
+    <div class="deco n2"></div>
+    <div class="deco n3"></div>
+    <div class="deco n4"></div>
+    <div class="deco-secondary n11"></div>
+    <div class="deco-secondary n12"></div>
+    <header>
+      <h1 data-i18n="history.title">Historique — Pokefeet</h1>
+      <div class="scoreboard">
+        <div><span id="totalCountLabel" data-i18n="history.totalDays">Total entrées</span> : <span id="totalDays">0</span></div>
+      </div>
+    </header>
+
+    <div class="hist-tabs">
+      <button class="hist-tab-btn active" id="histTabDailyBtn">Daily</button>
+      <button class="hist-tab-btn" id="histTabWeeklyBtn">Weekly</button>
+    </div>
+
+    <section class="game-area container py-3">
+
+      <div id="histDailyPanel">
+        <div class="center-card-history d-flex flex-column gap-3">
+          <div id="historyChartWrap" order="1" style="min-width:260px;">
+            <h3 class="h5" data-i18n="history.scoreChart">Scores (30 derniers jours)</h3>
+            <div class="card p-2 bg-transparent border-0">
+              <canvas id="historyChart" width="600" height="320" style="width:100%; height:320px; background:rgba(255,255,255,0.02); border-radius:8px;"></canvas>
+              <div id="chartStats" class="mt-2 text-muted small"></div>
+            </div>
+          </div>
+          <div id="historyList" order="2" style="min-width:220px;"></div>
+        </div>
+        <section class="container py-2">
+          <div id="detailedStats" class="mt-2"></div>
+        </section>
+      </div>
+
+      <div id="histWeeklyPanel" style="display:none;">
+        <div class="center-card-history d-flex flex-column gap-3">
+          <div id="weeklyChartWrap" order="1" style="min-width:260px;">
+            <h3 class="h5" data-i18n="history.scoreChartWeekly">Scores (dernières semaines)</h3>
+            <div class="card p-2 bg-transparent border-0">
+              <canvas id="weeklyChart" width="600" height="320" style="width:100%; height:320px; background:rgba(255,255,255,0.02); border-radius:8px;"></canvas>
+              <div id="weeklyChartStats" class="mt-2 text-muted small"></div>
+            </div>
+          </div>
+          <div id="weeklyHistoryList" order="2" style="min-width:220px;"></div>
+        </div>
+        <section class="container py-2">
+          <div id="weeklyDetailedStats" class="mt-2"></div>
+        </section>
+      </div>
+    </section>
+
+    <a href="./index.html"><button id="retourBtn" class="secondary" style="padding:10px 12px;" data-i18n="common.backHome">Retour à l'accueil</button></a>
+    <div id="notifications" aria-live="polite"></div>
+  </main>
+
+  <script src="js/core/preferences.js"></script>
+  <script src="js/ui/loader.js"></script>
+  <script src="js/i18n/translate.js"></script>
+  <script src="js/i18n/language-switcher.js"></script>
+  <script src="js/ui/footer.js"></script>
+  <script src="js/i18n/setup.js"></script>
+  <script src="js/data/migration.js"></script>
+  <script src="js/data/challenge-storage.js"></script>
+  <script src="js/core/pokemon.js"></script>
+  <script src="js/core/pokemon-versions.js"></script>
+  <script src="js/data/config.js"></script>
+  <script src="js/data/data-files.js"></script>
+  <script src="js/features/settings/cosmetics.js"></script>
+  <script src="js/features/history/history.js"></script>
+  <script src="js/features/history/history-curve.js"></script>
+  <script>
+    console.log('[History] Scripts loaded, PokemonVersions:', typeof PokemonVersions);
+  </script>
+  <script src="js/pwa.js"></script>
+</body>
+</html>

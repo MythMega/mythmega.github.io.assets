@@ -1,0 +1,12 @@
+<api type="release" assembly-name="Xamarin.AndroidX.DrawerLayout" mvid="0c7f5cedeba34bceb00516c509d60050">
+  <module assembly-name="Xamarin.AndroidX.DrawerLayout" mvid="0c7f5cedeba34bceb00516c509d60050" mvid-bytes="7Vx/DKPrzkuwBRbFCdYAUA==">
+    <duplicates>
+      <entry java-name="androidx/drawerlayout/widget/DrawerLayout$DrawerListener" managed-type-name="AndroidX.DrawerLayout.Widget.DrawerLayout/IDrawerListenerInvoker" token="33554456" />
+    </duplicates>
+    <types-scratch>
+      <entry key="androidx/drawerlayout/widget/DrawerLayout" java-name="androidx/drawerlayout/widget/DrawerLayout" managed-type-name="AndroidX.DrawerLayout.Widget.DrawerLayout" token="33554454" />
+      <entry key="androidx/drawerlayout/widget/DrawerLayout$DrawerListener" java-name="androidx/drawerlayout/widget/DrawerLayout$DrawerListener" managed-type-name="AndroidX.DrawerLayout.Widget.DrawerLayout/IDrawerListener" token="33554455" skip-in-java-to-managed="True" />
+      <entry key="mono/androidx/drawerlayout/widget/DrawerLayout_DrawerListenerImplementor" java-name="mono/androidx/drawerlayout/widget/DrawerLayout_DrawerListenerImplementor" managed-type-name="AndroidX.DrawerLayout.Widget.DrawerLayout/IDrawerListenerImplementor" token="33554461" />
+    </types-scratch>
+  </module>
+</api>

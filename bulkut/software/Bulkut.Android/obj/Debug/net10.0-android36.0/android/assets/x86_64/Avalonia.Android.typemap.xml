@@ -1,0 +1,34 @@
+<api type="debug" assembly-name="Avalonia.Android" mvid="e2de577194b34982b74cad4ba52eac1d">
+  <java-to-managed>
+    <entry java-name="crc6431345fe65afe8d98/AndroidDispatcherImpl_IdleHandler" managed-name="Avalonia.Android.AndroidDispatcherImpl+IdleHandler, Avalonia.Android" managed-type-token-id="33554524" />
+    <entry java-name="crc6431345fe65afe8d98/AvaloniaAccessHelper" managed-name="Avalonia.Android.AvaloniaAccessHelper, Avalonia.Android" managed-type-token-id="33554444" />
+    <entry java-name="crc6431345fe65afe8d98/AvaloniaActivity" managed-name="Avalonia.Android.AvaloniaActivity, Avalonia.Android" managed-type-token-id="33554445" />
+    <entry java-name="crc6431345fe65afe8d98/AvaloniaActivity_GlobalLayoutListener" managed-name="Avalonia.Android.AvaloniaActivity+GlobalLayoutListener, Avalonia.Android" managed-type-token-id="33554528" />
+    <entry java-name="crc6431345fe65afe8d98/AvaloniaAndroidApplication_1" managed-name="Avalonia.Android.AvaloniaAndroidApplication`1, Avalonia.Android" skip-in-java-to-managed="True" managed-type-token-id="33554447" />
+    <entry java-name="crc6431345fe65afe8d98/AvaloniaMainActivity" managed-name="Avalonia.Android.AvaloniaMainActivity, Avalonia.Android" managed-type-token-id="33554448" />
+    <entry java-name="crc6431345fe65afe8d98/AvaloniaView" managed-name="Avalonia.Android.AvaloniaView, Avalonia.Android" managed-type-token-id="33554449" />
+    <entry java-name="crc6431345fe65afe8d98/BackPressedCallback" managed-name="Avalonia.Android.BackPressedCallback, Avalonia.Android" managed-type-token-id="33554450" />
+    <entry java-name="crc6431345fe65afe8d98/InvalidationAwareSurfaceView" managed-name="Avalonia.Android.InvalidationAwareSurfaceView, Avalonia.Android" managed-type-token-id="33554460" />
+    <entry java-name="crc641fe58d40b3a958ab/AndroidInsetsManager" managed-name="Avalonia.Android.Platform.AndroidInsetsManager, Avalonia.Android" managed-type-token-id="33554467" />
+    <entry java-name="crc641fe58d40b3a958ab/AndroidPlatformSettings_ConfigurationChangedReceiver" managed-name="Avalonia.Android.Platform.AndroidPlatformSettings+ConfigurationChangedReceiver, Avalonia.Android" managed-type-token-id="33554534" />
+    <entry java-name="crc641fe58d40b3a958ab/AndroidScreens_DisplayListener" managed-name="Avalonia.Android.Platform.AndroidScreens+DisplayListener, Avalonia.Android" managed-type-token-id="33554535" />
+    <entry java-name="crc64bd239b21961e24ab/TopLevelImpl_SurfaceViewImpl" managed-name="Avalonia.Android.Platform.SkiaPlatform.TopLevelImpl+SurfaceViewImpl, Avalonia.Android" managed-type-token-id="33554580" />
+    <entry java-name="crc643ec2256bd5ff4bdb/AvaloniaInputConnection" managed-name="Avalonia.Android.Platform.Input.AvaloniaInputConnection, Avalonia.Android" managed-type-token-id="33554498" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc6431345fe65afe8d98/AndroidDispatcherImpl_IdleHandler" managed-name="Avalonia.Android.AndroidDispatcherImpl+IdleHandler, Avalonia.Android" managed-type-token-id="33554524" />
+    <entry java-name="crc6431345fe65afe8d98/AvaloniaAccessHelper" managed-name="Avalonia.Android.AvaloniaAccessHelper, Avalonia.Android" managed-type-token-id="33554444" />
+    <entry java-name="crc6431345fe65afe8d98/AvaloniaActivity" managed-name="Avalonia.Android.AvaloniaActivity, Avalonia.Android" managed-type-token-id="33554445" />
+    <entry java-name="crc6431345fe65afe8d98/AvaloniaActivity_GlobalLayoutListener" managed-name="Avalonia.Android.AvaloniaActivity+GlobalLayoutListener, Avalonia.Android" managed-type-token-id="33554528" />
+    <entry java-name="crc6431345fe65afe8d98/AvaloniaAndroidApplication_1" managed-name="Avalonia.Android.AvaloniaAndroidApplication`1, Avalonia.Android" skip-in-java-to-managed="True" managed-type-token-id="33554447" />
+    <entry java-name="crc6431345fe65afe8d98/AvaloniaMainActivity" managed-name="Avalonia.Android.AvaloniaMainActivity, Avalonia.Android" managed-type-token-id="33554448" />
+    <entry java-name="crc6431345fe65afe8d98/AvaloniaView" managed-name="Avalonia.Android.AvaloniaView, Avalonia.Android" managed-type-token-id="33554449" />
+    <entry java-name="crc6431345fe65afe8d98/BackPressedCallback" managed-name="Avalonia.Android.BackPressedCallback, Avalonia.Android" managed-type-token-id="33554450" />
+    <entry java-name="crc6431345fe65afe8d98/InvalidationAwareSurfaceView" managed-name="Avalonia.Android.InvalidationAwareSurfaceView, Avalonia.Android" managed-type-token-id="33554460" />
+    <entry java-name="crc641fe58d40b3a958ab/AndroidInsetsManager" managed-name="Avalonia.Android.Platform.AndroidInsetsManager, Avalonia.Android" managed-type-token-id="33554467" />
+    <entry java-name="crc641fe58d40b3a958ab/AndroidPlatformSettings_ConfigurationChangedReceiver" managed-name="Avalonia.Android.Platform.AndroidPlatformSettings+ConfigurationChangedReceiver, Avalonia.Android" managed-type-token-id="33554534" />
+    <entry java-name="crc641fe58d40b3a958ab/AndroidScreens_DisplayListener" managed-name="Avalonia.Android.Platform.AndroidScreens+DisplayListener, Avalonia.Android" managed-type-token-id="33554535" />
+    <entry java-name="crc64bd239b21961e24ab/TopLevelImpl_SurfaceViewImpl" managed-name="Avalonia.Android.Platform.SkiaPlatform.TopLevelImpl+SurfaceViewImpl, Avalonia.Android" managed-type-token-id="33554580" />
+    <entry java-name="crc643ec2256bd5ff4bdb/AvaloniaInputConnection" managed-name="Avalonia.Android.Platform.Input.AvaloniaInputConnection, Avalonia.Android" managed-type-token-id="33554498" />
+  </managed-to-java>
+</api>

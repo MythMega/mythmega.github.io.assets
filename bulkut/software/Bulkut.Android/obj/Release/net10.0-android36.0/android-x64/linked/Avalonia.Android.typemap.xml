@@ -1,0 +1,20 @@
+<api type="release" assembly-name="Avalonia.Android" mvid="cb791fe366154fe3bb9626d9325b005b">
+  <module assembly-name="Avalonia.Android" mvid="cb791fe366154fe3bb9626d9325b005b" mvid-bytes="4x95yxVm40+7libZMlsAWw==">
+    <types-scratch>
+      <entry key="crc6431345fe65afe8d98/AndroidDispatcherImpl_IdleHandler" java-name="crc6431345fe65afe8d98/AndroidDispatcherImpl_IdleHandler" managed-type-name="Avalonia.Android.AndroidDispatcherImpl/IdleHandler" token="33554445" />
+      <entry key="crc6431345fe65afe8d98/AvaloniaAccessHelper" java-name="crc6431345fe65afe8d98/AvaloniaAccessHelper" managed-type-name="Avalonia.Android.AvaloniaAccessHelper" token="33554450" />
+      <entry key="crc6431345fe65afe8d98/AvaloniaActivity" java-name="crc6431345fe65afe8d98/AvaloniaActivity" managed-type-name="Avalonia.Android.AvaloniaActivity" token="33554453" />
+      <entry key="crc6431345fe65afe8d98/AvaloniaActivity_GlobalLayoutListener" java-name="crc6431345fe65afe8d98/AvaloniaActivity_GlobalLayoutListener" managed-type-name="Avalonia.Android.AvaloniaActivity/GlobalLayoutListener" token="33554454" />
+      <entry key="crc6431345fe65afe8d98/AvaloniaAndroidApplication_1" java-name="crc6431345fe65afe8d98/AvaloniaAndroidApplication_1" managed-type-name="Avalonia.Android.AvaloniaAndroidApplication`1" token="33554456" skip-in-java-to-managed="True" />
+      <entry key="crc6431345fe65afe8d98/AvaloniaMainActivity" java-name="crc6431345fe65afe8d98/AvaloniaMainActivity" managed-type-name="Avalonia.Android.AvaloniaMainActivity" token="33554457" />
+      <entry key="crc6431345fe65afe8d98/AvaloniaView" java-name="crc6431345fe65afe8d98/AvaloniaView" managed-type-name="Avalonia.Android.AvaloniaView" token="33554458" />
+      <entry key="crc6431345fe65afe8d98/BackPressedCallback" java-name="crc6431345fe65afe8d98/BackPressedCallback" managed-type-name="Avalonia.Android.BackPressedCallback" token="33554460" />
+      <entry key="crc6431345fe65afe8d98/InvalidationAwareSurfaceView" java-name="crc6431345fe65afe8d98/InvalidationAwareSurfaceView" managed-type-name="Avalonia.Android.InvalidationAwareSurfaceView" token="33554469" />
+      <entry key="crc641fe58d40b3a958ab/AndroidInsetsManager" java-name="crc641fe58d40b3a958ab/AndroidInsetsManager" managed-type-name="Avalonia.Android.Platform.AndroidInsetsManager" token="33554475" />
+      <entry key="crc641fe58d40b3a958ab/AndroidPlatformSettings_ConfigurationChangedReceiver" java-name="crc641fe58d40b3a958ab/AndroidPlatformSettings_ConfigurationChangedReceiver" managed-type-name="Avalonia.Android.Platform.AndroidPlatformSettings/ConfigurationChangedReceiver" token="33554483" />
+      <entry key="crc641fe58d40b3a958ab/AndroidScreens_DisplayListener" java-name="crc641fe58d40b3a958ab/AndroidScreens_DisplayListener" managed-type-name="Avalonia.Android.Platform.AndroidScreens/DisplayListener" token="33554487" />
+      <entry key="crc64bd239b21961e24ab/TopLevelImpl_SurfaceViewImpl" java-name="crc64bd239b21961e24ab/TopLevelImpl_SurfaceViewImpl" managed-type-name="Avalonia.Android.Platform.SkiaPlatform.TopLevelImpl/SurfaceViewImpl" token="33554524" />
+      <entry key="crc643ec2256bd5ff4bdb/AvaloniaInputConnection" java-name="crc643ec2256bd5ff4bdb/AvaloniaInputConnection" managed-type-name="Avalonia.Android.Platform.Input.AvaloniaInputConnection" token="33554530" />
+    </types-scratch>
+  </module>
+</api>

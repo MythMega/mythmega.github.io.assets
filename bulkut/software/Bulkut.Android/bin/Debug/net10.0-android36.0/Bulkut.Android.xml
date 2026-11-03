@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bulkut.Android</name>
+    </assembly>
+    <members>
+        <member name="T:BulkutMobile.AndroidFfmpegRunner">
+            <summary>
+            FFmpeg on Android. The platform forbids starting an executable from an app
+            sandbox, so the native FFmpegKit library is linked instead and every command
+            runs in process. Its output becomes plain log lines, which is exactly what
+            the probe and the silence analysis already consume on desktop.
+            </summary>
+        </member>
+        <member name="F:BulkutMobile.AndroidFfmpegRunner._capture">
+            <summary>Lines of the command currently running; one command at a time.</summary>
+        </member>
+        <member name="P:BulkutMobile.AndroidFfmpegRunner.Version">
+            <summary>The library banner, once it has been loaded.</summary>
+        </member>
+        <member name="M:BulkutMobile.AndroidFfmpegRunner.PrepareAsync(System.IProgress{Bulkut.Core.Services.EngineStatus},System.Threading.CancellationToken)">
+            <summary>
+            Loads the native library once at startup by asking for its banner, so a
+            device that cannot run FFmpeg shows an engine error instead of failing
+            on the first render.
+            </summary>
+        </member>
+        <member name="M:BulkutMobile.AndroidFfmpegRunner.ExecuteAsync(System.Collections.Generic.IReadOnlyList{System.String},System.Double,System.IProgress{Bulkut.Core.Models.RenderProgress},System.Threading.CancellationToken)">
+            <summary>
+            FFmpegKit does expensive work on the calling thread — loading the native
+            library, building the session — so a command is never started from the UI
+            thread. On a cold start that load takes seconds even on a fast device.
+            </summary>
+        </member>
+        <member name="M:BulkutMobile.AndroidFfmpegRunner.ReadTranscript(Ffmpegkit.Droid.AbstractSession,System.Collections.Generic.List{System.String})">
+            <summary>
+            The complete FFmpeg transcript, one line per entry. The session output is
+            preferred because individual log entries arrive in chunks; the buffered
+            and live copies are only fallbacks.
+            </summary>
+        </member>
+        <member name="T:BulkutMobile.AndroidPlatform">
+            <summary>
+            Android has no home folder to write to. Renders land in the app's external
+            files folder, which every file manager can see under Android/data, and the
+            share sheet is offered as the "reveal" action.
+            </summary>
+        </member>
+        <member name="M:BulkutMobile.AndroidPlatform.Share(System.String)">
+            <summary>
+            Hands the rendered file to the system so it can be saved, sent or opened
+            by another app — the closest thing to "show in folder".
+            </summary>
+        </member>
+        <member name="T:BulkutMobile.MainActivity">
+            <summary>
+            Hosts the shared Avalonia view. The application type below is what tells
+            Avalonia which <see cref="T:Bulkut.App"/> to build.
+            </summary>
+        </member>
+        <member name="T:BulkutMobile.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+    </members>
+</doc>

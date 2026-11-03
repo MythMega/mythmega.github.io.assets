@@ -1,0 +1,57 @@
+<api type="release" assembly-name="FFmpegKit.Net.Full.Android" mvid="3f36880b1faa4fcd968cb6c55a1e76cf">
+  <module assembly-name="FFmpegKit.Net.Full.Android" mvid="3f36880b1faa4fcd968cb6c55a1e76cf" mvid-bytes="C4g2P6ofzU+WjLbFWh52zw==">
+    <duplicates>
+      <entry java-name="com/arthenica/ffmpegkit/AbstractSession" managed-type-name="Ffmpegkit.Droid.AbstractSessionInvoker" token="33554475" />
+      <entry java-name="com/arthenica/ffmpegkit/FFmpegSessionCompleteCallback" managed-type-name="Ffmpegkit.Droid.IFFmpegSessionCompleteCallbackInvoker" token="33554485" />
+      <entry java-name="com/arthenica/ffmpegkit/FFprobeSessionCompleteCallback" managed-type-name="Ffmpegkit.Droid.IFFprobeSessionCompleteCallbackInvoker" token="33554487" />
+      <entry java-name="com/arthenica/ffmpegkit/LogCallback" managed-type-name="Ffmpegkit.Droid.ILogCallbackInvoker" token="33554489" />
+      <entry java-name="com/arthenica/ffmpegkit/MediaInformationSessionCompleteCallback" managed-type-name="Ffmpegkit.Droid.IMediaInformationSessionCompleteCallbackInvoker" token="33554491" />
+      <entry java-name="com/arthenica/ffmpegkit/Session" managed-type-name="Ffmpegkit.Droid.ISessionInvoker" token="33554493" />
+      <entry java-name="com/arthenica/ffmpegkit/StatisticsCallback" managed-type-name="Ffmpegkit.Droid.IStatisticsCallbackInvoker" token="33554495" />
+      <entry java-name="com/arthenica/ffmpegkit/TranslationProvider" managed-type-name="Ffmpegkit.Droid.ITranslationProviderInvoker" token="33554497" />
+    </duplicates>
+    <types-scratch>
+      <entry key="crc644f6e95651d9de9b9/ActionFFmpegSessionCompleteCallback" java-name="crc644f6e95651d9de9b9/ActionFFmpegSessionCompleteCallback" managed-type-name="Ffmpegkit.Droid.ActionFFmpegSessionCompleteCallback" token="33554456" />
+      <entry key="crc644f6e95651d9de9b9/ActionFFprobeSessionCompleteCallback" java-name="crc644f6e95651d9de9b9/ActionFFprobeSessionCompleteCallback" managed-type-name="Ffmpegkit.Droid.ActionFFprobeSessionCompleteCallback" token="33554457" />
+      <entry key="crc644f6e95651d9de9b9/ActionMediaInformationSessionCompleteCallback" java-name="crc644f6e95651d9de9b9/ActionMediaInformationSessionCompleteCallback" managed-type-name="Ffmpegkit.Droid.ActionMediaInformationSessionCompleteCallback" token="33554458" />
+      <entry key="crc644f6e95651d9de9b9/ActionLogCallback" java-name="crc644f6e95651d9de9b9/ActionLogCallback" managed-type-name="Ffmpegkit.Droid.ActionLogCallback" token="33554459" />
+      <entry key="crc644f6e95651d9de9b9/ActionStatisticsCallback" java-name="crc644f6e95651d9de9b9/ActionStatisticsCallback" managed-type-name="Ffmpegkit.Droid.ActionStatisticsCallback" token="33554460" />
+      <entry key="com/arthenica/ffmpegkit/FFmpegKit" java-name="com/arthenica/ffmpegkit/FFmpegKit" managed-type-name="Ffmpegkit.Droid.FFmpegKit" token="33554464" />
+      <entry key="com/arthenica/ffmpegkit/FFmpegKitConfig" java-name="com/arthenica/ffmpegkit/FFmpegKitConfig" managed-type-name="Ffmpegkit.Droid.FFmpegKitConfig" token="33554465" />
+      <entry key="com/arthenica/ffmpegkit/FFprobeKit" java-name="com/arthenica/ffmpegkit/FFprobeKit" managed-type-name="Ffmpegkit.Droid.FFprobeKit" token="33554467" />
+      <entry key="com/arthenica/ffmpegkit/MediaInformation" java-name="com/arthenica/ffmpegkit/MediaInformation" managed-type-name="Ffmpegkit.Droid.MediaInformation" token="33554468" />
+      <entry key="com/arthenica/ffmpegkit/StreamInformation" java-name="com/arthenica/ffmpegkit/StreamInformation" managed-type-name="Ffmpegkit.Droid.StreamInformation" token="33554469" />
+      <entry key="com/arthenica/ffmpegkit/Abi" java-name="com/arthenica/ffmpegkit/Abi" managed-type-name="Ffmpegkit.Droid.Abi" token="33554472" />
+      <entry key="com/arthenica/ffmpegkit/AbiDetect" java-name="com/arthenica/ffmpegkit/AbiDetect" managed-type-name="Ffmpegkit.Droid.AbiDetect" token="33554473" />
+      <entry key="com/arthenica/ffmpegkit/AbstractSession" java-name="com/arthenica/ffmpegkit/AbstractSession" managed-type-name="Ffmpegkit.Droid.AbstractSession" token="33554474" />
+      <entry key="com/arthenica/ffmpegkit/AsyncFFmpegExecuteTask" java-name="com/arthenica/ffmpegkit/AsyncFFmpegExecuteTask" managed-type-name="Ffmpegkit.Droid.AsyncFFmpegExecuteTask" token="33554476" />
+      <entry key="com/arthenica/ffmpegkit/AsyncFFprobeExecuteTask" java-name="com/arthenica/ffmpegkit/AsyncFFprobeExecuteTask" managed-type-name="Ffmpegkit.Droid.AsyncFFprobeExecuteTask" token="33554477" />
+      <entry key="com/arthenica/ffmpegkit/AsyncGetMediaInformationTask" java-name="com/arthenica/ffmpegkit/AsyncGetMediaInformationTask" managed-type-name="Ffmpegkit.Droid.AsyncGetMediaInformationTask" token="33554478" />
+      <entry key="com/arthenica/ffmpegkit/Chapter" java-name="com/arthenica/ffmpegkit/Chapter" managed-type-name="Ffmpegkit.Droid.Chapter" token="33554479" />
+      <entry key="com/arthenica/ffmpegkit/DeepLTranslationProvider" java-name="com/arthenica/ffmpegkit/DeepLTranslationProvider" managed-type-name="Ffmpegkit.Droid.DeepLTranslationProvider" token="33554480" />
+      <entry key="com/arthenica/ffmpegkit/FFmpegSession" java-name="com/arthenica/ffmpegkit/FFmpegSession" managed-type-name="Ffmpegkit.Droid.FFmpegSession" token="33554481" />
+      <entry key="com/arthenica/ffmpegkit/FFprobeSession" java-name="com/arthenica/ffmpegkit/FFprobeSession" managed-type-name="Ffmpegkit.Droid.FFprobeSession" token="33554482" />
+      <entry key="com/arthenica/ffmpegkit/GoogleTranslateProvider" java-name="com/arthenica/ffmpegkit/GoogleTranslateProvider" managed-type-name="Ffmpegkit.Droid.GoogleTranslateProvider" token="33554483" />
+      <entry key="com/arthenica/ffmpegkit/FFmpegSessionCompleteCallback" java-name="com/arthenica/ffmpegkit/FFmpegSessionCompleteCallback" managed-type-name="Ffmpegkit.Droid.IFFmpegSessionCompleteCallback" token="33554484" skip-in-java-to-managed="True" />
+      <entry key="com/arthenica/ffmpegkit/FFprobeSessionCompleteCallback" java-name="com/arthenica/ffmpegkit/FFprobeSessionCompleteCallback" managed-type-name="Ffmpegkit.Droid.IFFprobeSessionCompleteCallback" token="33554486" skip-in-java-to-managed="True" />
+      <entry key="com/arthenica/ffmpegkit/LogCallback" java-name="com/arthenica/ffmpegkit/LogCallback" managed-type-name="Ffmpegkit.Droid.ILogCallback" token="33554488" skip-in-java-to-managed="True" />
+      <entry key="com/arthenica/ffmpegkit/MediaInformationSessionCompleteCallback" java-name="com/arthenica/ffmpegkit/MediaInformationSessionCompleteCallback" managed-type-name="Ffmpegkit.Droid.IMediaInformationSessionCompleteCallback" token="33554490" skip-in-java-to-managed="True" />
+      <entry key="com/arthenica/ffmpegkit/Session" java-name="com/arthenica/ffmpegkit/Session" managed-type-name="Ffmpegkit.Droid.ISession" token="33554492" skip-in-java-to-managed="True" />
+      <entry key="com/arthenica/ffmpegkit/StatisticsCallback" java-name="com/arthenica/ffmpegkit/StatisticsCallback" managed-type-name="Ffmpegkit.Droid.IStatisticsCallback" token="33554494" skip-in-java-to-managed="True" />
+      <entry key="com/arthenica/ffmpegkit/TranslationProvider" java-name="com/arthenica/ffmpegkit/TranslationProvider" managed-type-name="Ffmpegkit.Droid.ITranslationProvider" token="33554496" skip-in-java-to-managed="True" />
+      <entry key="com/arthenica/ffmpegkit/Level" java-name="com/arthenica/ffmpegkit/Level" managed-type-name="Ffmpegkit.Droid.Level" token="33554498" />
+      <entry key="com/arthenica/ffmpegkit/LibreTranslateProvider" java-name="com/arthenica/ffmpegkit/LibreTranslateProvider" managed-type-name="Ffmpegkit.Droid.LibreTranslateProvider" token="33554499" />
+      <entry key="com/arthenica/ffmpegkit/Log" java-name="com/arthenica/ffmpegkit/Log" managed-type-name="Ffmpegkit.Droid.Log" token="33554500" />
+      <entry key="com/arthenica/ffmpegkit/LogRedirectionStrategy" java-name="com/arthenica/ffmpegkit/LogRedirectionStrategy" managed-type-name="Ffmpegkit.Droid.LogRedirectionStrategy" token="33554501" />
+      <entry key="com/arthenica/ffmpegkit/MediaInformationJsonParser" java-name="com/arthenica/ffmpegkit/MediaInformationJsonParser" managed-type-name="Ffmpegkit.Droid.MediaInformationJsonParser" token="33554502" />
+      <entry key="com/arthenica/ffmpegkit/MediaInformationSession" java-name="com/arthenica/ffmpegkit/MediaInformationSession" managed-type-name="Ffmpegkit.Droid.MediaInformationSession" token="33554503" />
+      <entry key="com/arthenica/ffmpegkit/NativeLoader" java-name="com/arthenica/ffmpegkit/NativeLoader" managed-type-name="Ffmpegkit.Droid.NativeLoader" token="33554504" />
+      <entry key="com/arthenica/ffmpegkit/Packages" java-name="com/arthenica/ffmpegkit/Packages" managed-type-name="Ffmpegkit.Droid.Packages" token="33554505" />
+      <entry key="com/arthenica/ffmpegkit/ReturnCode" java-name="com/arthenica/ffmpegkit/ReturnCode" managed-type-name="Ffmpegkit.Droid.ReturnCode" token="33554506" />
+      <entry key="com/arthenica/ffmpegkit/SessionState" java-name="com/arthenica/ffmpegkit/SessionState" managed-type-name="Ffmpegkit.Droid.SessionState" token="33554507" />
+      <entry key="com/arthenica/ffmpegkit/Signal" java-name="com/arthenica/ffmpegkit/Signal" managed-type-name="Ffmpegkit.Droid.Signal" token="33554508" />
+      <entry key="com/arthenica/ffmpegkit/Statistics" java-name="com/arthenica/ffmpegkit/Statistics" managed-type-name="Ffmpegkit.Droid.Statistics" token="33554509" />
+      <entry key="com/arthenica/ffmpegkit/WhisperKit" java-name="com/arthenica/ffmpegkit/WhisperKit" managed-type-name="Ffmpegkit.Droid.WhisperKit" token="33554510" />
+    </types-scratch>
+  </module>
+</api>

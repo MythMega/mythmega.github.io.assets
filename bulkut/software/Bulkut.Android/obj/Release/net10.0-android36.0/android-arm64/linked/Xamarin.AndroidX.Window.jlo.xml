@@ -1,0 +1,6 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Window" module-name="Xamarin.AndroidX.Window.dll">
+    <type assembly-qualified-name="AndroidX.Window.Layout.IWindowMetricsCalculator, Xamarin.AndroidX.Window, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.window.layout.WindowMetricsCalculator" java-key="androidx.window.layout.WindowMetricsCalculator" managed-key="AndroidX.Window.Layout.IWindowMetricsCalculator" partial-assembly-qualified-name="AndroidX.Window.Layout.IWindowMetricsCalculator, Xamarin.AndroidX.Window" />
+    <type assembly-qualified-name="AndroidX.Window.Layout.IWindowMetricsCalculatorDecorator, Xamarin.AndroidX.Window, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.window.layout.WindowMetricsCalculatorDecorator" java-key="androidx.window.layout.WindowMetricsCalculatorDecorator" managed-key="AndroidX.Window.Layout.IWindowMetricsCalculatorDecorator" partial-assembly-qualified-name="AndroidX.Window.Layout.IWindowMetricsCalculatorDecorator, Xamarin.AndroidX.Window" />
+  </acw-types>
+</api>

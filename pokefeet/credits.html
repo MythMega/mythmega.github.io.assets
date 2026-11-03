@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#060c18" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="application-name" content="Pokefeet" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Pokefeet" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+  <title>Pokefeet — Crédits</title>
+  <meta name="description" content="Pokefeet Crédits — Découvrez les contributeurs, sources et remerciements du projet Pokefeet." />
+  <meta name="keywords" content="Pokefeet, crédits, contributeurs, remerciements, sources" />
+  <meta name="author" content="MythMega" />
+  <link rel="canonical" href="https://web.jmdev.fr/projets/pokefeet/credits.html" />
+  <link rel="alternate" href="https://web.jmdev.fr/projets/pokefeet/credits.html" hreflang="fr" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://web.jmdev.fr/projets/pokefeet/credits.html" />
+  <meta property="og:title" content="Pokefeet — Crédits" />
+  <meta property="og:description" content="Découvrez les contributeurs et sources du projet Pokefeet." />
+  <meta property="og:site_name" content="MythMega — jmdev" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Pokefeet — Crédits" />
+  <meta name="twitter:description" content="Contributeurs et sources du projet Pokefeet." />
+  <link rel="icon" type="image/x-icon" href="./icon.png">
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/cosmetics.css" />
+  <link rel="stylesheet" href="styles/text-shadow.css" />
+  <style>
+    .credits-tabs { display:flex; gap:6px; justify-content:center; max-width:700px; margin:0 auto 1rem; flex-wrap:wrap; padding:0 8px; }
+    .credits-tab-btn {
+      flex:0 0 auto; min-height:36px; padding:7px 14px;
+      border:1px solid var(--line);
+      border-radius:999px; background:rgba(255,255,255,0.03);
+      color:var(--muted,#94a3b8); cursor:pointer; font-weight:600;
+      font-family:inherit; font-size:.8rem;
+      transition:background .15s,color .15s,border-color .15s;
+      white-space:nowrap;
+    }
+    .credits-tab-btn:hover { color:#fff; background:rgba(255,255,255,0.06); }
+    .credits-tab-btn.active { background:var(--accent,#34d399); color:#042014; border-color:transparent; }
+    .credits-panel { display:none; }
+    .credits-panel.active { display:block; }
+    .credits-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+    }
+    .credit-card {
+      background: var(--card);
+      border: 1px solid var(--glass-border);
+      border-radius: 12px;
+      padding: 16px;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      transition: transform 200ms, box-shadow 200ms;
+    }
+    .credit-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+    .credit-avatar {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+      border: 2px solid var(--glass-border);
+    }
+    .credit-info {
+      flex: 1;
+      min-width: 0;
+    }
+    .credit-name {
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .credit-function {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+    .credit-buttons {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .credit-btn {
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: rgba(255,255,255,0.08);
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 11px;
+      font-weight: 600;
+      border: 1px solid rgba(52,211,153,0.2);
+      transition: background 150ms;
+    }
+    .credit-btn:hover {
+      background: rgba(52,211,153,0.15);
+    }
+    .credit-type-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      background: rgba(168, 85, 247, 0.2);
+      color: #c084fc;
+      font-size: 10px;
+      font-weight: 600;
+      border: 1px solid rgba(168, 85, 247, 0.3);
+      white-space: nowrap;
+    }
+    .no-credits {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main id="app">
+    <div class="deco n1"></div>
+    <div class="deco n2"></div>
+    <div class="deco n3"></div>
+    <div class="deco n4"></div>
+    <div class="deco-secondary n11"></div>
+    <div class="deco-secondary n12"></div>
+    <header>
+      <h1 data-i18n="credits.title">Crédits</h1>
+      <div class="scoreboard">
+        <div data-i18n="credits.subtitle">Remerciements à tous les contributeurs</div>
+      </div>
+    </header>
+
+    <section class="container py-3">
+      <div class="credits-tabs" id="creditsTabs"></div>
+      <div id="creditsContent"></div>
+    </section>
+
+    <a href="./index.html"><button class="secondary" style="padding:10px 12px;margin-top:20px;" data-i18n="common.backHome">Retour à l'accueil</button></a>
+    <div id="notifications" aria-live="polite"></div>
+  </main>
+
+  <script src="js/core/preferences.js"></script>
+  <script src="js/ui/loader.js"></script>
+  <script src="js/i18n/translate.js"></script>
+  <script src="js/i18n/language-switcher.js"></script>
+  <script src="js/ui/footer.js"></script>
+  <script src="js/i18n/setup.js"></script>
+  <script src="js/data/migration.js"></script>
+  <script src="js/data/challenge-storage.js"></script>
+  <script src="js/data/data-files.js"></script>
+  <script src="js/features/settings/cosmetics.js"></script>
+  <script src="js/features/credits/credits.js"></script>
+  <script src="js/pwa.js"></script>
+</body>
+</html>
