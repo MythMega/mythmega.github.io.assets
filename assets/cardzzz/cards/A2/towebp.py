@@ -15,23 +15,41 @@ def convert_images_to_webp(quality=80):
     root_dir = Path(".")
     image_extensions = {".png", ".jpg", ".jpeg"}
     
+    # Demande de l'override au lancement
+    user_input = input("Voulez-vous écraser (override) les fichiers WebP existants ? (o/n) : ").strip().lower()
+    override = user_input in {"o", "oui", "y", "yes"}
+    
     results = []
     
-    print("🚀 Début de la conversion récursive en WebP...\n")
+    print("\n🚀 Début de la conversion récursive en WebP...\n")
     
     # Parcours récursif du répertoire courant
     for file_path in root_dir.rglob("*"):
         if file_path.is_file() and file_path.suffix.lower() in image_extensions:
-            # On évite de traiter un .webp s'il y en a déjà un
-            if file_path.suffix.lower() == ".webp":
-                continue
-            
             webp_path = file_path.with_suffix(".webp")
+            
+            # Vérification si le WebP existe déjà et si on ne doit pas override
+            if not override and webp_path.exists():
+                try:
+                    orig_size = file_path.stat().st_size
+                    webp_size = webp_path.stat().st_size
+                    saved_size = orig_size - webp_size
+                    
+                    results.append({
+                        "path": str(file_path),
+                        "orig_size": orig_size,
+                        "webp_size": webp_size,
+                        "saved_size": saved_size
+                    })
+                    
+                    print(f"⏭️  Ignoré (déjà existant) : {file_path} -> {webp_path.name}")
+                except Exception as e:
+                    print(f"❌ Erreur sur {file_path} : {e}")
+                continue
             
             try:
                 # Ouverture et conversion de l'image
                 with Image.open(file_path) as img:
-                    # Enregistrement en WebP (gère nativement la transparence RGBA)
                     img.save(webp_path, "WEBP", quality=quality, method=6)
                 
                 orig_size = file_path.stat().st_size
@@ -77,5 +95,4 @@ def convert_images_to_webp(quality=80):
     print("="*50)
 
 if __name__ == "__main__":
-    # Vous pouvez ajuster le paramètre 'quality' (entre 1 et 100, 80 offre un excellent compromis taille/qualité)
     convert_images_to_webp(quality=80)
